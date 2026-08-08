@@ -6,17 +6,17 @@
 
 - `已通过`：平台账号显示该题已经通过；若仓库文件并非完整版本，会在备注中单独说明。
 - `未通过`：实现形态较完整，但平台账号显示该题尚未通过。
-- `待验证`：非牛客题目已有完整实现，但仓库中没有可核对的在线评测记录。
+- `待验证`：已有完整实现，但仓库中没有可核对的在线评测记录。
 - `未完成`：空框架、部分实现，或实现与题意不符。
 - `本地测试`：不对应在线评测题目。
 
-> 本仓库目前不是 Git 工作树。整理时未删除 `.exe`、`.cph`、`.idea` 或 `.vscode` 等已有文件，也未移动源码。
+> 整理时未删除 `.exe`、`.cph`、`.idea` 或 `.vscode` 等已有文件。
 
 ## 当前验证结果
 
 - 25/25 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
 - 8 个带有本地期望输出、且实现不是已知草稿的文件共运行 18 组样例，18/18 组输出一致（比较时忽略行尾空白）。
-- 样例通过不等于在线评测通过；牛客题目的账号状态已于 2026-08-08 通过已登录页面核对。
+- 样例通过不等于在线评测通过；牛客与 QOJ 题目的账号状态已于 2026-08-08 通过已登录页面核对。
 
 ## AtCoder
 
@@ -31,10 +31,10 @@
 
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
-| P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042.cpp](./LuoGu/P1042.cpp) | 待验证 | 模拟 |
-| P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563.cpp](./LuoGu/P1563.cpp) | 未完成 | 环形模拟 |
-| P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240.cpp](./LuoGu/P2240.cpp) | 待验证 | 贪心、排序 |
-| P2670 | [扫雷游戏](https://www.luogu.com.cn/problem/P2670) | [P2670.cpp](./LuoGu/P2670.cpp) | 待验证 | 网格模拟 |
+| P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 待验证 | 模拟 |
+| P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
+| P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 待验证 | 贪心、排序 |
+| P2670 | [扫雷游戏](https://www.luogu.com.cn/problem/P2670) | [P2670_扫雷游戏.cpp](./LuoGu/P2670_扫雷游戏.cpp) | 待验证 | 网格模拟 |
 
 详见 [LuoGu/README.md](./LuoGu/README.md)。
 
@@ -50,19 +50,21 @@
 
 详见 [NowCoder/README.md](./NowCoder/README.md)。目录名中的 `mutlischool` 是原有拼写，暂不改动，以免破坏本地工具中的路径记录。
 
-## CCPC
+## QOJ
 
 | 比赛 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
-| 2025 CCPC 女生专场 | A - 环状线 | [A.cpp](./ccpc_women_2025/A.cpp) | 待验证 | 环形距离、分类讨论 |
-| 2025 CCPC 女生专场 | B - 爬山 | [B.cpp](./ccpc_women_2025/B.cpp) | 未完成 | 空框架 |
-| 2025 CCPC 女生专场 | J - 后鼻嘤 | [J.cpp](./ccpc_women_2025/J.cpp) | 待验证 | 字符串模拟 |
+| 2025 CCPC 女生专场 | [A - 环状线](https://qoj.ac/contest/2564/problem/14450) | [A_环状线.cpp](./ccpc_women_2025/A_环状线.cpp) | 已通过 | 环形距离、分类讨论 |
+| 2025 CCPC 女生专场 | [B - 爬山](https://qoj.ac/contest/2564/problem/14451) | [B_爬山.cpp](./ccpc_women_2025/B_爬山.cpp) | 未完成 | 空框架 |
+| 2025 CCPC 女生专场 | [J - 后鼻嘤](https://qoj.ac/contest/2564/problem/14459) | [J_后鼻嘤.cpp](./ccpc_women_2025/J_后鼻嘤.cpp) | 已通过 | 字符串模拟 |
 
 比赛与题面入口见 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；当前仓库没有对应源码，因此未创建 Codeforces 已实现条目。
+
 ## 维护约定
 
-1. 在线题目的源码使用题号命名；需要在文件头记录比赛、题目链接、状态和算法标签。
+1. 在线题目的源码统一使用 `题目编号_题目名字.cpp` 命名；本地测试文件除外。文件头记录比赛、题目链接、状态和算法标签。
 2. 只有确认通过评测后，才把状态改为 `已通过`。
 3. 新增比赛时，同时更新对应目录的 README 和本文件的总索引。
 4. 编译产物、IDE 配置和刷题插件数据不作为题解源码；`.gitignore` 已给出推荐忽略规则。

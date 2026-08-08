@@ -1,6 +1,6 @@
 // 比赛：2025 年 CCPC 女生专场
-// 题目：B - 爬山 - https://qoj.ac/contest/2564
-// 状态：未完成（仅有空的 solve() 框架）
+// 题目：B - 爬山（QOJ 14451）- https://qoj.ac/contest/2564/problem/14451
+// 状态：未完成（仅有空的 solve() 框架；QOJ 账号无 AC）
 // 分类：待补充
 #include<bits/stdc++.h>
 using namespace std;

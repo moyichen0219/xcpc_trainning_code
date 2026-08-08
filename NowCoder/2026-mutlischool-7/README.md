@@ -6,8 +6,8 @@
 
 | 题号 | 题名 | 源码 | 本地代码状态 | 账号评测 | 代码内容 |
 | --- | --- | --- | --- | --- | --- |
-| A | [Infiltrate Angel's Domain](https://ac.nowcoder.com/acm/contest/133882/A) | [A.cpp](./A.cpp) | 未完成 | 未通过 | 空的 `solve()` 框架 |
-| D | [Tenkaichi Budōkai](https://ac.nowcoder.com/acm/contest/133882/D) | [D.cpp](./D.cpp) | 完整实现 | 已通过 | 排列、删除过程、树状数组 |
+| A | [Infiltrate Angel's Domain](https://ac.nowcoder.com/acm/contest/133882/A) | [A_Infiltrate Angel's Domain.cpp](<./A_Infiltrate Angel's Domain.cpp>) | 未完成 | 未通过 | 空的 `solve()` 框架 |
+| D | [Tenkaichi Budōkai](https://ac.nowcoder.com/acm/contest/133882/D) | [D_Tenkaichi Budōkai.cpp](<./D_Tenkaichi Budōkai.cpp>) | 完整实现 | 已通过 | 排列、删除过程、树状数组 |
 
 `.cph` 中曾有 L 题的本地测试元数据，但目录中没有 `L.cpp`，因此没有把它计为题目源码。
 

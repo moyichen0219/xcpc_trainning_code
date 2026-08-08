@@ -1,6 +1,6 @@
 // 比赛：2025 年 CCPC 女生专场
-// 题目：A - 环状线 - https://qoj.ac/contest/2564
-// 状态：待验证（已有完整实现和本地样例，但未记录是否通过评测）
+// 题目：A - 环状线（QOJ 14450）- https://qoj.ac/contest/2564/problem/14450
+// 状态：已通过（QOJ 账号 Moyichen，2026-08-08 核对）
 // 分类：环形距离、分类讨论
 #include<bits/stdc++.h>
 using namespace std;
