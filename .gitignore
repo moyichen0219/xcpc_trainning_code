@@ -1,0 +1,16 @@
+# Compiled artifacts
+*.exe
+*.out
+*.o
+*.obj
+
+# Competitive Programming Helper data
+**/.cph/
+
+# IDE-local metadata
+**/.idea/
+**/.vscode/
+
+# Keep repository-level editor tasks if they are intentionally tracked.
+!/.vscode/
+!/.vscode/*.json
