@@ -8,9 +8,10 @@
 | --- | --- | --- | --- | --- | --- |
 | A | [Infiltrate Angel's Domain](https://ac.nowcoder.com/acm/contest/133882/A) | [A_Infiltrate Angel's Domain.cpp](<./A_Infiltrate Angel's Domain.cpp>) | 未完成 | 未通过 | 空的 `solve()` 框架 |
 | D | [Tenkaichi Budōkai](https://ac.nowcoder.com/acm/contest/133882/D) | [D_Tenkaichi Budōkai.cpp](<./D_Tenkaichi Budōkai.cpp>) | 完整实现 | 已通过 | 排列、删除过程、树状数组 |
+| H | [Modulo Triples](https://ac.nowcoder.com/acm/contest/133882/H) | [H_Modulo Triples.cpp](<./H_Modulo Triples.cpp>) | 完整实现 | 已通过 | 构造、排列、模运算；团队提交 84415833 |
 
 `.cph` 中曾有 L 题的本地测试元数据，但目录中没有 `L.cpp`，因此没有把它计为题目源码。
 
-题名与账号状态已于 2026-08-08 通过已登录比赛页面核对。
+题名与账号状态已于 2026-08-09 通过已登录比赛页面核对。
 
 > 目录名 `mutlischool` 是历史拼写，为避免破坏刷题插件记录而保留。
