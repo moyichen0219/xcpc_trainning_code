@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 26 个 C++ 源文件：25 个题目文件和 1 个本地测试文件。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 33 个 C++ 源文件：32 个题目文件和 1 个本地测试文件。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 26/26 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
-- 8 个带有本地期望输出、且实现不是已知草稿的文件共运行 18 组样例，18/18 组输出一致（比较时忽略行尾空白）。
-- 样例通过不等于在线评测通过；牛客题目的账号状态已于 2026-08-09 核对，QOJ 题目的账号状态已于 2026-08-08 核对。
+- 33/33 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 已完成的样例回归记录为：8 个文件、18 组样例，18/18 组输出一致（比较时忽略行尾空白）。本次新增源码已完成语法检查，并结合平台 AC 记录核对状态。
+- 样例通过不等于在线评测通过；牛客与洛谷题目的账号状态已于 2026-08-11 核对，QOJ 题目的账号状态已于 2026-08-08 核对。
 
 ## AtCoder
 
@@ -32,9 +32,12 @@
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
 | P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 待验证 | 模拟 |
+| P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
 | P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 待验证 | 贪心、排序 |
 | P2670 | [扫雷游戏](https://www.luogu.com.cn/problem/P2670) | [P2670_扫雷游戏.cpp](./LuoGu/P2670_扫雷游戏.cpp) | 待验证 | 网格模拟 |
+| P3367 | [并查集](https://www.luogu.com.cn/problem/P3367) | [P3367_并查集.cpp](./LuoGu/P3367_并查集.cpp) | 已通过 | 并查集、路径压缩 |
+| P5318 | [查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./LuoGu/P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS |
 
 详见 [LuoGu/README.md](./LuoGu/README.md)。
 
@@ -47,6 +50,7 @@
 | 2026 牛客暑期多校训练营 6 | 133881 | [2026-multischool-6](./NowCoder/2026-multischool-6/) | G 未通过；I、J 未完成且未通过 |
 | 2026 牛客暑期多校训练营 7 | 133882 | [2026-mutlischool-7](./NowCoder/2026-mutlischool-7/) | D、H 已通过；A 未完成且未通过 |
 | 牛客周赛 Round 155 | 138240 | [weeklyround-155](./NowCoder/weeklyround-155/) | A、B 已通过；C 未完成且未通过 |
+| 牛客周赛 Round 156 | 138917 | [weeklyround-156](./NowCoder/weeklyround-156/) | A、B、C 已通过；D 未完成且未通过 |
 
 详见 [NowCoder/README.md](./NowCoder/README.md)。目录名中的 `mutlischool` 是原有拼写，暂不改动，以免破坏本地工具中的路径记录。
 
@@ -61,6 +65,10 @@
 比赛与题面入口见 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
 Codeforces 账号 `Moyichen0219` 的在线记录已核对；当前仓库没有对应源码，因此未创建 Codeforces 已实现条目。
+
+## 知识总结
+
+可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)，目前包括 P1197「星球大战」的离线逆序与并查集总结。
 
 ## 维护约定
 
