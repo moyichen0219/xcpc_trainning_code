@@ -1,8 +1,8 @@
 // 比赛：AtCoder Beginner Contest 468
-// 题目：A - Maximal Value - https://atcoder.jp/contests/abc468/tasks/abc468_a
-// 状态：待验证（已有完整实现，但未记录是否通过评测）
-// 分类：枚举、局部最大值
-// 创建：MYC，2026/8/2
+// 题目：ABC468 A - Maximal Value
+// 链接：https://atcoder.jp/contests/abc468/tasks/abc468_a
+// 状态：已通过
+// 算法：枚举、局部最大值
 #include <bits/stdc++.h>
 using namespace std;
 

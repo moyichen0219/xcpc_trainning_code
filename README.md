@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 41 个 C++ 源文件：40 个题目文件和 1 个本地测试文件。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 57 个 C++ 源文件：56 个题目文件和 1 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -8,22 +8,31 @@
 - `未通过`：实现形态较完整，但平台账号显示该题尚未通过。
 - `待验证`：已有完整实现，但仓库中没有可核对的在线评测记录。
 - `未完成`：空框架、部分实现，或实现与题意不符。
-- `本地测试`：不对应在线评测题目。
+- `模板`：通用算法实现，不对应单一在线评测题目。
 
 > 整理时未删除 `.exe`、`.cph`、`.idea` 或 `.vscode` 等已有文件。
 
 ## 当前验证结果
 
-- 41/41 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 57/57 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
 - 已完成的样例回归记录为：8 个文件、18 组样例，18/18 组输出一致（比较时忽略行尾空白）。本次新增源码已完成语法检查，并结合平台 AC 记录核对状态。
-- 样例通过不等于在线评测通过；牛客与洛谷题目的账号状态已于 2026-08-11 核对，QOJ 题目的账号状态已于 2026-08-08 核对。
+- 样例通过不等于在线评测通过；AtCoder、Codeforces 与 QOJ 题目的账号状态已于 2026-08-13 核对，牛客与洛谷题目的账号状态已于 2026-08-11 核对。
 
 ## AtCoder
 
 | 比赛 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
-| ABC 468 | [A - Maximal Value](https://atcoder.jp/contests/abc468/tasks/abc468_a) | [A_Maximal Value.cpp](./AtCoder/ABC468/A_Maximal%20Value.cpp) | 待验证 | 枚举、局部最大值 |
-| ABC 468 | 本地 Hello World 测试 | [test.cpp](./AtCoder/ABC468/test.cpp) | 本地测试 | 环境测试 |
+| ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./AtCoder/ABC121_C_Energy%20Drink%20Collector.cpp) | 待验证 | 贪心、排序 |
+| ABC 131 | [D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d) | [ABC131_D_Megalomania.cpp](./AtCoder/ABC131_D_Megalomania.cpp) | 待验证 | 贪心、按截止时间排序 |
+| ABC 135 | [C - City Savers](https://atcoder.jp/contests/abc135/tasks/abc135_c) | [ABC135_C_City Savers.cpp](./AtCoder/ABC135_C_City%20Savers.cpp) | 已通过 | 贪心、模拟 |
+| ABC 136 | [C - Build Stairs](https://atcoder.jp/contests/abc136/tasks/abc136_c) | [ABC136_C_Build Stairs.cpp](./AtCoder/ABC136_C_Build%20Stairs.cpp) | 待验证 | 贪心、差分 |
+| ABC 140 | [C - Maximal Value](https://atcoder.jp/contests/abc140/tasks/abc140_c) | [ABC140_C_Maximal Value.cpp](./AtCoder/ABC140_C_Maximal%20Value.cpp) | 已通过 | 贪心、相邻约束 |
+| ABC 153 | [C - Fennec vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_c) | [ABC153_C_Fennec vs Monster.cpp](./AtCoder/ABC153_C_Fennec%20vs%20Monster.cpp) | 已通过 | 排序、贪心 |
+| ABC 176 | [C - Step](https://atcoder.jp/contests/abc176/tasks/abc176_c) | [ABC176_C_Step.cpp](./AtCoder/ABC176_C_Step.cpp) | 待验证 | 贪心、前缀最大值 |
+| ABC 203 | [C - Friends and Travel costs](https://atcoder.jp/contests/abc203/tasks/abc203_c) | [ABC203_C_Friends and Travel costs.cpp](./AtCoder/ABC203_C_Friends%20and%20Travel%20costs.cpp) | 待验证 | 排序、贪心 |
+| ABC 208 | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c) | [ABC208_C_Fair Candy Distribution.cpp](./AtCoder/ABC208_C_Fair%20Candy%20Distribution.cpp) | 待验证 | 排序、模拟 |
+| ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./AtCoder/ABC212_C_Min%20Difference.cpp) | 待验证 | 排序、双指针 |
+| ABC 468 | [A - Maximal Value](https://atcoder.jp/contests/abc468/tasks/abc468_a) | [ABC468_A_Maximal Value.cpp](./AtCoder/ABC468_A_Maximal%20Value.cpp) | 已通过 | 枚举、局部最大值 |
 
 详见 [AtCoder/README.md](./AtCoder/README.md)。
 
@@ -47,7 +56,13 @@
 
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
-| 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./CodeForces/1530C_Pursuit.cpp) | 未完成 | 排序、贪心、二分答案 |
+| 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./CodeForces/1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
+| 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./CodeForces/1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
+| 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./CodeForces/1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
+| 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./CodeForces/1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
+| 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./CodeForces/1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
+| 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./CodeForces/230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 489B | [BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [489B_BerSU Ball.cpp](./CodeForces/489B_BerSU%20Ball.cpp) | 已通过 | 排序、双指针、贪心 |
 
 详见 [CodeForces/README.md](./CodeForces/README.md)。
 
@@ -77,11 +92,11 @@
 
 比赛与题面入口见 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录此前已核对；新增的 1530C 本地文件仍为未完成草稿，因此不计入已实现记录。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 7 道 Codeforces 题目均有 `OK` 提交。
 
 ## 知识总结
 
-可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)，目前包括 P1197「星球大战」的离线逆序与并查集总结。
+可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)；通用源码模板收录在 [Templates](./Templates/) 目录，目前包括匈牙利算法模板。
 
 ## 维护约定
 
