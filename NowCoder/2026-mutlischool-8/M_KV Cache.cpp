@@ -87,9 +87,33 @@ using ll = long long;
 
 const int N = 1e6 + 10;
 
+int ch[N][26];
+int lst[N];
+int tot = 1;
+
 void solve(){
-    int n, m;
+    ll n, m;
     cin >> n >> m;
+    vector <pair<int, int>> seg;
+    int total = 0;
+    for (int i = 1; i <= n; i ++){
+        string s;
+        cin >> s;
+        total += s.size();
+        int u = 1;
+        for (auto x : s){
+            int c = x - 'a';
+            if (!ch[u][c]){
+                ch[u][c] = ++tot;
+            }
+            u = ch[u][c];
+            if (lst[u]){
+                seg.push_back({lst[u], i});
+            }
+            lst[u] = i;
+        }
+    }
+    sort(begin(seg), end(seg));
 
 }
 

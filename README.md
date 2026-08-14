@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 57 个 C++ 源文件：56 个题目文件和 1 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 64 个 C++ 源文件：63 个题目文件和 1 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,14 +14,15 @@
 
 ## 当前验证结果
 
-- 57/57 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 64/64 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
 - 已完成的样例回归记录为：8 个文件、18 组样例，18/18 组输出一致（比较时忽略行尾空白）。本次新增源码已完成语法检查，并结合平台 AC 记录核对状态。
-- 样例通过不等于在线评测通过；AtCoder、Codeforces 与 QOJ 题目的账号状态已于 2026-08-13 核对，牛客与洛谷题目的账号状态已于 2026-08-11 核对。
+- 样例通过不等于在线评测通过；AtCoder 状态最近于 2026-08-14 核对，Codeforces 与 QOJ 状态于 2026-08-13 核对，牛客状态最近于 2026-08-14 核对，洛谷状态于 2026-08-11 核对。
 
 ## AtCoder
 
 | 比赛 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
+| ABC 085 | [D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d) | [ABC085_D_Katana Thrower.cpp](./AtCoder/ABC085_D_Katana%20Thrower.cpp) | 已通过（账号；本地需修正） | 贪心、排序 |
 | ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./AtCoder/ABC121_C_Energy%20Drink%20Collector.cpp) | 待验证 | 贪心、排序 |
 | ABC 131 | [D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d) | [ABC131_D_Megalomania.cpp](./AtCoder/ABC131_D_Megalomania.cpp) | 待验证 | 贪心、按截止时间排序 |
 | ABC 135 | [C - City Savers](https://atcoder.jp/contests/abc135/tasks/abc135_c) | [ABC135_C_City Savers.cpp](./AtCoder/ABC135_C_City%20Savers.cpp) | 已通过 | 贪心、模拟 |
@@ -32,6 +33,8 @@
 | ABC 203 | [C - Friends and Travel costs](https://atcoder.jp/contests/abc203/tasks/abc203_c) | [ABC203_C_Friends and Travel costs.cpp](./AtCoder/ABC203_C_Friends%20and%20Travel%20costs.cpp) | 待验证 | 排序、贪心 |
 | ABC 208 | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c) | [ABC208_C_Fair Candy Distribution.cpp](./AtCoder/ABC208_C_Fair%20Candy%20Distribution.cpp) | 待验证 | 排序、模拟 |
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./AtCoder/ABC212_C_Min%20Difference.cpp) | 待验证 | 排序、双指针 |
+| ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./AtCoder/ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
+| ABC 246 | [C - Coupon](https://atcoder.jp/contests/abc246/tasks/abc246_c) | [ABC246_C_Coupon.cpp](./AtCoder/ABC246_C_Coupon.cpp) | 已通过 | 贪心、排序 |
 | ABC 468 | [A - Maximal Value](https://atcoder.jp/contests/abc468/tasks/abc468_a) | [ABC468_A_Maximal Value.cpp](./AtCoder/ABC468_A_Maximal%20Value.cpp) | 已通过 | 枚举、局部最大值 |
 
 详见 [AtCoder/README.md](./AtCoder/README.md)。
@@ -75,6 +78,7 @@
 | 2026 牛客暑期多校训练营 6 | 133881 | [2026-multischool-6](./NowCoder/2026-multischool-6/) | G 未通过；I、J 未完成且未通过 |
 | 2026 牛客暑期多校训练营 7 | 133882 | [2026-mutlischool-7](./NowCoder/2026-mutlischool-7/) | D、H 已通过；A 未完成且未通过 |
 | 2026 牛客暑期多校训练营 8 | 133883 | [2026-mutlischool-8](./NowCoder/2026-mutlischool-8/) | H 待验证；C、M 未完成 |
+| 2026 牛客暑期多校训练营 9 | 133884 | [2026-multischool-9](./NowCoder/2026-multischool-9/) | I 已通过；A、D、F 未完成 |
 | 牛客周赛 Round 155 | 138240 | [weeklyround-155](./NowCoder/weeklyround-155/) | A、B 已通过；C 未完成且未通过 |
 | 牛客周赛 Round 156 | 138917 | [weeklyround-156](./NowCoder/weeklyround-156/) | A、B、C 已通过；D 未完成且未通过 |
 
