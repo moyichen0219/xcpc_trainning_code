@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 64 个 C++ 源文件：63 个题目文件和 1 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 89 个 C++ 源文件：88 个题目文件和 1 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 64/64 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 89/89 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
 - 已完成的样例回归记录为：8 个文件、18 组样例，18/18 组输出一致（比较时忽略行尾空白）。本次新增源码已完成语法检查，并结合平台 AC 记录核对状态。
-- 样例通过不等于在线评测通过；AtCoder 状态最近于 2026-08-14 核对，Codeforces 与 QOJ 状态于 2026-08-13 核对，牛客状态最近于 2026-08-14 核对，洛谷状态于 2026-08-11 核对。
+- 样例通过不等于在线评测通过；AtCoder、Codeforces 与牛客状态最近于 2026-08-17 核对，QOJ 状态于 2026-08-13 核对，洛谷状态于 2026-08-11 核对。
 
 ## AtCoder
 
@@ -35,7 +35,24 @@
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./AtCoder/ABC212_C_Min%20Difference.cpp) | 待验证 | 排序、双指针 |
 | ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./AtCoder/ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
 | ABC 246 | [C - Coupon](https://atcoder.jp/contests/abc246/tasks/abc246_c) | [ABC246_C_Coupon.cpp](./AtCoder/ABC246_C_Coupon.cpp) | 已通过 | 贪心、排序 |
+| ABC 250 | [C - Adjacent Swaps](https://atcoder.jp/contests/abc250/tasks/abc250_c) | [ABC250_C_Adjacent Swaps.cpp](./AtCoder/ABC250_C_Adjacent%20Swaps.cpp) | 已通过 | 模拟、位置数组 |
+| ABC 251 | [C - Poem Online Judge](https://atcoder.jp/contests/abc251/tasks/abc251_c) | [ABC251_C_Poem Online Judge.cpp](./AtCoder/ABC251_C_Poem%20Online%20Judge.cpp) | 已通过 | 集合、枚举 |
+| ABC 252 | [C - Slot Strategy](https://atcoder.jp/contests/abc252/tasks/abc252_c) | [ABC252_C_Slot Strategy.cpp](./AtCoder/ABC252_C_Slot%20Strategy.cpp) | 已通过 | 枚举、排序 |
+| ABC 258 | [C - Rotation](https://atcoder.jp/contests/abc258/tasks/abc258_c) | [ABC258_C_Rotation.cpp](./AtCoder/ABC258_C_Rotation.cpp) | 已通过 | 字符串、循环偏移 |
+| ABC 286 | [C - Rotate and Palindrome](https://atcoder.jp/contests/abc286/tasks/abc286_c) | [ABC286_C_Rotate and Palindrome.cpp](./AtCoder/ABC286_C_Rotate%20and%20Palindrome.cpp) | 已通过 | 枚举、字符串、回文 |
+| ABC 290 | [C - Max MEX](https://atcoder.jp/contests/abc290/tasks/abc290_c) | [ABC290_C_Max MEX.cpp](./AtCoder/ABC290_C_Max%20MEX.cpp) | 已通过 | 排序、MEX |
+| ABC 313 | [C - Approximate Equalization 2](https://atcoder.jp/contests/abc313/tasks/abc313_c) | [ABC313_C_Approximate Equalization 2.cpp](./AtCoder/ABC313_C_Approximate%20Equalization%202.cpp) | 已通过 | 排序、数学 |
+| ABC 318 | [C - Blue Spring](https://atcoder.jp/contests/abc318/tasks/abc318_c) | [ABC318_C_Blue Spring.cpp](./AtCoder/ABC318_C_Blue%20Spring.cpp) | 已通过 | 贪心、排序 |
+| ABC 332 | [C - T-shirts](https://atcoder.jp/contests/abc332/tasks/abc332_c) | [ABC332_C_T-shirts.cpp](./AtCoder/ABC332_C_T-shirts.cpp) | 已通过 | 贪心、字符串模拟 |
+| ABC 350 | [C - Sort](https://atcoder.jp/contests/abc350/tasks/abc350_c) | [ABC350_C_Sort.cpp](./AtCoder/ABC350_C_Sort.cpp) | 已通过 | 置换、位置数组、构造 |
+| ABC 368 | [C - Triple Attack](https://atcoder.jp/contests/abc368/tasks/abc368_c) | [ABC368_C_Triple Attack.cpp](./AtCoder/ABC368_C_Triple%20Attack.cpp) | 已通过 | 周期模拟、数学 |
 | ABC 468 | [A - Maximal Value](https://atcoder.jp/contests/abc468/tasks/abc468_a) | [ABC468_A_Maximal Value.cpp](./AtCoder/ABC468_A_Maximal%20Value.cpp) | 已通过 | 枚举、局部最大值 |
+| ABC 471 | [A - Nine or Nein](https://atcoder.jp/contests/abc471/tasks/abc471_a) | [ABC471_A_Nine or Nein.cpp](./AtCoder/ABC471_A_Nine%20or%20Nein.cpp) | 已通过 | 枚举、基础运算 |
+| ABC 471 | [B - Survey Tabulation](https://atcoder.jp/contests/abc471/tasks/abc471_b) | [ABC471_B_Survey Tabulation.cpp](./AtCoder/ABC471_B_Survey%20Tabulation.cpp) | 已通过 | 字符串、映射、计数 |
+| ABC 471 | [C - Cookies and Greedy Takahashi](https://atcoder.jp/contests/abc471/tasks/abc471_c) | [ABC471_C_Cookies and Greedy Takahashi.cpp](./AtCoder/ABC471_C_Cookies%20and%20Greedy%20Takahashi.cpp) | 已通过 | 贪心、有序集合 |
+| ABC 471 | [D - Chargers](https://atcoder.jp/contests/abc471/tasks/abc471_d) | [ABC471_D_Chargers.cpp](./AtCoder/ABC471_D_Chargers.cpp) | 已通过 | 优先队列、时间偏移 |
+| ABC 471 | [E - Sum of Square of Sum](https://atcoder.jp/contests/abc471/tasks/abc471_e) | [ABC471_E_Sum of Square of Sum.cpp](./AtCoder/ABC471_E_Sum%20of%20Square%20of%20Sum.cpp) | 已通过 | 组合数学、快速幂 |
+| ABC 471 | [F - Concat (maximize)](https://atcoder.jp/contests/abc471/tasks/abc471_f) | [ABC471_F_Concat (maximize).cpp](./AtCoder/ABC471_F_Concat%20%28maximize%29.cpp) | 未通过 | 字符串排序、贪心（待修正） |
 
 详见 [AtCoder/README.md](./AtCoder/README.md)。
 
@@ -64,6 +81,7 @@
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./CodeForces/1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./CodeForces/1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./CodeForces/1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
+| 1829E | [The Lakes](https://codeforces.com/problemset/problem/1829/E) | [1829E_The Lakes.cpp](./CodeForces/1829E_The%20Lakes.cpp) | 已通过 | 网格 DFS、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./CodeForces/230A_Dragons.cpp) | 已通过 | 排序、贪心 |
 | 489B | [BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [489B_BerSU Ball.cpp](./CodeForces/489B_BerSU%20Ball.cpp) | 已通过 | 排序、双指针、贪心 |
 
@@ -79,8 +97,10 @@
 | 2026 牛客暑期多校训练营 7 | 133882 | [2026-mutlischool-7](./NowCoder/2026-mutlischool-7/) | D、H 已通过；A 未完成且未通过 |
 | 2026 牛客暑期多校训练营 8 | 133883 | [2026-mutlischool-8](./NowCoder/2026-mutlischool-8/) | H 待验证；C、M 未完成 |
 | 2026 牛客暑期多校训练营 9 | 133884 | [2026-multischool-9](./NowCoder/2026-multischool-9/) | I 已通过；A、D、F 未完成 |
+| 牛客周赛 Round 149 | 136720 | [weeklyround-149](./NowCoder/weeklyround-149/) | B 已通过 |
 | 牛客周赛 Round 155 | 138240 | [weeklyround-155](./NowCoder/weeklyround-155/) | A、B 已通过；C 未完成且未通过 |
 | 牛客周赛 Round 156 | 138917 | [weeklyround-156](./NowCoder/weeklyround-156/) | A、B、C 已通过；D 未完成且未通过 |
+| 牛客周赛 Round 157 | 139206 | [weeklyround-157](./NowCoder/weeklyround-157/) | A、B、C、D、E、F 已通过 |
 
 详见 [NowCoder/README.md](./NowCoder/README.md)。目录名中的 `mutlischool` 是原有拼写，暂不改动，以免破坏本地工具中的路径记录。
 
@@ -96,7 +116,7 @@
 
 比赛与题面入口见 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 7 道 Codeforces 题目均有 `OK` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 8 道 Codeforces 题目均有 `OK` 提交。
 
 ## 知识总结
 
