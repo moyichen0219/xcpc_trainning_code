@@ -12,6 +12,7 @@
 | ABC 140 | [C - Maximal Value](https://atcoder.jp/contests/abc140/tasks/abc140_c) | [ABC140_C_Maximal Value.cpp](./ABC140_C_Maximal%20Value.cpp) | 已通过 | 贪心、相邻约束 |
 | ABC 153 | [C - Fennec vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_c) | [ABC153_C_Fennec vs Monster.cpp](./ABC153_C_Fennec%20vs%20Monster.cpp) | 已通过 | 排序、贪心 |
 | ABC 176 | [C - Step](https://atcoder.jp/contests/abc176/tasks/abc176_c) | [ABC176_C_Step.cpp](./ABC176_C_Step.cpp) | 待验证 | 贪心、前缀最大值 |
+| ABC 183 | [C - Travel](https://atcoder.jp/contests/abc183/tasks/abc183_c) | [ABC183_C_Travel.cpp](./ABC183_C_Travel.cpp) | 待验证 | 全排列、暴力枚举 |
 | ABC 203 | [C - Friends and Travel costs](https://atcoder.jp/contests/abc203/tasks/abc203_c) | [ABC203_C_Friends and Travel costs.cpp](./ABC203_C_Friends%20and%20Travel%20costs.cpp) | 待验证 | 排序、贪心 |
 | ABC 208 | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c) | [ABC208_C_Fair Candy Distribution.cpp](./ABC208_C_Fair%20Candy%20Distribution.cpp) | 待验证 | 排序、模拟 |
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./ABC212_C_Min%20Difference.cpp) | 待验证 | 排序、双指针 |
@@ -21,8 +22,11 @@
 | ABC 251 | [C - Poem Online Judge](https://atcoder.jp/contests/abc251/tasks/abc251_c) | [ABC251_C_Poem Online Judge.cpp](./ABC251_C_Poem%20Online%20Judge.cpp) | 已通过 | 集合、枚举 |
 | ABC 252 | [C - Slot Strategy](https://atcoder.jp/contests/abc252/tasks/abc252_c) | [ABC252_C_Slot Strategy.cpp](./ABC252_C_Slot%20Strategy.cpp) | 已通过 | 枚举、排序 |
 | ABC 258 | [C - Rotation](https://atcoder.jp/contests/abc258/tasks/abc258_c) | [ABC258_C_Rotation.cpp](./ABC258_C_Rotation.cpp) | 已通过 | 字符串、循环偏移 |
+| ABC 269 | [D - Do use hexagon grid](https://atcoder.jp/contests/abc269/tasks/abc269_d) | [ABC269_D_Do use hexagon grid.cpp](./ABC269_D_Do%20use%20hexagon%20grid.cpp) | 已通过 | BFS、连通块、六边形网格 |
+| ABC 284 | [C - Count Connected Components](https://atcoder.jp/contests/abc284/tasks/abc284_c) | [ABC284_C_Count Connected Components.cpp](./ABC284_C_Count%20Connected%20Components.cpp) | 已通过 | 并查集、连通块 |
 | ABC 286 | [C - Rotate and Palindrome](https://atcoder.jp/contests/abc286/tasks/abc286_c) | [ABC286_C_Rotate and Palindrome.cpp](./ABC286_C_Rotate%20and%20Palindrome.cpp) | 已通过 | 枚举、字符串、回文 |
 | ABC 290 | [C - Max MEX](https://atcoder.jp/contests/abc290/tasks/abc290_c) | [ABC290_C_Max MEX.cpp](./ABC290_C_Max%20MEX.cpp) | 已通过 | 排序、MEX |
+| ABC 293 | [C - Make Takahashi Happy](https://atcoder.jp/contests/abc293/tasks/abc293_c) | [ABC293_C_Make Takahashi Happy.cpp](./ABC293_C_Make%20Takahashi%20Happy.cpp) | 待验证 | DFS、回溯、路径枚举 |
 | ABC 313 | [C - Approximate Equalization 2](https://atcoder.jp/contests/abc313/tasks/abc313_c) | [ABC313_C_Approximate Equalization 2.cpp](./ABC313_C_Approximate%20Equalization%202.cpp) | 已通过 | 排序、数学 |
 | ABC 318 | [C - Blue Spring](https://atcoder.jp/contests/abc318/tasks/abc318_c) | [ABC318_C_Blue Spring.cpp](./ABC318_C_Blue%20Spring.cpp) | 已通过 | 贪心、排序 |
 | ABC 332 | [C - T-shirts](https://atcoder.jp/contests/abc332/tasks/abc332_c) | [ABC332_C_T-shirts.cpp](./ABC332_C_T-shirts.cpp) | 已通过 | 贪心、字符串模拟 |
