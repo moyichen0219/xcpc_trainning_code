@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 109 个 C++ 源文件：108 个题目文件和 1 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 117 个 C++ 源文件：116 个题目文件和 1 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 109/109 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 117/117 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
 - 已完成的样例回归记录为：8 个文件、18 组样例，18/18 组输出一致（比较时忽略行尾空白）。本次新增源码已完成语法检查，并结合平台 AC 记录核对状态。
-- 样例通过不等于在线评测通过；AtCoder、Codeforces 与牛客状态最近于 2026-08-18 核对，QOJ 状态于 2026-08-13 核对，洛谷状态于 2026-08-11 核对。
+- 样例通过不等于在线评测通过；Codeforces 与牛客状态最近于 2026-08-21 核对，AtCoder 状态于 2026-08-18 核对，QOJ 状态于 2026-08-13 核对，洛谷状态于 2026-08-11 核对。
 
 ## AtCoder
 
@@ -94,12 +94,16 @@
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./CodeForces/189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./CodeForces/217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./CodeForces/230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 479C | [Exams](https://codeforces.com/problemset/problem/479/C) | [479C_Exams.cpp](./CodeForces/479C_Exams.cpp) | 已通过 | 排序、贪心 |
 | 489B | [BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [489B_BerSU Ball.cpp](./CodeForces/489B_BerSU%20Ball.cpp) | 已通过 | 排序、双指针、贪心 |
+| 489C | [Given Length and Sum of Digits...](https://codeforces.com/problemset/problem/489/C) | [489C_Given Length and Sum of Digits.cpp](./CodeForces/489C_Given%20Length%20and%20Sum%20of%20Digits.cpp) | 已通过 | 贪心、构造、数位 |
 | 500A | [New Year Transportation](https://codeforces.com/problemset/problem/500/A) | [500A_New Year Transportation.cpp](./CodeForces/500A_New%20Year%20Transportation.cpp) | 已通过 | 模拟、图遍历 |
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./CodeForces/522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./CodeForces/1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./CodeForces/1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./CodeForces/1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
+| 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./CodeForces/1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
+| 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./CodeForces/1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./CodeForces/1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./CodeForces/1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
 | 1829E | [The Lakes](https://codeforces.com/problemset/problem/1829/E) | [1829E_The Lakes.cpp](./CodeForces/1829E_The%20Lakes.cpp) | 已通过 | 网格 DFS、连通块 |
@@ -116,6 +120,7 @@
 | 2026 牛客暑期多校训练营 7 | 133882 | [2026-mutlischool-7](./NowCoder/2026-mutlischool-7/) | D、H 已通过；A 未完成且未通过 |
 | 2026 牛客暑期多校训练营 8 | 133883 | [2026-mutlischool-8](./NowCoder/2026-mutlischool-8/) | H 待验证；C、M 未完成 |
 | 2026 牛客暑期多校训练营 9 | 133884 | [2026-multischool-9](./NowCoder/2026-multischool-9/) | I 已通过；A、D、F 未完成 |
+| 2026 牛客暑期多校训练营 10 | 133885 | [2026-mutlischool-10](./NowCoder/2026-mutlischool-10/) | K、L 已通过；B、E 未完成且未通过 |
 | 牛客周赛 Round 149 | 136720 | [weeklyround-149](./NowCoder/weeklyround-149/) | B 已通过 |
 | 牛客周赛 Round 155 | 138240 | [weeklyround-155](./NowCoder/weeklyround-155/) | A、B 已通过；C 未完成且未通过 |
 | 牛客周赛 Round 156 | 138917 | [weeklyround-156](./NowCoder/weeklyround-156/) | A、B、C 已通过；D 未完成且未通过 |
@@ -136,7 +141,7 @@
 
 比赛与题面入口见 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 12 道 Codeforces 题目均有 `OK` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 16 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
