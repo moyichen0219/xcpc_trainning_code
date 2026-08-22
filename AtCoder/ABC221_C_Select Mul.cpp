@@ -2,9 +2,9 @@
 // 题目：C - Select Mul
 // 链接：https://atcoder.jp/contests/abc221/tasks/abc221_c
 // 状态：已通过
-// 算法：贪心、排序、数位构造
+// 算法：二进制枚举、排序、数位构造
 
-#include<bits/stdc++.h>
+/* #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
@@ -73,7 +73,7 @@ int main (){
         solve();
     }
     return 0;
-}
+} */
 
 
 /* #include<bits/stdc++.h>
@@ -112,3 +112,53 @@ int main (){
     }
     return 0;
 } */
+
+
+#include<bits/stdc++.h>
+using namespace std;
+using ll = long long;
+
+void solve(){
+    string s;
+    cin >> s;
+    int n = s.length();
+    ll ans = 0;
+    for (int mask = 1; mask < (1 << n) - 1; mask ++){
+        vector <int> a;
+        vector <int> b;
+        for (int i = 0; i < n; i ++){
+            // 第i位是0还是1
+            if (mask >> i & 1){
+                a.push_back(s[i] - '0');
+            } else {
+                b.push_back(s[i] - '0');
+            }
+        }
+        sort(a.begin(), a.end(), greater<int>());
+        sort(b.begin(), b.end(), greater<int>());
+        if (a[0] == 0 || b[0] == 0){
+            continue;
+        }
+        ll x = 0;
+        ll y = 0;
+        for (auto i : a){
+            x = x * 10 + i;
+        }
+        for (auto i : b){
+            y = y * 10 + i;
+        }
+        ans = max(ans, x * y);
+    }
+    cout << ans << '\n';
+}
+
+int main (){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int t = 1;
+    while (t --){
+        solve();
+    }
+    return 0;
+}

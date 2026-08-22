@@ -15,15 +15,16 @@
 | ABC 135 | [C - City Savers](https://atcoder.jp/contests/abc135/tasks/abc135_c) | [ABC135_C_City Savers.cpp](./ABC135_C_City%20Savers.cpp) | 已通过 | 贪心、模拟 |
 | ABC 136 | [C - Build Stairs](https://atcoder.jp/contests/abc136/tasks/abc136_c) | [ABC136_C_Build Stairs.cpp](./ABC136_C_Build%20Stairs.cpp) | 待验证 | 贪心、差分 |
 | ABC 140 | [C - Maximal Value](https://atcoder.jp/contests/abc140/tasks/abc140_c) | [ABC140_C_Maximal Value.cpp](./ABC140_C_Maximal%20Value.cpp) | 已通过 | 贪心、相邻约束 |
+| ABC 147 | [C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c) | [ABC147_C_HonestOrUnkind2.cpp](./ABC147_C_HonestOrUnkind2.cpp) | 已通过 | 二进制枚举、状态验证 |
 | ABC 153 | [C - Fennec vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_c) | [ABC153_C_Fennec vs Monster.cpp](./ABC153_C_Fennec%20vs%20Monster.cpp) | 已通过 | 排序、贪心 |
 | ABC 176 | [C - Step](https://atcoder.jp/contests/abc176/tasks/abc176_c) | [ABC176_C_Step.cpp](./ABC176_C_Step.cpp) | 待验证 | 贪心、前缀最大值 |
 | ABC 183 | [C - Travel](https://atcoder.jp/contests/abc183/tasks/abc183_c) | [ABC183_C_Travel.cpp](./ABC183_C_Travel.cpp) | 待验证 | 全排列、暴力枚举 |
-| ABC 190 | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [ABC190_C_Bowls and Dishes.cpp](./ABC190_C_Bowls%20and%20Dishes.cpp) | 未完成 | 二进制枚举 |
+| ABC 190 | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [ABC190_C_Bowls and Dishes.cpp](./ABC190_C_Bowls%20and%20Dishes.cpp) | 已通过 | DFS、回溯、状态枚举 |
 | ABC 203 | [C - Friends and Travel costs](https://atcoder.jp/contests/abc203/tasks/abc203_c) | [ABC203_C_Friends and Travel costs.cpp](./ABC203_C_Friends%20and%20Travel%20costs.cpp) | 待验证 | 排序、贪心 |
 | ABC 208 | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c) | [ABC208_C_Fair Candy Distribution.cpp](./ABC208_C_Fair%20Candy%20Distribution.cpp) | 待验证 | 排序、模拟 |
 | ABC 211 | [C - chokudai](https://atcoder.jp/contests/abc211/tasks/abc211_c) | [ABC211_C_chokudai.cpp](./ABC211_C_chokudai.cpp) | 已通过 | 动态规划、子序列计数 |
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./ABC212_C_Min%20Difference.cpp) | 待验证 | 排序、双指针 |
-| ABC 221 | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c) | [ABC221_C_Select Mul.cpp](./ABC221_C_Select%20Mul.cpp) | 已通过 | 贪心、排序、数位构造 |
+| ABC 221 | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c) | [ABC221_C_Select Mul.cpp](./ABC221_C_Select%20Mul.cpp) | 已通过 | 二进制枚举、排序、数位构造 |
 | ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
 | ABC 240 | [C - Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c) | [ABC240_C_Jumping Takahashi.cpp](./ABC240_C_Jumping%20Takahashi.cpp) | 已通过 | 动态规划、可达性 |
 | ABC 245 | [C - Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c) | [ABC245_C_Choose Elements.cpp](./ABC245_C_Choose%20Elements.cpp) | 已通过 | 动态规划、状态压缩 |
@@ -53,7 +54,11 @@
 | ABC 471 | [D - Chargers](https://atcoder.jp/contests/abc471/tasks/abc471_d) | [ABC471_D_Chargers.cpp](./ABC471_D_Chargers.cpp) | 已通过 | 优先队列、时间偏移 |
 | ABC 471 | [E - Sum of Square of Sum](https://atcoder.jp/contests/abc471/tasks/abc471_e) | [ABC471_E_Sum of Square of Sum.cpp](./ABC471_E_Sum%20of%20Square%20of%20Sum.cpp) | 已通过 | 组合数学、快速幂 |
 | ABC 471 | [F - Concat (maximize)](https://atcoder.jp/contests/abc471/tasks/abc471_f) | [ABC471_F_Concat (maximize).cpp](./ABC471_F_Concat%20%28maximize%29.cpp) | 未通过 | 字符串排序、贪心（待修正） |
+| ABC 472 | [A - A](https://atcoder.jp/contests/abc472/tasks/abc472_a) | [ABC472_A_A.cpp](./ABC472_A_A.cpp) | 待验证 | 字符串、模拟 |
+| ABC 472 | [B - Break a Stick](https://atcoder.jp/contests/abc472/tasks/abc472_b) | [ABC472_B_Break a Stick.cpp](./ABC472_B_Break%20a%20Stick.cpp) | 待验证 | 前缀和、枚举 |
+| ABC 472 | [C - On a Diet](https://atcoder.jp/contests/abc472/tasks/abc472_c) | [ABC472_C_On a Diet.cpp](./ABC472_C_On%20a%20Diet.cpp) | 待验证 | 滑动窗口、模拟 |
+| ABC 472 | [D - Bomber Mad](https://atcoder.jp/contests/abc472/tasks/abc472_d) | [ABC472_D_Bomber Mad.cpp](./ABC472_D_Bomber%20Mad.cpp) | 待验证 | 多源 BFS、网格最短路 |
 
 > ABC085 D 的账号存在 AC 记录，但仓库版本在剩余血量小于一次挥砍伤害时错误减少攻击次数；例如 `N=2, H=5` 且两把刀均为 `a=3, b=1` 时会输出 1，而正确答案是 2。该文件保留账号状态，并明确标记为本地版本需修正。
 
-> ABC471 F 在账号中有多次 WA、没有 AC，因此按“未通过”归档。本次新增题目中，ABC190 C 只有题目链接、没有实现，标为“未完成”；ABC277 C 有完整实现但账号没有提交记录，标为“待验证”；其余 9 题均核对到 AC 记录。
+> ABC471 F 在账号中有多次 WA、没有 AC，因此按“未通过”归档。ABC277 C 与 ABC472 A–D 有完整实现但账号公开记录中没有匹配提交，标为“待验证”；ABC147 C、ABC190 C 与 ABC221 C 均已核对到 AC 记录。
