@@ -1,9 +1,10 @@
 # AtCoder 代码索引
 
-评测状态核对日期：2026-08-18。账号 `Moyichen0219` 中存在 AC 记录的仓库题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
+评测状态核对日期：2026-08-22。账号 `Moyichen0219` 中存在 AC 记录的仓库题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
 
 | 比赛 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
+| 算法与数学 演习问题集 | [060 - Stones Game 1](https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_az) | [060_Stones Game 1.cpp](./060_Stones%20Game%201.cpp) | 已通过 | 博弈论、数学 |
 | Educational DP Contest | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a) | [DP_A_Frog 1.cpp](./DP_A_Frog%201.cpp) | 已通过 | 动态规划、线性 DP |
 | Educational DP Contest | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b) | [DP_B_Frog 2.cpp](./DP_B_Frog%202.cpp) | 已通过 | 动态规划、线性 DP |
 | Educational DP Contest | [C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [DP_C_Vacation.cpp](./DP_C_Vacation.cpp) | 已通过 | 动态规划、状态转移 |
@@ -22,6 +23,7 @@
 | ABC 208 | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c) | [ABC208_C_Fair Candy Distribution.cpp](./ABC208_C_Fair%20Candy%20Distribution.cpp) | 待验证 | 排序、模拟 |
 | ABC 211 | [C - chokudai](https://atcoder.jp/contests/abc211/tasks/abc211_c) | [ABC211_C_chokudai.cpp](./ABC211_C_chokudai.cpp) | 已通过 | 动态规划、子序列计数 |
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./ABC212_C_Min%20Difference.cpp) | 待验证 | 排序、双指针 |
+| ABC 221 | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c) | [ABC221_C_Select Mul.cpp](./ABC221_C_Select%20Mul.cpp) | 已通过 | 贪心、排序、数位构造 |
 | ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
 | ABC 240 | [C - Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c) | [ABC240_C_Jumping Takahashi.cpp](./ABC240_C_Jumping%20Takahashi.cpp) | 已通过 | 动态规划、可达性 |
 | ABC 245 | [C - Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c) | [ABC245_C_Choose Elements.cpp](./ABC245_C_Choose%20Elements.cpp) | 已通过 | 动态规划、状态压缩 |
@@ -31,6 +33,7 @@
 | ABC 252 | [C - Slot Strategy](https://atcoder.jp/contests/abc252/tasks/abc252_c) | [ABC252_C_Slot Strategy.cpp](./ABC252_C_Slot%20Strategy.cpp) | 已通过 | 枚举、排序 |
 | ABC 258 | [C - Rotation](https://atcoder.jp/contests/abc258/tasks/abc258_c) | [ABC258_C_Rotation.cpp](./ABC258_C_Rotation.cpp) | 已通过 | 字符串、循环偏移 |
 | ABC 269 | [D - Do use hexagon grid](https://atcoder.jp/contests/abc269/tasks/abc269_d) | [ABC269_D_Do use hexagon grid.cpp](./ABC269_D_Do%20use%20hexagon%20grid.cpp) | 已通过 | BFS、连通块、六边形网格 |
+| ABC 271 | [C - Manga](https://atcoder.jp/contests/abc271/tasks/abc271_c) | [ABC271_C_Manga.cpp](./ABC271_C_Manga.cpp) | 已通过 | 贪心、排序、双指针 |
 | ABC 277 | [C - Ladder Takahashi](https://atcoder.jp/contests/abc277/tasks/abc277_c) | [ABC277_C_Ladder Takahashi.cpp](./ABC277_C_Ladder%20Takahashi.cpp) | 待验证 | BFS、图遍历、离散顶点 |
 | ABC 284 | [C - Count Connected Components](https://atcoder.jp/contests/abc284/tasks/abc284_c) | [ABC284_C_Count Connected Components.cpp](./ABC284_C_Count%20Connected%20Components.cpp) | 已通过 | 并查集、连通块 |
 | ABC 286 | [C - Rotate and Palindrome](https://atcoder.jp/contests/abc286/tasks/abc286_c) | [ABC286_C_Rotate and Palindrome.cpp](./ABC286_C_Rotate%20and%20Palindrome.cpp) | 已通过 | 枚举、字符串、回文 |

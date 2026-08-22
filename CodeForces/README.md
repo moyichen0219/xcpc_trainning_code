@@ -1,12 +1,13 @@
 # Codeforces 代码索引
 
-评测状态核对日期：2026-08-21。以下 16 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态核对日期：2026-08-22。以下 19 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 467B | [Fedor and New Game](https://codeforces.com/problemset/problem/467/B) | [467B_Fedor and New Game.cpp](./467B_Fedor%20and%20New%20Game.cpp) | 已通过 | 位运算、枚举 |
 | 479C | [Exams](https://codeforces.com/problemset/problem/479/C) | [479C_Exams.cpp](./479C_Exams.cpp) | 已通过 | 排序、贪心 |
 | 489B | [BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [489B_BerSU Ball.cpp](./489B_BerSU%20Ball.cpp) | 已通过 | 排序、双指针、贪心 |
 | 489C | [Given Length and Sum of Digits...](https://codeforces.com/problemset/problem/489/C) | [489C_Given Length and Sum of Digits.cpp](./489C_Given%20Length%20and%20Sum%20of%20Digits.cpp) | 已通过 | 贪心、构造、数位 |
@@ -18,5 +19,7 @@
 | 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
+| 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
+| 1661B | [Getting Zero](https://codeforces.com/problemset/problem/1661/B) | [1661B_Getting Zero.cpp](./1661B_Getting%20Zero.cpp) | 已通过 | 暴力枚举、模运算 |
 | 1829E | [The Lakes](https://codeforces.com/problemset/problem/1829/E) | [1829E_The Lakes.cpp](./1829E_The%20Lakes.cpp) | 已通过 | 网格 DFS、连通块 |
