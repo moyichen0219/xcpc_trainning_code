@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 131 个 C++ 源文件：128 个题目文件和 3 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 140 个 C++ 源文件：136 个题目及历史实现文件和 4 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 131/131 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 140/140 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
 - 已完成的样例或构造回归记录为：16 个文件、34 组检查，34/34 组通过。本次新增源码已完成语法检查，并结合平台记录核对状态。
-- 样例通过不等于在线评测通过；AtCoder 与 Codeforces 状态最近于 2026-08-22 核对，码题集状态由用户于 2026-08-22 确认，牛客状态于 2026-08-21 核对，QOJ 状态于 2026-08-13 核对，洛谷状态于 2026-08-11 核对。
+- 样例通过不等于在线评测通过；QOJ 状态最近于 2026-08-24 核对，AtCoder 与 Codeforces 状态于 2026-08-22 核对，码题集状态由用户于 2026-08-22 确认，牛客状态于 2026-08-21 核对，洛谷状态于 2026-08-11 核对。
 
 ## AtCoder
 
@@ -152,19 +152,26 @@
 
 | 比赛 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
+| 2024 CCPC 女生专场 | [A - 盒子](https://qoj.ac/contest/1841/problem/9739) | [A_盒子.cpp](./ccpc_women_2024/A_盒子.cpp) | 已通过 | 坐标范围、模拟 |
+| 2024 CCPC 女生专场 | [C - CCPC](https://qoj.ac/contest/1841/problem/9741) | [C_CCPC.cpp](./ccpc_women_2024/C_CCPC.cpp) | 已通过 | 字符串计数、贪心 |
+| 2024 CCPC 女生专场 | [D - 优秀的拆分](https://qoj.ac/contest/1841/problem/9742) | [D_优秀的拆分.cpp](./ccpc_women_2024/D_优秀的拆分.cpp) | 未通过 | 模拟退火、随机化搜索 |
+| 2024 CCPC 女生专场 | [G - 递增序列](https://qoj.ac/contest/1841/problem/9745) | [G_递增序列.cpp](./ccpc_women_2024/G_递增序列.cpp) | 未通过 | 暴力枚举、位运算 |
+| 2024 CCPC 女生专场 | [H - 平方根](https://qoj.ac/contest/1841/problem/9746) | [H_平方根.cpp](./ccpc_women_2024/H_平方根.cpp) | 已通过 | 连续段、数学、分类讨论 |
+| 2024 CCPC 女生专场 | [L - 拼图](https://qoj.ac/contest/1841/problem/9750) | [L_拼图.cpp](./ccpc_women_2024/L_拼图.cpp) | 已通过 | 枚举、数学、面积最大化 |
+| 2024 CCPC 女生专场 | [M - 覆盖一棵树](https://qoj.ac/contest/1841/problem/9751) | [M_覆盖一棵树.cpp](./ccpc_women_2024/M_覆盖一棵树.cpp) | 已通过 | 树形 DP、贪心 |
 | 2025 CCPC 女生专场 | [A - 环状线](https://qoj.ac/contest/2564/problem/14450) | [A_环状线.cpp](./ccpc_women_2025/A_环状线.cpp) | 已通过 | 环形距离、分类讨论 |
-| 2025 CCPC 女生专场 | [B - 爬山](https://qoj.ac/contest/2564/problem/14451) | [B_爬山.cpp](./ccpc_women_2025/B_爬山.cpp) | 未完成 | 空框架 |
+| 2025 CCPC 女生专场 | [B - 爬山](https://qoj.ac/contest/2564/problem/14451) | [B_爬山.cpp](./ccpc_women_2025/B_爬山.cpp) | 已通过 | 状态扩展、Dijkstra |
 | 2025 CCPC 女生专场 | [C - 短视频](https://qoj.ac/contest/2564/problem/14452) | [C_短视频.cpp](./ccpc_women_2025/C_短视频.cpp) | 已通过 | 模拟、贪心 |
 | 2025 CCPC 女生专场 | [G - 最大公约数](https://qoj.ac/contest/2564/problem/14456) | [G_最大公约数.cpp](./ccpc_women_2025/G_最大公约数.cpp) | 已通过 | 数论、质数筛、构造 |
 | 2025 CCPC 女生专场 | [J - 后鼻嘤](https://qoj.ac/contest/2564/problem/14459) | [J_后鼻嘤.cpp](./ccpc_women_2025/J_后鼻嘤.cpp) | 已通过 | 字符串模拟 |
 
-比赛与题面入口见 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
+比赛与题面入口见 [ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
 Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 19 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
-可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)；通用源码模板见 [Templates/README.md](./Templates/README.md)，目前包括匈牙利算法、线性筛、组合数与模逆元。
+可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)；通用源码模板见 [Templates/README.md](./Templates/README.md)，目前包括匈牙利算法、线性筛、组合数与模逆元、二项分布。
 
 ## 维护约定
 
