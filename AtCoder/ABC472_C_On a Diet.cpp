@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 472
 // 题目：C - On a Diet
 // 链接：https://atcoder.jp/contests/abc472/tasks/abc472_c
-// 状态：待验证
+// 状态：已通过
 // 算法：滑动窗口、模拟
 
 #include<bits/stdc++.h>

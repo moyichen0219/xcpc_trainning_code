@@ -1,8 +1,8 @@
-// 平台：洛谷
-// 题目：P2670 [NOIP 2015 普及组] 扫雷游戏 - https://www.luogu.com.cn/problem/P2670
-// 状态：待验证（已有完整实现和本地样例，但未记录是否通过评测）
-// 分类：网格模拟、八方向枚举
-// 创建：MYC，2026/8/2
+// 比赛：洛谷题库
+// 题目：P2670 - [NOIP 2015 普及组] 扫雷游戏
+// 链接：https://www.luogu.com.cn/problem/P2670
+// 状态：已通过
+// 算法：网格模拟、八方向枚举
 
 #include<bits/stdc++.h>
 using namespace std;

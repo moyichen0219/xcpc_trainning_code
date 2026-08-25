@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 131
 // 题目：ABC131 D - Megalomania
 // 链接：https://atcoder.jp/contests/abc131/tasks/abc131_d
-// 状态：待验证
+// 状态：已通过
 // 算法：贪心、按截止时间排序
 
 #include<bits/stdc++.h>

@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 277
 // 题目：ABC277 C - Ladder Takahashi
 // 链接：https://atcoder.jp/contests/abc277/tasks/abc277_c
-// 状态：待验证
+// 状态：已通过
 // 算法：BFS、图遍历、离散顶点
 
 #include<bits/stdc++.h>

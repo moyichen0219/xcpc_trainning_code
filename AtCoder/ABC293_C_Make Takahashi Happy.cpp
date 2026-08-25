@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 293
 // 题目：ABC293 C - Make Takahashi Happy
 // 链接：https://atcoder.jp/contests/abc293/tasks/abc293_c
-// 状态：待验证
+// 状态：已通过
 // 算法：DFS、回溯、路径枚举
 
 #include<bits/stdc++.h>

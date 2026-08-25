@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 472
 // 题目：B - Break a Stick
 // 链接：https://atcoder.jp/contests/abc472/tasks/abc472_b
-// 状态：待验证
+// 状态：已通过
 // 算法：前缀和、枚举
 
 #include<bits/stdc++.h>

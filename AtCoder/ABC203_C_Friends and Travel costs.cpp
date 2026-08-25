@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 203
 // 题目：ABC203 C - Friends and Travel costs
 // 链接：https://atcoder.jp/contests/abc203/tasks/abc203_c
-// 状态：待验证
+// 状态：已通过
 // 算法：排序、贪心
 
 #include<bits/stdc++.h>

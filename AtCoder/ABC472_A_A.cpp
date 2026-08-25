@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 472
 // 题目：A - A
 // 链接：https://atcoder.jp/contests/abc472/tasks/abc472_a
-// 状态：待验证
+// 状态：已通过
 // 算法：字符串、模拟
 
 #include<bits/stdc++.h>

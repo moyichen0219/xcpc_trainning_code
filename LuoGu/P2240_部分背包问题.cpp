@@ -1,8 +1,8 @@
-// 平台：洛谷
-// 题目：P2240 [深基12.例1] 部分背包问题 - https://www.luogu.com.cn/problem/P2240
-// 状态：待验证（已有完整实现和本地样例，但未记录是否通过评测）
-// 分类：贪心、排序
-// 创建：MYC，2026/8/2
+// 比赛：洛谷题库
+// 题目：P2240 - [深基12.例1] 部分背包问题
+// 链接：https://www.luogu.com.cn/problem/P2240
+// 状态：已通过
+// 算法：贪心、排序
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;

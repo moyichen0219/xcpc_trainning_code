@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 472
 // 题目：D - Bomber Mad
 // 链接：https://atcoder.jp/contests/abc472/tasks/abc472_d
-// 状态：待验证
+// 状态：已通过
 // 算法：多源 BFS、网格最短路
 
 #include<bits/stdc++.h>

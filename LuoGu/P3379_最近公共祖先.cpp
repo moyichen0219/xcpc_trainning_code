@@ -1,7 +1,7 @@
 // 平台：洛谷
 // 题目：P3379 【模板】最近公共祖先（LCA）
 // 链接：https://www.luogu.com.cn/problem/P3379
-// 状态：待验证
+// 状态：已通过
 // 算法：倍增、LCA、树上查询
 
 #include<bits/stdc++.h>

@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 121
 // 题目：ABC121 C - Energy Drink Collector
 // 链接：https://atcoder.jp/contests/abc121/tasks/abc121_c
-// 状态：待验证
+// 状态：已通过
 // 算法：贪心、排序
 
 #include<bits/stdc++.h>

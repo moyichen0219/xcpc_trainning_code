@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 136
 // 题目：ABC136 C - Build Stairs
 // 链接：https://atcoder.jp/contests/abc136/tasks/abc136_c
-// 状态：待验证
+// 状态：已通过
 // 算法：贪心、差分
 
 #include<bits/stdc++.h>

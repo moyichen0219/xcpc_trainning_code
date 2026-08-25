@@ -1,8 +1,8 @@
-// 平台：洛谷
-// 题目：P1042 [NOIP 2003 普及组] 乒乓球 - https://www.luogu.com.cn/problem/P1042
-// 状态：待验证（已有完整实现和本地样例，但未记录是否通过评测）
-// 分类：模拟、计分规则
-// 创建：MYC，2026/8/2
+// 比赛：洛谷题库
+// 题目：P1042 - [NOIP 2003 普及组] 乒乓球
+// 链接：https://www.luogu.com.cn/problem/P1042
+// 状态：已通过
+// 算法：模拟、计分规则
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 208
 // 题目：ABC208 C - Fair Candy Distribution
 // 链接：https://atcoder.jp/contests/abc208/tasks/abc208_c
-// 状态：待验证
+// 状态：已通过
 // 算法：排序、模拟
 
 #include<bits/stdc++.h>

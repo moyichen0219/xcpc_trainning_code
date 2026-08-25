@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 212
 // 题目：ABC212 C - Min Difference
 // 链接：https://atcoder.jp/contests/abc212/tasks/abc212_c
-// 状态：待验证
+// 状态：已通过
 // 算法：排序、双指针
 
 #include<bits/stdc++.h>

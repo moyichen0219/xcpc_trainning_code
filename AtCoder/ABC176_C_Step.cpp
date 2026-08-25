@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 176
 // 题目：ABC176 C - Step
 // 链接：https://atcoder.jp/contests/abc176/tasks/abc176_c
-// 状态：待验证
+// 状态：已通过
 // 算法：贪心、前缀最大值
 
 #include<bits/stdc++.h>

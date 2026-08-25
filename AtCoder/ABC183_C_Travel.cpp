@@ -1,7 +1,7 @@
 // 比赛：AtCoder Beginner Contest 183
 // 题目：ABC183 C - Travel
 // 链接：https://atcoder.jp/contests/abc183/tasks/abc183_c
-// 状态：待验证
+// 状态：已通过
 // 算法：全排列、暴力枚举
 
 #include<bits/stdc++.h>
