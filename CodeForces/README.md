@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态核对日期：2026-08-25。以下 21 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态核对日期：2026-08-27。以下 22 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -13,6 +13,7 @@
 | 489B | [BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [489B_BerSU Ball.cpp](./489B_BerSU%20Ball.cpp) | 已通过 | 排序、双指针、贪心 |
 | 489C | [Given Length and Sum of Digits...](https://codeforces.com/problemset/problem/489/C) | [489C_Given Length and Sum of Digits.cpp](./489C_Given%20Length%20and%20Sum%20of%20Digits.cpp) | 已通过 | 贪心、构造、数位 |
 | 500A | [New Year Transportation](https://codeforces.com/problemset/problem/500/A) | [500A_New Year Transportation.cpp](./500A_New%20Year%20Transportation.cpp) | 已通过 | 模拟、图遍历 |
+| 510D | [Fox And Jumping](https://codeforces.com/problemset/problem/510/D) | [510D_Fox And Jumping.cpp](./510D_Fox%20And%20Jumping.cpp) | 已通过 | 动态规划、最大公约数、状态压缩 |
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |

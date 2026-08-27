@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 155 个 C++ 源文件：149 个题目及历史实现文件和 6 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 157 个 C++ 源文件：151 个题目及历史实现文件和 6 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 155/155 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
-- 已完成的样例或构造回归记录为：25 个文件、47 组检查，47/47 组通过。本次新增源码已完成语法检查，并结合平台记录核对状态。
-- 样例通过不等于在线评测通过；洛谷状态最近于 2026-08-26 核对，竞极题目元数据于 2026-08-26 核对，AtCoder 与 Codeforces 状态于 2026-08-25 核对，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 157/157 个已归档 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 已完成的样例或构造回归记录为：27 个文件、52 组检查，52/52 组通过。本次新增源码已完成语法检查，并结合平台记录核对状态。
+- 样例通过不等于在线评测通过；洛谷与 Codeforces 状态最近于 2026-08-27 核对，竞极题目元数据于 2026-08-26 核对，AtCoder 状态于 2026-08-25 核对，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -94,6 +94,7 @@
 | P3367 | [并查集](https://www.luogu.com.cn/problem/P3367) | [P3367_并查集.cpp](./LuoGu/P3367_并查集.cpp) | 已通过 | 并查集、路径压缩 |
 | P3376 | [网络最大流](https://www.luogu.com.cn/problem/P3376) | [P3376_网络最大流.cpp](./LuoGu/P3376_网络最大流.cpp) | 已通过 | Dinic、分层图、当前弧优化 |
 | P3379 | [最近公共祖先（LCA）](https://www.luogu.com.cn/problem/P3379) | [P3379_最近公共祖先.cpp](./LuoGu/P3379_最近公共祖先.cpp) | 已通过 | 倍增、LCA、树上查询 |
+| P3951 | [小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./LuoGu/P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P5318 | [查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./LuoGu/P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS |
 | P5536 | [核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./LuoGu/P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
 
@@ -134,6 +135,7 @@
 | 489B | [BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [489B_BerSU Ball.cpp](./CodeForces/489B_BerSU%20Ball.cpp) | 已通过 | 排序、双指针、贪心 |
 | 489C | [Given Length and Sum of Digits...](https://codeforces.com/problemset/problem/489/C) | [489C_Given Length and Sum of Digits.cpp](./CodeForces/489C_Given%20Length%20and%20Sum%20of%20Digits.cpp) | 已通过 | 贪心、构造、数位 |
 | 500A | [New Year Transportation](https://codeforces.com/problemset/problem/500/A) | [500A_New Year Transportation.cpp](./CodeForces/500A_New%20Year%20Transportation.cpp) | 已通过 | 模拟、图遍历 |
+| 510D | [Fox And Jumping](https://codeforces.com/problemset/problem/510/D) | [510D_Fox And Jumping.cpp](./CodeForces/510D_Fox%20And%20Jumping.cpp) | 已通过 | 动态规划、最大公约数、状态压缩 |
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./CodeForces/522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./CodeForces/580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./CodeForces/1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
@@ -187,7 +189,7 @@
 
 比赛与题面入口见 [ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 19 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 22 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
