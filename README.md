@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 157 个 C++ 源文件：151 个题目及历史实现文件和 6 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 167 个 C++ 源文件：159 个题目及历史实现文件和 8 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,8 +14,8 @@
 
 ## 当前验证结果
 
-- 157/157 个已归档 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
-- 已完成的样例或构造回归记录为：27 个文件、52 组检查，52/52 组通过。本次新增源码已完成语法检查，并结合平台记录核对状态。
+- 167/167 个已归档 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本次新增源码已完成语法检查，并结合平台记录核对状态；P2662 的 gcd 无解诊断另行确认了本地缺陷。
 - 样例通过不等于在线评测通过；洛谷与 Codeforces 状态最近于 2026-08-27 核对，竞极题目元数据于 2026-08-26 核对，AtCoder 状态于 2026-08-25 核对，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
@@ -85,18 +85,25 @@
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
 | P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 已通过 | 模拟 |
+| P1082 | [同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./LuoGu/P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
+| P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./LuoGu/P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./LuoGu/P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
 | P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 已通过 | 贪心、排序 |
+| P2371 | [墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./LuoGu/P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
+| P2662 | [牛场围栏](https://www.luogu.com.cn/problem/P2662) | [P2662_牛场围栏.cpp](./LuoGu/P2662_牛场围栏.cpp) | 已通过（账号；本地需修正） | 同余最短路、最大不可表示数；缺少 gcd 无解判断 |
 | P2670 | [扫雷游戏](https://www.luogu.com.cn/problem/P2670) | [P2670_扫雷游戏.cpp](./LuoGu/P2670_扫雷游戏.cpp) | 已通过 | 网格模拟 |
 | P3304 | [直径](https://www.luogu.com.cn/problem/P3304) | [P3304_直径.cpp](./LuoGu/P3304_直径.cpp) | 未完成 | 树的直径；尚缺公共边数量 |
 | P3367 | [并查集](https://www.luogu.com.cn/problem/P3367) | [P3367_并查集.cpp](./LuoGu/P3367_并查集.cpp) | 已通过 | 并查集、路径压缩 |
 | P3376 | [网络最大流](https://www.luogu.com.cn/problem/P3376) | [P3376_网络最大流.cpp](./LuoGu/P3376_网络最大流.cpp) | 已通过 | Dinic、分层图、当前弧优化 |
 | P3379 | [最近公共祖先（LCA）](https://www.luogu.com.cn/problem/P3379) | [P3379_最近公共祖先.cpp](./LuoGu/P3379_最近公共祖先.cpp) | 已通过 | 倍增、LCA、树上查询 |
+| P3403 | [跳楼机](https://www.luogu.com.cn/problem/P3403) | [P3403_跳楼机.cpp](./LuoGu/P3403_跳楼机.cpp) | 已通过 | 同余最短路、Dijkstra、可达状态计数 |
 | P3951 | [小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./LuoGu/P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
+| P4549 | [裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./LuoGu/P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P5318 | [查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./LuoGu/P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS |
 | P5536 | [核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./LuoGu/P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
+| P5656 | [二元一次不定方程](https://www.luogu.com.cn/problem/P5656) | [P5656_二元一次不定方程.cpp](./LuoGu/P5656_二元一次不定方程.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程、解集计数 |
 
 详见 [LuoGu/README.md](./LuoGu/README.md)。
 
@@ -126,6 +133,7 @@
 
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
+| 7C | [Line](https://codeforces.com/problemset/problem/7/C) | [7C_Line.cpp](./CodeForces/7C_Line.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程 |
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./CodeForces/189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./CodeForces/217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./CodeForces/230A_Dragons.cpp) | 已通过 | 排序、贪心 |
@@ -189,11 +197,11 @@
 
 比赛与题面入口见 [ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 22 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 23 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
-可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)；通用源码模板见 [Templates/README.md](./Templates/README.md)，目前包括 Dinic 最大流、扩展欧几里得算法、匈牙利算法、线性筛、组合数与模逆元、二项分布。
+可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)；通用源码模板见 [Templates/README.md](./Templates/README.md)，目前包括同余最短路、最大不可表示数、Dinic 最大流、扩展欧几里得算法、匈牙利算法、线性筛、组合数与模逆元、二项分布。
 
 ## 维护约定
 

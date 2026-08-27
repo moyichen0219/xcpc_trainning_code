@@ -1,9 +1,10 @@
 # Codeforces 代码索引
 
-评测状态核对日期：2026-08-27。以下 22 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态核对日期：2026-08-27。以下 23 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
+| 7C | [Line](https://codeforces.com/problemset/problem/7/C) | [7C_Line.cpp](./7C_Line.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程 |
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./230A_Dragons.cpp) | 已通过 | 排序、贪心 |
