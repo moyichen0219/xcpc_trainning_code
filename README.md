@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 167 个 C++ 源文件：159 个题目及历史实现文件和 8 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 180 个 C++ 源文件：166 个题目及历史实现文件和 14 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 167/167 个已归档 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
-- 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本次新增源码已完成语法检查，并结合平台记录核对状态；P2662 的 gcd 无解诊断另行确认了本地缺陷。
-- 样例通过不等于在线评测通过；洛谷与 Codeforces 状态最近于 2026-08-27 核对，竞极题目元数据于 2026-08-26 核对，AtCoder 状态于 2026-08-25 核对，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 180/180 个已归档 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查。
+- 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮新增源码仅做轻量静态检查和平台记录核对，不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
+- 样例通过不等于在线评测通过；洛谷、Codeforces 与 AtCoder 状态最近于 2026-08-29 核对，竞极题目元数据于 2026-08-26 核对，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -45,6 +45,7 @@
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./AtCoder/ABC212_C_Min%20Difference.cpp) | 已通过 | 排序、双指针 |
 | ABC 221 | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c) | [ABC221_C_Select Mul.cpp](./AtCoder/ABC221_C_Select%20Mul.cpp) | 已通过 | 二进制枚举、排序、数位构造 |
 | ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./AtCoder/ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
+| ABC 239 | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e) | [ABC239_E_Subtree K-th Max.cpp](./AtCoder/ABC239_E_Subtree%20K-th%20Max.cpp) | 已通过 | 树上 DFS、Top-K 合并 |
 | ABC 240 | [C - Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c) | [ABC240_C_Jumping Takahashi.cpp](./AtCoder/ABC240_C_Jumping%20Takahashi.cpp) | 已通过 | 动态规划、可达性 |
 | ABC 245 | [C - Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c) | [ABC245_C_Choose Elements.cpp](./AtCoder/ABC245_C_Choose%20Elements.cpp) | 已通过 | 动态规划、状态压缩 |
 | ABC 246 | [C - Coupon](https://atcoder.jp/contests/abc246/tasks/abc246_c) | [ABC246_C_Coupon.cpp](./AtCoder/ABC246_C_Coupon.cpp) | 已通过 | 贪心、排序 |
@@ -54,6 +55,7 @@
 | ABC 258 | [C - Rotation](https://atcoder.jp/contests/abc258/tasks/abc258_c) | [ABC258_C_Rotation.cpp](./AtCoder/ABC258_C_Rotation.cpp) | 已通过 | 字符串、循环偏移 |
 | ABC 269 | [D - Do use hexagon grid](https://atcoder.jp/contests/abc269/tasks/abc269_d) | [ABC269_D_Do use hexagon grid.cpp](./AtCoder/ABC269_D_Do%20use%20hexagon%20grid.cpp) | 已通过 | BFS、连通块、六边形网格 |
 | ABC 271 | [C - Manga](https://atcoder.jp/contests/abc271/tasks/abc271_c) | [ABC271_C_Manga.cpp](./AtCoder/ABC271_C_Manga.cpp) | 已通过 | 贪心、排序、双指针 |
+| ABC 274 | [D - Robot Arms 2](https://atcoder.jp/contests/abc274/tasks/abc274_d) | [ABC274_D_Robot Arms 2.cpp](./AtCoder/ABC274_D_Robot%20Arms%202.cpp) | 已通过 | 动态规划、二维可达性拆分 |
 | ABC 277 | [C - Ladder Takahashi](https://atcoder.jp/contests/abc277/tasks/abc277_c) | [ABC277_C_Ladder Takahashi.cpp](./AtCoder/ABC277_C_Ladder%20Takahashi.cpp) | 已通过 | BFS、图遍历、离散顶点 |
 | ABC 284 | [C - Count Connected Components](https://atcoder.jp/contests/abc284/tasks/abc284_c) | [ABC284_C_Count Connected Components.cpp](./AtCoder/ABC284_C_Count%20Connected%20Components.cpp) | 已通过 | 并查集、连通块 |
 | ABC 286 | [C - Rotate and Palindrome](https://atcoder.jp/contests/abc286/tasks/abc286_c) | [ABC286_C_Rotate and Palindrome.cpp](./AtCoder/ABC286_C_Rotate%20and%20Palindrome.cpp) | 已通过 | 枚举、字符串、回文 |
@@ -87,6 +89,7 @@
 | P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 已通过 | 模拟 |
 | P1082 | [同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./LuoGu/P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
+| P1495 | [中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./LuoGu/P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
 | P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./LuoGu/P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./LuoGu/P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
@@ -99,8 +102,10 @@
 | P3376 | [网络最大流](https://www.luogu.com.cn/problem/P3376) | [P3376_网络最大流.cpp](./LuoGu/P3376_网络最大流.cpp) | 已通过 | Dinic、分层图、当前弧优化 |
 | P3379 | [最近公共祖先（LCA）](https://www.luogu.com.cn/problem/P3379) | [P3379_最近公共祖先.cpp](./LuoGu/P3379_最近公共祖先.cpp) | 已通过 | 倍增、LCA、树上查询 |
 | P3403 | [跳楼机](https://www.luogu.com.cn/problem/P3403) | [P3403_跳楼机.cpp](./LuoGu/P3403_跳楼机.cpp) | 已通过 | 同余最短路、Dijkstra、可达状态计数 |
+| P3868 | [猜数字](https://www.luogu.com.cn/problem/P3868) | [P3868_猜数字.cpp](./LuoGu/P3868_猜数字.cpp) | 已通过（账号；本地需修正） | 中国剩余定理；`k=1` 分支固定输出 0 |
 | P3951 | [小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./LuoGu/P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P4549 | [裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./LuoGu/P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
+| P4777 | [扩展中国剩余定理（EXCRT）](https://www.luogu.com.cn/problem/P4777) | [P4777_扩展中国剩余定理（EXCRT）.cpp](./LuoGu/P4777_扩展中国剩余定理（EXCRT）.cpp) | 已通过 | 扩展中国剩余定理、扩展欧几里得 |
 | P5318 | [查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./LuoGu/P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS |
 | P5536 | [核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./LuoGu/P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
 | P5656 | [二元一次不定方程](https://www.luogu.com.cn/problem/P5656) | [P5656_二元一次不定方程.cpp](./LuoGu/P5656_二元一次不定方程.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程、解集计数 |
@@ -146,10 +151,12 @@
 | 510D | [Fox And Jumping](https://codeforces.com/problemset/problem/510/D) | [510D_Fox And Jumping.cpp](./CodeForces/510D_Fox%20And%20Jumping.cpp) | 已通过 | 动态规划、最大公约数、状态压缩 |
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./CodeForces/522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./CodeForces/580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
+| 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./CodeForces/580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./CodeForces/1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./CodeForces/1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./CodeForces/1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
 | 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./CodeForces/1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
+| 1472C | [Long Jumps](https://codeforces.com/problemset/problem/1472/C) | [1472C_Long Jumps.cpp](./CodeForces/1472C_Long%20Jumps.cpp) | 已通过 | 动态规划、递推 |
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./CodeForces/1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./CodeForces/1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./CodeForces/1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
@@ -197,11 +204,11 @@
 
 比赛与题面入口见 [ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 23 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 25 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
-可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)；通用源码模板见 [Templates/README.md](./Templates/README.md)，目前包括同余最短路、最大不可表示数、Dinic 最大流、扩展欧几里得算法、匈牙利算法、线性筛、组合数与模逆元、二项分布。
+可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)；通用源码模板见 [Templates/README.md](./Templates/README.md)，目前包括同余最短路、最大不可表示数、Dinic 最大流、扩展欧几里得、CRT、EXCRT、`__int128` 输入输出、三类线段树、匈牙利算法、线性筛、组合数与模逆元、二项分布。
 
 ## 维护约定
 

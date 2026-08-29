@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态核对日期：2026-08-27。以下 23 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态核对日期：2026-08-29。以下 25 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -17,10 +17,12 @@
 | 510D | [Fox And Jumping](https://codeforces.com/problemset/problem/510/D) | [510D_Fox And Jumping.cpp](./510D_Fox%20And%20Jumping.cpp) | 已通过 | 动态规划、最大公约数、状态压缩 |
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
+| 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
 | 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
+| 1472C | [Long Jumps](https://codeforces.com/problemset/problem/1472/C) | [1472C_Long Jumps.cpp](./1472C_Long%20Jumps.cpp) | 已通过 | 动态规划、递推 |
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
