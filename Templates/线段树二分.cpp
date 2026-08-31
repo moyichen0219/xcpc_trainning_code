@@ -1,7 +1,6 @@
 // 模板：线段树二分
-// 状态：模板（待修正）
+// 状态：模板
 // 功能：区间最大值、区间加、查找首个或末个不小于阈值的位置
-// 已知问题：find_lst 的左右子树区间参数写反
 // 复杂度：建树 O(n)，单次操作 O(log n)
 
 #include<bits/stdc++.h>
@@ -162,22 +161,6 @@ int find_lst(int p, int l, int r, int L, int R, ll x){
 
     return find_lst(ls(p), l, mid, L, R, x);
 }
-
-int kth(int p, int l, int r, int k){
-    if (l == r){
-        return l;
-    }
-
-    int mid = (l + r) >> 1;
-
-    if (tree[ls(p)] >= k){
-        return kth(ls(p), l, mid, k);
-    } else {
-        return kth(rs(p), mid + 1, r, k - tree[ls(p)]);
-    }
-
-}
-
 
 void solve(){
 

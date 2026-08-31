@@ -9,7 +9,9 @@ using ll = long long;
 
 const int N = 2e5 + 10;
 ll a[N];
+// tree[p] : 区间最大值
 ll tree[N << 2]; // ll tree[4 * N];
+// 整个区间待下传的加法
 ll lazy[N << 2];
 
 int ls(int p){
@@ -79,7 +81,7 @@ ll query(int p, int l, int r, int L, int R){
     return ans;
 }
 
-// 单点修改 a[x] <- +v
+// 单点修改 a[x] = v
 void update_point(int p, int l, int r, int x, ll v){
     if (l == r){
         tree[p] = v;
