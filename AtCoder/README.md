@@ -1,6 +1,6 @@
 # AtCoder 代码索引
 
-评测状态核对日期：2026-08-29。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
+评测状态核对日期：2026-09-01。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
 
 | 比赛 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -8,6 +8,11 @@
 | Educational DP Contest | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a) | [DP_A_Frog 1.cpp](./DP_A_Frog%201.cpp) | 已通过 | 动态规划、线性 DP |
 | Educational DP Contest | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b) | [DP_B_Frog 2.cpp](./DP_B_Frog%202.cpp) | 已通过 | 动态规划、线性 DP |
 | Educational DP Contest | [C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [DP_C_Vacation.cpp](./DP_C_Vacation.cpp) | 已通过 | 动态规划、状态转移 |
+| Educational DP Contest | [D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [DP_D_Knapsack 1.cpp](./DP_D_Knapsack%201.cpp) | 已通过 | 动态规划、01 背包 |
+| Educational DP Contest | [F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f) | [DP_F_LCS.cpp](./DP_F_LCS.cpp) | 已通过 | 字符串动态规划、LCS、方案恢复 |
+| Educational DP Contest | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [DP_G_Longest Path.cpp](./DP_G_Longest%20Path.cpp) | 已通过 | DAG 动态规划、记忆化 DFS |
+| Educational DP Contest | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [DP_I_Coins.cpp](./DP_I_Coins.cpp) | 未完成 | 概率动态规划（组合数与概率计算待修正） |
+| Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./DP_P_Independent%20Set.cpp) | 待验证 | 树形动态规划、独立集计数 |
 | ABC 085 | [D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d) | [ABC085_D_Katana Thrower.cpp](./ABC085_D_Katana%20Thrower.cpp) | 已通过（账号） | 贪心、排序 |
 | ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./ABC121_C_Energy%20Drink%20Collector.cpp) | 已通过 | 贪心、排序 |
 | ABC 129 | [C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c) | [ABC129_C_Typical Stairs.cpp](./ABC129_C_Typical%20Stairs.cpp) | 已通过 | 动态规划、计数 |
@@ -67,3 +72,5 @@
 > 2026-08-25 重新核对提交记录：原标为“待验证”的 ABC121 C、ABC131 D、ABC136 C、ABC176 C、ABC183 C、ABC203 C、ABC208 C、ABC212 C、ABC277 C、ABC293 C 与 ABC472 A–D 均已有 AC；新归档的 ABC168 D 对应提交 `#78678419`。ABC471 F 仍为 5 次 WA、0 次 AC，因此继续按“未通过”归档。
 
 > 2026-08-29 新归档 ABC239 E 与 ABC274 D，分别对应 AC 提交 `#78742882`、`#78742179`。
+
+> 2026-09-01 新归档 Educational DP Contest D、F、G，分别对应 AC 提交 `#78865488`、`#78865911`、`#78867291`。I 的本地实现尚未完成；P 已有完整实现，但账号中没有匹配提交，暂标“待验证”。

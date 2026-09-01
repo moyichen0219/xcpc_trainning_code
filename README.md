@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 189 个 C++ 源文件：173 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 200 个 C++ 源文件：184 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 上一轮归档的 180 个 `.cpp` 文件通过 `g++ -std=c++17 -fsyntax-only` 语法检查；本轮新增的 7 道竞极题和 2 个模板按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 20 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷、Codeforces 与 AtCoder 状态最近于 2026-08-29 核对，新一批竞极源码于 2026-08-31 按本地语义归档且状态待验证，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷与 AtCoder 状态最近于 2026-09-01 核对，Codeforces 状态于 2026-08-29 核对，新一批竞极源码于 2026-09-01 按本地语义归档且状态待验证，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -26,6 +26,11 @@
 | Educational DP Contest | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a) | [DP_A_Frog 1.cpp](./AtCoder/DP_A_Frog%201.cpp) | 已通过 | 动态规划、线性 DP |
 | Educational DP Contest | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b) | [DP_B_Frog 2.cpp](./AtCoder/DP_B_Frog%202.cpp) | 已通过 | 动态规划、线性 DP |
 | Educational DP Contest | [C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [DP_C_Vacation.cpp](./AtCoder/DP_C_Vacation.cpp) | 已通过 | 动态规划、状态转移 |
+| Educational DP Contest | [D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [DP_D_Knapsack 1.cpp](./AtCoder/DP_D_Knapsack%201.cpp) | 已通过 | 动态规划、01 背包 |
+| Educational DP Contest | [F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f) | [DP_F_LCS.cpp](./AtCoder/DP_F_LCS.cpp) | 已通过 | 字符串动态规划、LCS、方案恢复 |
+| Educational DP Contest | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [DP_G_Longest Path.cpp](./AtCoder/DP_G_Longest%20Path.cpp) | 已通过 | DAG 动态规划、记忆化 DFS |
+| Educational DP Contest | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [DP_I_Coins.cpp](./AtCoder/DP_I_Coins.cpp) | 未完成 | 概率动态规划（组合数与概率计算待修正） |
+| Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./AtCoder/DP_P_Independent%20Set.cpp) | 待验证 | 树形动态规划、独立集计数 |
 | ABC 085 | [D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d) | [ABC085_D_Katana Thrower.cpp](./AtCoder/ABC085_D_Katana%20Thrower.cpp) | 已通过（账号；本地需修正） | 贪心、排序 |
 | ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./AtCoder/ABC121_C_Energy%20Drink%20Collector.cpp) | 已通过 | 贪心、排序 |
 | ABC 129 | [C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c) | [ABC129_C_Typical Stairs.cpp](./AtCoder/ABC129_C_Typical%20Stairs.cpp) | 已通过 | 动态规划、计数 |
@@ -89,14 +94,19 @@
 | P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 已通过 | 模拟 |
 | P1082 | [同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./LuoGu/P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
+| P1352 | [没有上司的舞会](https://www.luogu.com.cn/problem/P1352) | [P1352_没有上司的舞会.cpp](./LuoGu/P1352_没有上司的舞会.cpp) | 已通过 | 树形动态规划、最大权独立集 |
 | P1495 | [中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./LuoGu/P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
 | P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./LuoGu/P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./LuoGu/P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
+| P1879 | [Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./LuoGu/P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
+| P1880 | [石子合并](https://www.luogu.com.cn/problem/P1880) | [P1880_石子合并.cpp](./LuoGu/P1880_石子合并.cpp) | 已通过 | 环形区间动态规划、前缀和 |
+| P2014 | [选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./LuoGu/P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
 | P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 已通过 | 贪心、排序 |
 | P2371 | [墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./LuoGu/P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
 | P2662 | [牛场围栏](https://www.luogu.com.cn/problem/P2662) | [P2662_牛场围栏.cpp](./LuoGu/P2662_牛场围栏.cpp) | 已通过（账号；本地需修正） | 同余最短路、最大不可表示数；缺少 gcd 无解判断 |
 | P2670 | [扫雷游戏](https://www.luogu.com.cn/problem/P2670) | [P2670_扫雷游戏.cpp](./LuoGu/P2670_扫雷游戏.cpp) | 已通过 | 网格模拟 |
+| P2758 | [编辑距离](https://www.luogu.com.cn/problem/P2758) | [P2758_编辑距离.cpp](./LuoGu/P2758_编辑距离.cpp) | 已通过 | 字符串动态规划、编辑距离 |
 | P3304 | [直径](https://www.luogu.com.cn/problem/P3304) | [P3304_直径.cpp](./LuoGu/P3304_直径.cpp) | 未完成 | 树的直径；尚缺公共边数量 |
 | P3367 | [并查集](https://www.luogu.com.cn/problem/P3367) | [P3367_并查集.cpp](./LuoGu/P3367_并查集.cpp) | 已通过 | 并查集、路径压缩 |
 | P3376 | [网络最大流](https://www.luogu.com.cn/problem/P3376) | [P3376_网络最大流.cpp](./LuoGu/P3376_网络最大流.cpp) | 已通过 | Dinic、分层图、当前弧优化 |
@@ -136,6 +146,7 @@
 | E | [双周期同步计数（本地语义命名）](http://47.120.23.84/contest/2093329939779661825/2093331392753676291) | [E_双周期同步计数.cpp](./竞极/E_双周期同步计数.cpp) | 待验证 | 线性同余方程、EXCRT、区间计数 |
 | F | [子树 H 指数（本地语义命名）](http://47.120.23.84/contest/2093329939779661825/2093331392757870593) | [F_子树H指数.cpp](./竞极/F_子树H指数.cpp) | 待验证 | 动态开点线段树合并、树上 DFS、二分答案 |
 | G | [幂塔同余（本地语义命名）](http://47.120.23.84/contest/2093329939779661825/2093331392757870594) | [G_幂塔同余.cpp](./竞极/G_幂塔同余.cpp) | 待验证 | 欧拉降幂、线性筛、模运算 |
+| H | [带边权的子树 H 指数（本地语义命名）](http://47.120.23.84/contest/2093329939779661825/2093331392762064898) | [H_带边权的子树H指数.cpp](./竞极/H_带边权的子树H指数.cpp) | 待验证 | 动态开点线段树合并、截断、树上 DFS、二分答案 |
 | E | [子数组异或计数（本地语义命名）](http://47.120.23.84/contest/2090742212411854849/2092110649929818117) | [E_子数组异或计数.cpp](./竞极/E_子数组异或计数.cpp) | 待验证 | 前缀异或、二进制字典树、子数组计数 |
 | F | [跳石取分（本地语义命名）](http://47.120.23.84/contest/2090742212411854849/2092110649929818118) | [F_跳石取分.cpp](./竞极/F_跳石取分.cpp) | 待验证 | 动态规划、单调队列、滑动窗口最值 |
 
@@ -215,7 +226,7 @@ Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 25 道 
 
 ## 知识总结
 
-可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)；通用源码模板见 [Templates/README.md](./Templates/README.md)，目前包括同余最短路、最大不可表示数、Dinic 最大流、扩展欧几里得、CRT、EXCRT、`__int128` 输入输出、动态开点线段树和四类静态线段树、匈牙利算法、线性筛、组合数与模逆元、二项分布。
+可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)，新增动态规划复习笔记；通用源码模板见 [Templates/README.md](./Templates/README.md)，其中还收录了 DP 模板总复习，以及同余最短路、最大流、数论、线段树、匹配、筛法、组合数和概率模板。
 
 ## 维护约定
 
