@@ -2,7 +2,7 @@
 // 题目：H 带边权的子树 H 指数（本地语义命名）
 // 链接：http://47.120.23.84/contest/2093329939779661825/2093331392762064898
 // 状态：待验证
-// 算法：动态开点线段树合并、截断、树上 DFS、二分答案
+// 算法：动态开点线段树合并、截断、批量计数、树上 DFS、二分答案
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -29,22 +29,22 @@ void pushup(int p){
     tree[p].sum = tree[tree[p].ls].sum + tree[tree[p].rs].sum;
 }
 
-void upd(int &p, int l, int r, int x){
+void upd(int &p, int l, int r, int x, int val){
     if (!p){
         p = ++tot;
     }
 
     if (l == r){
-        tree[p].sum ++;
+        tree[p].sum += val;
         return ;
     }
 
     int mid = (l + r) >> 1;
 
     if (x <= mid){
-        upd(tree[p].ls, l, mid, x);
+        upd(tree[p].ls, l, mid, x, val);
     } else {
-        upd(tree[p].rs, mid + 1, r, x);
+        upd(tree[p].rs, mid + 1, r, x, val);
     }
 
     pushup(p);
@@ -125,7 +125,7 @@ void dfs(int u, int fa){
     sz[u] = 1;
 
     if (a[u] > 0){
-        upd(root[u], 1, n, min(a[u], n));
+        upd(root[u], 1, n, min(a[u], n), 1);
     }
 
     for (auto [v, w] : g[u]){
@@ -139,8 +139,8 @@ void dfs(int u, int fa){
 
         int cnt = cut(root[v], 1, n, w);
 
-        while (cnt --){
-            upd(root[v], 1, n, w);
+        if (cnt){
+            upd(root[v], 1, n, w, cnt);
         }
 
         root[u] = merge(root[u], root[v], 1, n);
