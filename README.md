@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 200 个 C++ 源文件：184 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 212 个 C++ 源文件：196 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 20 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 32 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷与 AtCoder 状态最近于 2026-09-01 核对，Codeforces 状态于 2026-08-29 核对，新一批竞极源码于 2026-09-01 按本地语义归档且状态待验证，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷与 AtCoder 状态最近于 2026-09-02 核对，Codeforces 状态于 2026-08-29 核对，新一批竞极源码于 2026-09-02 按原题或本地实现语义归档且状态待验证，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -29,7 +29,8 @@
 | Educational DP Contest | [D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [DP_D_Knapsack 1.cpp](./AtCoder/DP_D_Knapsack%201.cpp) | 已通过 | 动态规划、01 背包 |
 | Educational DP Contest | [F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f) | [DP_F_LCS.cpp](./AtCoder/DP_F_LCS.cpp) | 已通过 | 字符串动态规划、LCS、方案恢复 |
 | Educational DP Contest | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [DP_G_Longest Path.cpp](./AtCoder/DP_G_Longest%20Path.cpp) | 已通过 | DAG 动态规划、记忆化 DFS |
-| Educational DP Contest | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [DP_I_Coins.cpp](./AtCoder/DP_I_Coins.cpp) | 未完成 | 概率动态规划（组合数与概率计算待修正） |
+| Educational DP Contest | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [DP_H_Grid 1.cpp](./AtCoder/DP_H_Grid%201.cpp) | 已通过 | 网格动态规划、路径计数 |
+| Educational DP Contest | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [DP_I_Coins.cpp](./AtCoder/DP_I_Coins.cpp) | 已通过 | 概率动态规划、正面次数计数 |
 | Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./AtCoder/DP_P_Independent%20Set.cpp) | 待验证 | 树形动态规划、独立集计数 |
 | ABC 085 | [D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d) | [ABC085_D_Katana Thrower.cpp](./AtCoder/ABC085_D_Katana%20Thrower.cpp) | 已通过（账号；本地需修正） | 贪心、排序 |
 | ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./AtCoder/ABC121_C_Energy%20Drink%20Collector.cpp) | 已通过 | 贪心、排序 |
@@ -91,6 +92,7 @@
 
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
+| P1020 | [导弹拦截](https://www.luogu.com.cn/problem/P1020) | [P1020_导弹拦截.cpp](./LuoGu/P1020_导弹拦截.cpp) | 已通过 | 最长不上升子序列、最长上升子序列、二分优化 |
 | P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 已通过 | 模拟 |
 | P1082 | [同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./LuoGu/P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
@@ -99,11 +101,13 @@
 | P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./LuoGu/P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./LuoGu/P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
+| P1725 | [琪露诺](https://www.luogu.com.cn/problem/P1725) | [P1725_琪露诺.cpp](./LuoGu/P1725_琪露诺.cpp) | 已通过 | 动态规划、单调队列、滑动窗口最值 |
 | P1879 | [Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./LuoGu/P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
 | P1880 | [石子合并](https://www.luogu.com.cn/problem/P1880) | [P1880_石子合并.cpp](./LuoGu/P1880_石子合并.cpp) | 已通过 | 环形区间动态规划、前缀和 |
 | P2014 | [选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./LuoGu/P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
 | P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 已通过 | 贪心、排序 |
 | P2371 | [墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./LuoGu/P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
+| P2627 | [Mowing the Lawn G](https://www.luogu.com.cn/problem/P2627) | [P2627_Mowing the Lawn G.cpp](./LuoGu/P2627_Mowing%20the%20Lawn%20G.cpp) | 已通过 | 动态规划、单调队列、补集转化 |
 | P2662 | [牛场围栏](https://www.luogu.com.cn/problem/P2662) | [P2662_牛场围栏.cpp](./LuoGu/P2662_牛场围栏.cpp) | 已通过（账号；本地需修正） | 同余最短路、最大不可表示数；缺少 gcd 无解判断 |
 | P2670 | [扫雷游戏](https://www.luogu.com.cn/problem/P2670) | [P2670_扫雷游戏.cpp](./LuoGu/P2670_扫雷游戏.cpp) | 已通过 | 网格模拟 |
 | P2758 | [编辑距离](https://www.luogu.com.cn/problem/P2758) | [P2758_编辑距离.cpp](./LuoGu/P2758_编辑距离.cpp) | 已通过 | 字符串动态规划、编辑距离 |
@@ -114,6 +118,7 @@
 | P3403 | [跳楼机](https://www.luogu.com.cn/problem/P3403) | [P3403_跳楼机.cpp](./LuoGu/P3403_跳楼机.cpp) | 已通过 | 同余最短路、Dijkstra、可达状态计数 |
 | P3868 | [猜数字](https://www.luogu.com.cn/problem/P3868) | [P3868_猜数字.cpp](./LuoGu/P3868_猜数字.cpp) | 已通过（账号；本地需修正） | 中国剩余定理；`k=1` 分支固定输出 0 |
 | P3951 | [小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./LuoGu/P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
+| P3957 | [跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./LuoGu/P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
 | P4549 | [裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./LuoGu/P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P4777 | [扩展中国剩余定理（EXCRT）](https://www.luogu.com.cn/problem/P4777) | [P4777_扩展中国剩余定理（EXCRT）.cpp](./LuoGu/P4777_扩展中国剩余定理（EXCRT）.cpp) | 已通过 | 扩展中国剩余定理、扩展欧几里得 |
 | P5318 | [查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./LuoGu/P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS |
@@ -134,6 +139,13 @@
 
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
+| A | [Robot Arms 2](http://47.120.23.84/contest/2094600238127988737/2094602665216524289) | [A_Robot Arms 2.cpp](./竞极/A_Robot%20Arms%202.cpp) | 待验证 | 动态规划、横纵坐标分解、可达性 |
+| B | [Watering the Fields S](http://47.120.23.84/contest/2094600238127988737/2094602665216524291) | [B_Watering the Fields S.cpp](./竞极/B_Watering%20the%20Fields%20S.cpp) | 待验证 | Kruskal、最小生成树、距离阈值 |
+| C | [Potions (Hard Version)](http://47.120.23.84/contest/2094600238127988737/2094602665216524292) | [C_Potions (Hard Version).cpp](<./竞极/C_Potions (Hard Version).cpp>) | 待验证 | 贪心、优先队列、反悔 |
+| D | [Our clients, please wait a moment](https://atcoder.jp/contests/abc325/tasks/abc325_e) | [D_Our clients, please wait a moment.cpp](<./竞极/D_Our clients, please wait a moment.cpp>) | 待验证 | Dijkstra、分层换乘、最短路 |
+| E | [上升之和](http://47.120.23.84/contest/2094600238127988737/2094602665216524290) | [E_上升之和.cpp](./竞极/E_上升之和.cpp) | 待验证 | 动态规划、离散化、树状数组维护前缀最大值 |
+| F | [The Contest](http://47.120.23.84/contest/2094600238127988737/2094602665216524293) | [F_The Contest.cpp](./竞极/F_The%20Contest.cpp) | 待验证 | 最长不下降子序列、最少修改 |
+| G | [阈值连通块最大值下标异或（本地语义命名）](http://47.120.23.84/contest/2094600238127988737/2094602665216524294) | [G_阈值连通块最大值下标异或.cpp](./竞极/G_阈值连通块最大值下标异或.cpp) | 待验证 | 离线查询、并查集、按边权降序合并 |
 | C5053 | [逐步通车](http://47.120.23.84/problems/2091929270199820290) | [C5053_逐步通车.cpp](./竞极/C5053_逐步通车.cpp) | 待验证 | 离线查询、并查集、连通点对计数 |
 | C5054 | [舒适区间](http://47.120.23.84/problems/2091929269054775298) | [C5054_舒适区间.cpp](./竞极/C5054_舒适区间.cpp) | 待验证 | 滑动窗口、多重集合、区间极值 |
 | C5055 | [单调台阶](http://47.120.23.84/problems/2091929268077502465) | [C5055_单调台阶.cpp](./竞极/C5055_单调台阶.cpp) | 待验证 | 贪心、前缀最大值 |
