@@ -1,6 +1,6 @@
 # 洛谷代码索引
 
-账号状态核对日期：2026-09-02。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
+账号状态核对日期：2026-09-05。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -9,13 +9,16 @@
 | P1082 | [[NOIP 2012 提高组] 同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [[JSOI2008] 星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1352 | [没有上司的舞会](https://www.luogu.com.cn/problem/P1352) | [P1352_没有上司的舞会.cpp](./P1352_没有上司的舞会.cpp) | 已通过 | 树形动态规划、最大权独立集 |
+| P1443 | [马的遍历](https://www.luogu.com.cn/problem/P1443) | [P1443_马的遍历.cpp](./P1443_马的遍历.cpp) | 待验证 | BFS、网格最短路、马步遍历 |
 | P1495 | [【模板】中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
 | P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [[NOIP 2016 提高组] 玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
 | P1725 | [琪露诺](https://www.luogu.com.cn/problem/P1725) | [P1725_琪露诺.cpp](./P1725_琪露诺.cpp) | 已通过 | 动态规划、单调队列、滑动窗口最值 |
+| P17331 | [「TPOI-2A」Min Mex](https://www.luogu.com.cn/problem/P17331) | [P17331_Min Mex.cpp](./P17331_Min%20Mex.cpp) | 已通过 | 排序、贪心、MEX |
 | P1879 | [[USACO06NOV] Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
 | P1880 | [[NOI1995] 石子合并](https://www.luogu.com.cn/problem/P1880) | [P1880_石子合并.cpp](./P1880_石子合并.cpp) | 已通过 | 环形区间动态规划、前缀和 |
+| P1908 | [逆序对](https://www.luogu.com.cn/problem/P1908) | [P1908_逆序对.cpp](./P1908_逆序对.cpp) | 已通过 | 离散化、树状数组、逆序对 |
 | P2014 | [[CTSC1997] 选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
 | P2240 | [[深基12.例1] 部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./P2240_部分背包问题.cpp) | 已通过 | 贪心、按单位价值排序 |
 | P2371 | [[国家集训队] 墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
@@ -33,7 +36,9 @@
 | P3957 | [[NOIP 2017 普及组] 跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
 | P4549 | [【模板】裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P4777 | [【模板】扩展中国剩余定理（EXCRT）](https://www.luogu.com.cn/problem/P4777) | [P4777_扩展中国剩余定理（EXCRT）.cpp](./P4777_扩展中国剩余定理（EXCRT）.cpp) | 已通过 | 扩展中国剩余定理、扩展欧几里得 |
+| P5019 | [[NOIP 2018 提高组] 铺设道路](https://www.luogu.com.cn/problem/P5019) | [P5019_铺设道路.cpp](./P5019_铺设道路.cpp) | 已通过 | 贪心、差分 |
 | P5318 | [【深基18.例3】查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS、邻接表排序 |
+| P5490 | [【模板】扫描线 & 矩形面积并](https://www.luogu.com.cn/problem/P5490) | [P5490_扫描线与矩形面积并.cpp](./P5490_扫描线与矩形面积并.cpp) | 已通过 | 扫描线、离散化、线段树、矩形面积并 |
 | P5536 | [【XR-3】核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
 | P5656 | [【模板】二元一次不定方程 (exgcd)](https://www.luogu.com.cn/problem/P5656) | [P5656_二元一次不定方程.cpp](./P5656_二元一次不定方程.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程、解集计数 |
 
@@ -44,3 +49,5 @@
 > 2026-09-01 新归档 P1352、P1879、P1880、P2014、P2758。其中除 P1879 外均在账号过题列表中；P1879 当前本地实现不是题目要求的状压 DP，并存在错误的邻接下标，因此标为“未完成”。
 
 > 2026-09-02 新归档 P1020、P1725、P2627、P3957，四题均在账号公开过题列表中。
+
+> 2026-09-05 新归档 P1443、P17331、P1908、P5019、P5490；后四题均在账号公开过题列表中。P1443 实现完整，但已登录浏览器读取超时，暂标“待验证”。

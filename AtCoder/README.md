@@ -1,6 +1,6 @@
 # AtCoder 代码索引
 
-评测状态核对日期：2026-09-02。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
+评测状态核对日期：2026-09-05。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
 
 | 比赛 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -14,8 +14,10 @@
 | Educational DP Contest | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [DP_H_Grid 1.cpp](./DP_H_Grid%201.cpp) | 已通过 | 网格动态规划、路径计数 |
 | Educational DP Contest | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [DP_I_Coins.cpp](./DP_I_Coins.cpp) | 已通过 | 概率动态规划、正面次数计数 |
 | Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./DP_P_Independent%20Set.cpp) | 待验证 | 树形动态规划、独立集计数 |
+| Educational DP Contest | [Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q) | [DP_Q_Flowers.cpp](./DP_Q_Flowers.cpp) | 已通过 | 动态规划、树状数组、前缀最大值 |
 | ABC 085 | [D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d) | [ABC085_D_Katana Thrower.cpp](./ABC085_D_Katana%20Thrower.cpp) | 已通过（账号） | 贪心、排序 |
 | ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./ABC121_C_Energy%20Drink%20Collector.cpp) | 已通过 | 贪心、排序 |
+| ABC 126 | [D - Even Relation](https://atcoder.jp/contests/abc126/tasks/abc126_d) | [ABC126_D_Even Relation.cpp](./ABC126_D_Even%20Relation.cpp) | 已通过 | 树上 DFS、二分图染色、路径奇偶性 |
 | ABC 129 | [C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c) | [ABC129_C_Typical Stairs.cpp](./ABC129_C_Typical%20Stairs.cpp) | 已通过 | 动态规划、计数 |
 | ABC 131 | [D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d) | [ABC131_D_Megalomania.cpp](./ABC131_D_Megalomania.cpp) | 已通过 | 贪心、按截止时间排序 |
 | ABC 135 | [C - City Savers](https://atcoder.jp/contests/abc135/tasks/abc135_c) | [ABC135_C_City Savers.cpp](./ABC135_C_City%20Savers.cpp) | 已通过 | 贪心、模拟 |
@@ -53,6 +55,7 @@
 | ABC 318 | [C - Blue Spring](https://atcoder.jp/contests/abc318/tasks/abc318_c) | [ABC318_C_Blue Spring.cpp](./ABC318_C_Blue%20Spring.cpp) | 已通过 | 贪心、排序 |
 | ABC 325 | [C - Sensors](https://atcoder.jp/contests/abc325/tasks/abc325_c) | [ABC325_C_Sensors.cpp](./ABC325_C_Sensors.cpp) | 已通过 | BFS、网格连通块 |
 | ABC 332 | [C - T-shirts](https://atcoder.jp/contests/abc332/tasks/abc332_c) | [ABC332_C_T-shirts.cpp](./ABC332_C_T-shirts.cpp) | 已通过 | 贪心、字符串模拟 |
+| ABC 339 | [E - Smooth Subsequence](https://atcoder.jp/contests/abc339/tasks/abc339_e) | [ABC339_E_Smooth Subsequence.cpp](./ABC339_E_Smooth%20Subsequence.cpp) | 已通过 | 动态规划、线段树、区间最大值 |
 | ABC 350 | [C - Sort](https://atcoder.jp/contests/abc350/tasks/abc350_c) | [ABC350_C_Sort.cpp](./ABC350_C_Sort.cpp) | 已通过 | 置换、位置数组、构造 |
 | ABC 368 | [C - Triple Attack](https://atcoder.jp/contests/abc368/tasks/abc368_c) | [ABC368_C_Triple Attack.cpp](./ABC368_C_Triple%20Attack.cpp) | 已通过 | 周期模拟、数学 |
 | ABC 378 | [D - Count Simple Paths](https://atcoder.jp/contests/abc378/tasks/abc378_d) | [ABC378_D_Count Simple Paths.cpp](./ABC378_D_Count%20Simple%20Paths.cpp) | 已通过 | DFS、回溯、路径计数 |
@@ -77,3 +80,5 @@
 > 2026-09-01 新归档 Educational DP Contest D、F、G，分别对应 AC 提交 `#78865488`、`#78865911`、`#78867291`。I 的本地实现尚未完成；P 已有完整实现，但账号中没有匹配提交，暂标“待验证”。
 
 > 2026-09-02 新归档 Educational DP Contest H，并用已完成版本更新 I；两题分别对应 AC 提交 `#78873794`、`#78873575`。
+
+> 2026-09-05 新归档 ABC126 D、ABC339 E 与 Educational DP Contest Q，分别对应 AC 提交 `#78899260`、`#78912820`、`#78906000`。

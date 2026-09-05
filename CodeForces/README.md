@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态核对日期：2026-08-29。以下 25 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态核对日期：2026-09-05。以下 28 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -8,8 +8,10 @@
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 444C | [DZY Loves Colors](https://codeforces.com/problemset/problem/444/C) | [444C_DZY Loves Colors.cpp](./444C_DZY%20Loves%20Colors.cpp) | 已通过 | 线段树、区间推平、区间加、历史贡献 |
 | 455A | [Boredom](https://codeforces.com/problemset/problem/455/A) | [455A_Boredom.cpp](./455A_Boredom.cpp) | 已通过 | 动态规划、值域计数 |
 | 467B | [Fedor and New Game](https://codeforces.com/problemset/problem/467/B) | [467B_Fedor and New Game.cpp](./467B_Fedor%20and%20New%20Game.cpp) | 已通过 | 位运算、枚举 |
+| 474E | [Pillars](https://codeforces.com/problemset/problem/474/E) | [474E_Pillars.cpp](./474E_Pillars.cpp) | 已通过 | 动态规划、线段树、离散化、方案恢复 |
 | 479C | [Exams](https://codeforces.com/problemset/problem/479/C) | [479C_Exams.cpp](./479C_Exams.cpp) | 已通过 | 排序、贪心 |
 | 489B | [BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [489B_BerSU Ball.cpp](./489B_BerSU%20Ball.cpp) | 已通过 | 排序、双指针、贪心 |
 | 489C | [Given Length and Sum of Digits...](https://codeforces.com/problemset/problem/489/C) | [489C_Given Length and Sum of Digits.cpp](./489C_Given%20Length%20and%20Sum%20of%20Digits.cpp) | 已通过 | 贪心、构造、数位 |
@@ -26,8 +28,11 @@
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
+| 1542B | [Plus and Multiply](https://codeforces.com/problemset/problem/1542/B) | [1542B_Plus and Multiply.cpp](./1542B_Plus%20and%20Multiply.cpp) | 已通过 | 数学、幂枚举、整除判断 |
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
 | 1661B | [Getting Zero](https://codeforces.com/problemset/problem/1661/B) | [1661B_Getting Zero.cpp](./1661B_Getting%20Zero.cpp) | 已通过 | 暴力枚举、模运算 |
 | 1829E | [The Lakes](https://codeforces.com/problemset/problem/1829/E) | [1829E_The Lakes.cpp](./1829E_The%20Lakes.cpp) | 已通过 | 网格 DFS、连通块 |
 
 > 455A 在修正值域 DP 的频次索引和数组范围后，对应提交 `#388299359` 已 AC。
+
+> 2026-09-05 新归档 444C、474E 与 1542B，分别对应 AC 提交 `#389245451`、`#389239362`、`#389196450`（1542B 另有 AC `#389196522`）。

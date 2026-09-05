@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 212 个 C++ 源文件：196 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 229 个非空 C++ 源文件：213 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 32 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 49 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷与 AtCoder 状态最近于 2026-09-02 核对，Codeforces 状态于 2026-08-29 核对，新一批竞极源码于 2026-09-02 按原题或本地实现语义归档且状态待验证，牛客多校 8 H 于 2026-08-25 复核，QOJ 状态于 2026-08-24 核对，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷、AtCoder 与 Codeforces 状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，QOJ 新增多人比赛源码于 2026-09-05 按本地完整度归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -32,8 +32,10 @@
 | Educational DP Contest | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [DP_H_Grid 1.cpp](./AtCoder/DP_H_Grid%201.cpp) | 已通过 | 网格动态规划、路径计数 |
 | Educational DP Contest | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [DP_I_Coins.cpp](./AtCoder/DP_I_Coins.cpp) | 已通过 | 概率动态规划、正面次数计数 |
 | Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./AtCoder/DP_P_Independent%20Set.cpp) | 待验证 | 树形动态规划、独立集计数 |
+| Educational DP Contest | [Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q) | [DP_Q_Flowers.cpp](./AtCoder/DP_Q_Flowers.cpp) | 已通过 | 动态规划、树状数组、前缀最大值 |
 | ABC 085 | [D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d) | [ABC085_D_Katana Thrower.cpp](./AtCoder/ABC085_D_Katana%20Thrower.cpp) | 已通过（账号；本地需修正） | 贪心、排序 |
 | ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./AtCoder/ABC121_C_Energy%20Drink%20Collector.cpp) | 已通过 | 贪心、排序 |
+| ABC 126 | [D - Even Relation](https://atcoder.jp/contests/abc126/tasks/abc126_d) | [ABC126_D_Even Relation.cpp](./AtCoder/ABC126_D_Even%20Relation.cpp) | 已通过 | 树上 DFS、二分图染色、路径奇偶性 |
 | ABC 129 | [C - Typical Stairs](https://atcoder.jp/contests/abc129/tasks/abc129_c) | [ABC129_C_Typical Stairs.cpp](./AtCoder/ABC129_C_Typical%20Stairs.cpp) | 已通过 | 动态规划、计数 |
 | ABC 131 | [D - Megalomania](https://atcoder.jp/contests/abc131/tasks/abc131_d) | [ABC131_D_Megalomania.cpp](./AtCoder/ABC131_D_Megalomania.cpp) | 已通过 | 贪心、按截止时间排序 |
 | ABC 135 | [C - City Savers](https://atcoder.jp/contests/abc135/tasks/abc135_c) | [ABC135_C_City Savers.cpp](./AtCoder/ABC135_C_City%20Savers.cpp) | 已通过 | 贪心、模拟 |
@@ -71,6 +73,7 @@
 | ABC 318 | [C - Blue Spring](https://atcoder.jp/contests/abc318/tasks/abc318_c) | [ABC318_C_Blue Spring.cpp](./AtCoder/ABC318_C_Blue%20Spring.cpp) | 已通过 | 贪心、排序 |
 | ABC 325 | [C - Sensors](https://atcoder.jp/contests/abc325/tasks/abc325_c) | [ABC325_C_Sensors.cpp](./AtCoder/ABC325_C_Sensors.cpp) | 已通过 | BFS、网格连通块 |
 | ABC 332 | [C - T-shirts](https://atcoder.jp/contests/abc332/tasks/abc332_c) | [ABC332_C_T-shirts.cpp](./AtCoder/ABC332_C_T-shirts.cpp) | 已通过 | 贪心、字符串模拟 |
+| ABC 339 | [E - Smooth Subsequence](https://atcoder.jp/contests/abc339/tasks/abc339_e) | [ABC339_E_Smooth Subsequence.cpp](./AtCoder/ABC339_E_Smooth%20Subsequence.cpp) | 已通过 | 动态规划、线段树、区间最大值 |
 | ABC 350 | [C - Sort](https://atcoder.jp/contests/abc350/tasks/abc350_c) | [ABC350_C_Sort.cpp](./AtCoder/ABC350_C_Sort.cpp) | 已通过 | 置换、位置数组、构造 |
 | ABC 368 | [C - Triple Attack](https://atcoder.jp/contests/abc368/tasks/abc368_c) | [ABC368_C_Triple Attack.cpp](./AtCoder/ABC368_C_Triple%20Attack.cpp) | 已通过 | 周期模拟、数学 |
 | ABC 378 | [D - Count Simple Paths](https://atcoder.jp/contests/abc378/tasks/abc378_d) | [ABC378_D_Count Simple Paths.cpp](./AtCoder/ABC378_D_Count%20Simple%20Paths.cpp) | 已通过 | DFS、回溯、路径计数 |
@@ -97,13 +100,16 @@
 | P1082 | [同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./LuoGu/P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1352 | [没有上司的舞会](https://www.luogu.com.cn/problem/P1352) | [P1352_没有上司的舞会.cpp](./LuoGu/P1352_没有上司的舞会.cpp) | 已通过 | 树形动态规划、最大权独立集 |
+| P1443 | [马的遍历](https://www.luogu.com.cn/problem/P1443) | [P1443_马的遍历.cpp](./LuoGu/P1443_马的遍历.cpp) | 待验证 | BFS、网格最短路、马步遍历 |
 | P1495 | [中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./LuoGu/P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
 | P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./LuoGu/P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./LuoGu/P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
 | P1725 | [琪露诺](https://www.luogu.com.cn/problem/P1725) | [P1725_琪露诺.cpp](./LuoGu/P1725_琪露诺.cpp) | 已通过 | 动态规划、单调队列、滑动窗口最值 |
+| P17331 | [Min Mex](https://www.luogu.com.cn/problem/P17331) | [P17331_Min Mex.cpp](./LuoGu/P17331_Min%20Mex.cpp) | 已通过 | 排序、贪心、MEX |
 | P1879 | [Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./LuoGu/P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
 | P1880 | [石子合并](https://www.luogu.com.cn/problem/P1880) | [P1880_石子合并.cpp](./LuoGu/P1880_石子合并.cpp) | 已通过 | 环形区间动态规划、前缀和 |
+| P1908 | [逆序对](https://www.luogu.com.cn/problem/P1908) | [P1908_逆序对.cpp](./LuoGu/P1908_逆序对.cpp) | 已通过 | 离散化、树状数组、逆序对 |
 | P2014 | [选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./LuoGu/P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
 | P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 已通过 | 贪心、排序 |
 | P2371 | [墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./LuoGu/P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
@@ -121,7 +127,9 @@
 | P3957 | [跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./LuoGu/P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
 | P4549 | [裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./LuoGu/P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P4777 | [扩展中国剩余定理（EXCRT）](https://www.luogu.com.cn/problem/P4777) | [P4777_扩展中国剩余定理（EXCRT）.cpp](./LuoGu/P4777_扩展中国剩余定理（EXCRT）.cpp) | 已通过 | 扩展中国剩余定理、扩展欧几里得 |
+| P5019 | [铺设道路](https://www.luogu.com.cn/problem/P5019) | [P5019_铺设道路.cpp](./LuoGu/P5019_铺设道路.cpp) | 已通过 | 贪心、差分 |
 | P5318 | [查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./LuoGu/P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS |
+| P5490 | [扫描线与矩形面积并](https://www.luogu.com.cn/problem/P5490) | [P5490_扫描线与矩形面积并.cpp](./LuoGu/P5490_扫描线与矩形面积并.cpp) | 已通过 | 扫描线、离散化、线段树、矩形面积并 |
 | P5536 | [核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./LuoGu/P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
 | P5656 | [二元一次不定方程](https://www.luogu.com.cn/problem/P5656) | [P5656_二元一次不定方程.cpp](./LuoGu/P5656_二元一次不定方程.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程、解集计数 |
 
@@ -159,6 +167,8 @@
 | F | [子树 H 指数（本地语义命名）](http://47.120.23.84/contest/2093329939779661825/2093331392757870593) | [F_子树H指数.cpp](./竞极/F_子树H指数.cpp) | 待验证 | 动态开点线段树合并、树上 DFS、二分答案 |
 | G | [幂塔同余（本地语义命名）](http://47.120.23.84/contest/2093329939779661825/2093331392757870594) | [G_幂塔同余.cpp](./竞极/G_幂塔同余.cpp) | 待验证 | 欧拉降幂、线性筛、模运算 |
 | H | [带边权的子树 H 指数（本地语义命名）](http://47.120.23.84/contest/2093329939779661825/2093331392762064898) | [H_带边权的子树H指数.cpp](./竞极/H_带边权的子树H指数.cpp) | 待验证 | 动态开点线段树合并、截断、批量计数、树上 DFS、二分答案 |
+| C | [所有窗口长度的最大最小值（本地语义命名）](http://47.120.23.84/contest/2095727662160490498/2095728621846605829) | [C_所有窗口长度的最大最小值.cpp](./竞极/C_所有窗口长度的最大最小值.cpp) | 待验证 | 单调栈、贡献区间、后缀最大值 |
+| E | [Cleaning（本地语义识别）](http://47.120.23.84/contest/2095727662160490498/2095728621846605830) | [E_Cleaning.cpp](./竞极/E_Cleaning.cpp) | 未完成 | 树形 DFS、子树配对；根节点选择待修正 |
 | E | [子数组异或计数（本地语义命名）](http://47.120.23.84/contest/2090742212411854849/2092110649929818117) | [E_子数组异或计数.cpp](./竞极/E_子数组异或计数.cpp) | 待验证 | 前缀异或、二进制字典树、子数组计数 |
 | F | [跳石取分（本地语义命名）](http://47.120.23.84/contest/2090742212411854849/2092110649929818118) | [F_跳石取分.cpp](./竞极/F_跳石取分.cpp) | 待验证 | 动态规划、单调队列、滑动窗口最值 |
 
@@ -172,8 +182,10 @@
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./CodeForces/189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./CodeForces/217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./CodeForces/230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 444C | [DZY Loves Colors](https://codeforces.com/problemset/problem/444/C) | [444C_DZY Loves Colors.cpp](./CodeForces/444C_DZY%20Loves%20Colors.cpp) | 已通过 | 线段树、区间推平、区间加、历史贡献 |
 | 455A | [Boredom](https://codeforces.com/problemset/problem/455/A) | [455A_Boredom.cpp](./CodeForces/455A_Boredom.cpp) | 已通过 | 动态规划、值域计数 |
 | 467B | [Fedor and New Game](https://codeforces.com/problemset/problem/467/B) | [467B_Fedor and New Game.cpp](./CodeForces/467B_Fedor%20and%20New%20Game.cpp) | 已通过 | 位运算、枚举 |
+| 474E | [Pillars](https://codeforces.com/problemset/problem/474/E) | [474E_Pillars.cpp](./CodeForces/474E_Pillars.cpp) | 已通过 | 动态规划、线段树、离散化、方案恢复 |
 | 479C | [Exams](https://codeforces.com/problemset/problem/479/C) | [479C_Exams.cpp](./CodeForces/479C_Exams.cpp) | 已通过 | 排序、贪心 |
 | 489B | [BerSU Ball](https://codeforces.com/problemset/problem/489/B) | [489B_BerSU Ball.cpp](./CodeForces/489B_BerSU%20Ball.cpp) | 已通过 | 排序、双指针、贪心 |
 | 489C | [Given Length and Sum of Digits...](https://codeforces.com/problemset/problem/489/C) | [489C_Given Length and Sum of Digits.cpp](./CodeForces/489C_Given%20Length%20and%20Sum%20of%20Digits.cpp) | 已通过 | 贪心、构造、数位 |
@@ -190,6 +202,7 @@
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./CodeForces/1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./CodeForces/1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./CodeForces/1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
+| 1542B | [Plus and Multiply](https://codeforces.com/problemset/problem/1542/B) | [1542B_Plus and Multiply.cpp](./CodeForces/1542B_Plus%20and%20Multiply.cpp) | 已通过 | 数学、幂枚举、整除判断 |
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./CodeForces/1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
 | 1661B | [Getting Zero](https://codeforces.com/problemset/problem/1661/B) | [1661B_Getting Zero.cpp](./CodeForces/1661B_Getting%20Zero.cpp) | 已通过 | 暴力枚举、模运算 |
 | 1829E | [The Lakes](https://codeforces.com/problemset/problem/1829/E) | [1829E_The Lakes.cpp](./CodeForces/1829E_The%20Lakes.cpp) | 已通过 | 网格 DFS、连通块 |
@@ -231,10 +244,14 @@
 | 2025 CCPC 女生专场 | [C - 短视频](https://qoj.ac/contest/2564/problem/14452) | [C_短视频.cpp](./ccpc_women_2025/C_短视频.cpp) | 已通过 | 模拟、贪心 |
 | 2025 CCPC 女生专场 | [G - 最大公约数](https://qoj.ac/contest/2564/problem/14456) | [G_最大公约数.cpp](./ccpc_women_2025/G_最大公约数.cpp) | 已通过 | 数论、质数筛、构造 |
 | 2025 CCPC 女生专场 | [J - 后鼻嘤](https://qoj.ac/contest/2564/problem/14459) | [J_后鼻嘤.cpp](./ccpc_women_2025/J_后鼻嘤.cpp) | 已通过 | 字符串模拟 |
+| 2025 ICPC 亚洲东大陆线上赛（I） | [B - Creating Chaos](https://qoj.ac/contest/2513/problem/14302) | [B_Creating Chaos.cpp](<./Qoj/AsiaECOnline2025(I)/B_Creating Chaos.cpp>) | 待验证 | 构造 |
+| 2025 ICPC 亚洲东大陆线上赛（I） | [C - Canvas Painting](https://qoj.ac/contest/2513/problem/14303) | [C_Canvas Painting.cpp](<./Qoj/AsiaECOnline2025(I)/C_Canvas Painting.cpp>) | 未完成 | 区间去重；尚缺连通合并 |
+| 2025 ICPC 亚洲东大陆线上赛（I） | [G - Sorting](https://qoj.ac/contest/2513/problem/14307) | [G_Sorting.cpp](<./Qoj/AsiaECOnline2025(I)/G_Sorting.cpp>) | 待验证 | 必要相邻比较、构造判定 |
+| 2025 ICPC 亚洲东大陆线上赛（I） | [I - Knapsack Problem](https://qoj.ac/contest/2513/problem/14309) | [I_Knapsack Problem.cpp](<./Qoj/AsiaECOnline2025(I)/I_Knapsack Problem.cpp>) | 待验证 | 最短路、字典序状态 |
 
-比赛与题面入口见 [ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
+比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 25 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 28 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
