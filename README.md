@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 229 个非空 C++ 源文件：213 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 239 个非空 C++ 源文件：223 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 49 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 59 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷、AtCoder 与 Codeforces 状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，QOJ 新增多人比赛源码于 2026-09-05 按本地完整度归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷题目元数据与 QOJ 新增多人比赛源码最近于 2026-09-08 核对，洛谷、AtCoder 与 Codeforces 账号状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -95,10 +95,15 @@
 
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
+| B3879 | [连续数的和（加强版）](https://www.luogu.com.cn/problem/B3879) | [B3879_连续数的和（加强版）.cpp](./LuoGu/B3879_连续数的和（加强版）.cpp) | 待验证 | 数学、平方因子消除、奇偶分类、枚举 |
+| B4168 | [分糖果](https://www.luogu.com.cn/problem/B4168) | [B4168_分糖果.cpp](./LuoGu/B4168_分糖果.cpp) | 待验证 | 动态规划、博弈 |
+| P1004 | [方格取数](https://www.luogu.com.cn/problem/P1004) | [P1004_方格取数.cpp](./LuoGu/P1004_方格取数.cpp) | 未完成 | 贪心尝试；应改为双路径动态规划 |
+| P1012 | [拼数](https://www.luogu.com.cn/problem/P1012) | [P1012_拼数.cpp](./LuoGu/P1012_拼数.cpp) | 待验证 | 贪心排序、字符串拼接 |
 | P1020 | [导弹拦截](https://www.luogu.com.cn/problem/P1020) | [P1020_导弹拦截.cpp](./LuoGu/P1020_导弹拦截.cpp) | 已通过 | 最长不上升子序列、最长上升子序列、二分优化 |
 | P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 已通过 | 模拟 |
 | P1082 | [同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./LuoGu/P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
+| P1330 | [封锁阳光大学](https://www.luogu.com.cn/problem/P1330) | [P1330_封锁阳光大学.cpp](./LuoGu/P1330_封锁阳光大学.cpp) | 未完成 | 二分图染色、连通块两侧计数（待实现） |
 | P1352 | [没有上司的舞会](https://www.luogu.com.cn/problem/P1352) | [P1352_没有上司的舞会.cpp](./LuoGu/P1352_没有上司的舞会.cpp) | 已通过 | 树形动态规划、最大权独立集 |
 | P1443 | [马的遍历](https://www.luogu.com.cn/problem/P1443) | [P1443_马的遍历.cpp](./LuoGu/P1443_马的遍历.cpp) | 待验证 | BFS、网格最短路、马步遍历 |
 | P1495 | [中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./LuoGu/P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
@@ -244,10 +249,15 @@
 | 2025 CCPC 女生专场 | [C - 短视频](https://qoj.ac/contest/2564/problem/14452) | [C_短视频.cpp](./ccpc_women_2025/C_短视频.cpp) | 已通过 | 模拟、贪心 |
 | 2025 CCPC 女生专场 | [G - 最大公约数](https://qoj.ac/contest/2564/problem/14456) | [G_最大公约数.cpp](./ccpc_women_2025/G_最大公约数.cpp) | 已通过 | 数论、质数筛、构造 |
 | 2025 CCPC 女生专场 | [J - 后鼻嘤](https://qoj.ac/contest/2564/problem/14459) | [J_后鼻嘤.cpp](./ccpc_women_2025/J_后鼻嘤.cpp) | 已通过 | 字符串模拟 |
-| 2025 ICPC 亚洲东大陆线上赛（I） | [B - Creating Chaos](https://qoj.ac/contest/2513/problem/14302) | [B_Creating Chaos.cpp](<./Qoj/AsiaECOnline2025(I)/B_Creating Chaos.cpp>) | 待验证 | 构造 |
-| 2025 ICPC 亚洲东大陆线上赛（I） | [C - Canvas Painting](https://qoj.ac/contest/2513/problem/14303) | [C_Canvas Painting.cpp](<./Qoj/AsiaECOnline2025(I)/C_Canvas Painting.cpp>) | 未完成 | 区间去重；尚缺连通合并 |
-| 2025 ICPC 亚洲东大陆线上赛（I） | [G - Sorting](https://qoj.ac/contest/2513/problem/14307) | [G_Sorting.cpp](<./Qoj/AsiaECOnline2025(I)/G_Sorting.cpp>) | 待验证 | 必要相邻比较、构造判定 |
-| 2025 ICPC 亚洲东大陆线上赛（I） | [I - Knapsack Problem](https://qoj.ac/contest/2513/problem/14309) | [I_Knapsack Problem.cpp](<./Qoj/AsiaECOnline2025(I)/I_Knapsack Problem.cpp>) | 待验证 | 最短路、字典序状态 |
+| 2025 ICPC 亚洲东大陆线上赛（I） | [B - Creating Chaos](https://qoj.ac/contest/2513/problem/14302) | [B_Creating Chaos.cpp](<./Qoj/AsiaECOnline2025(Ⅰ)/B_Creating Chaos.cpp>) | 待验证 | 构造 |
+| 2025 ICPC 亚洲东大陆线上赛（I） | [C - Canvas Painting](https://qoj.ac/contest/2513/problem/14303) | [C_Canvas Painting.cpp](<./Qoj/AsiaECOnline2025(Ⅰ)/C_Canvas Painting.cpp>) | 未完成 | 区间去重；尚缺连通合并 |
+| 2025 ICPC 亚洲东大陆线上赛（I） | [G - Sorting](https://qoj.ac/contest/2513/problem/14307) | [G_Sorting.cpp](<./Qoj/AsiaECOnline2025(Ⅰ)/G_Sorting.cpp>) | 待验证 | 必要相邻比较、构造判定 |
+| 2025 ICPC 亚洲东大陆线上赛（I） | [I - Knapsack Problem](https://qoj.ac/contest/2513/problem/14309) | [I_Knapsack Problem.cpp](<./Qoj/AsiaECOnline2025(Ⅰ)/I_Knapsack Problem.cpp>) | 待验证 | 最短路、字典序状态 |
+| 2026 ICPC 亚洲东大陆线上赛（I） | [A - Recall](https://qoj.ac/contest/4071/problem/20016) | [A_Recall.cpp](<./Qoj/AsiaECOnline2026(Ⅰ)/A_Recall.cpp>) | 待验证 | 离线处理、栈、字符串构造 |
+| 2026 ICPC 亚洲东大陆线上赛（I） | [C - Permutation Inversions](https://qoj.ac/contest/4071/problem/20018) | [C_Permutation Inversions.cpp](<./Qoj/AsiaECOnline2026(Ⅰ)/C_Permutation Inversions.cpp>) | 待验证 | 拓扑排序、优先队列、排列构造 |
+| 2026 ICPC 亚洲东大陆线上赛（I） | [D - Sequence](https://qoj.ac/contest/4071/problem/20019) | [D_Sequence.cpp](<./Qoj/AsiaECOnline2026(Ⅰ)/D_Sequence.cpp>) | 待验证 | 贪心、计数、组合计数 |
+| 2026 ICPC 亚洲东大陆线上赛（I） | [F - 50 Years of Excellence](https://qoj.ac/contest/4071/problem/20021) | [F_50 Years of Excellence.cpp](<./Qoj/AsiaECOnline2026(Ⅰ)/F_50 Years of Excellence.cpp>) | 待验证 | 行和、相邻比较、计数 |
+| 2026 ICPC 亚洲东大陆线上赛（I） | [M - Check In](https://qoj.ac/contest/4071/problem/20028) | [M_Check In.cpp](<./Qoj/AsiaECOnline2026(Ⅰ)/M_Check In.cpp>) | 待验证 | 集合、映射、字符串模拟 |
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
