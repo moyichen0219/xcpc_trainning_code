@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态核对日期：2026-09-05。以下 28 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态核对日期：2026-09-08。以下 30 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -32,7 +32,11 @@
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
 | 1661B | [Getting Zero](https://codeforces.com/problemset/problem/1661/B) | [1661B_Getting Zero.cpp](./1661B_Getting%20Zero.cpp) | 已通过 | 暴力枚举、模运算 |
 | 1829E | [The Lakes](https://codeforces.com/problemset/problem/1829/E) | [1829E_The Lakes.cpp](./1829E_The%20Lakes.cpp) | 已通过 | 网格 DFS、连通块 |
+| 104725F | [最长上升子序列](https://codeforces.com/gym/104725/problem/F) | [104725F_最长上升子序列.cpp](./104725F_最长上升子序列.cpp) | 已通过 | 构造、LIS 分层、逆序赋值 |
+| 105487H | [Square Root](https://codeforces.com/gym/105487/problem/H) | [105487H_Square Root.cpp](./105487H_Square%20Root.cpp) | 已通过 | 连续段、数学、贪心拆分 |
 
 > 455A 在修正值域 DP 的频次索引和数组范围后，对应提交 `#388299359` 已 AC。
 
 > 2026-09-05 新归档 444C、474E 与 1542B，分别对应 AC 提交 `#389245451`、`#389239362`、`#389196450`（1542B 另有 AC `#389196522`）。
+
+> 2026-09-08 新归档 Gym 104725F 与 105487H，分别对应 AC 提交 `#389874936`（另有 AC `#389873963`）和 `#389865085`。105487H 与 QOJ 归档中的 2024 CCPC 女生专场 H 为同题的另一份本地实现。
