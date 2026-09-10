@@ -1,8 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 4（133879）
-// 题目：B - Quadratic Residue - https://ac.nowcoder.com/acm/contest/133879/B
-// 状态：已通过（账号评测状态已于 2026-08-08 核对）
-// 分类：数论、二次剩余、完全平方数、构造
-// 创建：MYC，2026/7/29
+// 题目：B - Quadratic Residue
+// 链接：https://ac.nowcoder.com/acm/contest/133879/B
+// 状态：已通过
+// 算法：数论、二次剩余、完全平方数、构造
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;

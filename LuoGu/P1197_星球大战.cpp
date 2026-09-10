@@ -1,4 +1,4 @@
-// 平台：洛谷
+// 比赛：JSOI2008
 // 题目：P1197 [JSOI2008] 星球大战
 // 链接：https://www.luogu.com.cn/problem/P1197
 // 状态：已通过

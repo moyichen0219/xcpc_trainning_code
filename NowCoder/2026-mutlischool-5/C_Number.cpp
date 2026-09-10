@@ -1,8 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 5（133880）
-// 题目：C - Number - https://ac.nowcoder.com/acm/contest/133880/C
-// 状态：未完成（账号未通过；构造结果尚未输出）
-// 分类：构造、排列、进位、有向欧拉回路
-// 创建：MYC，2026/7/31
+// 题目：C - Number
+// 链接：https://ac.nowcoder.com/acm/contest/133880/C
+// 状态：未完成
+// 算法：构造、排列、进位、有向欧拉回路（结果尚未输出）
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;

@@ -1,7 +1,8 @@
 // 比赛：2025 年 CCPC 女生专场
-// 题目：J - 后鼻嘤（QOJ 14459）- https://qoj.ac/contest/2564/problem/14459
-// 状态：已通过（QOJ 账号 Moyichen，2026-08-08 核对）
-// 分类：字符串、模拟
+// 题目：J - 后鼻嘤（QOJ 14459）
+// 链接：https://qoj.ac/contest/2564/problem/14459
+// 状态：已通过
+// 算法：字符串、模拟
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;

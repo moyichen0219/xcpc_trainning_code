@@ -1,8 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 5（133880）
-// 题目：K - Sequence（Mex Version）- https://ac.nowcoder.com/acm/contest/133880/K
-// 状态：已通过（账号评测状态已于 2026-08-08 核对）
-// 分类：模拟、最小未出现值、二周期
-// 创建：MYC，2026/7/31
+// 题目：K - Sequence（Mex Version）
+// 链接：https://ac.nowcoder.com/acm/contest/133880/K
+// 状态：已通过
+// 算法：模拟、MEX、二周期
 #include<bits/stdc++.h>
 using namespace std;
 

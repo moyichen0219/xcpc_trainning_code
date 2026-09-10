@@ -1,8 +1,8 @@
 // 比赛：牛客周赛 Round 155（138240）
-// 题目：C - 小月的密码锁 - https://ac.nowcoder.com/acm/contest/138240/C
-// 状态：未完成（账号未通过；仅有前后缀统计框架）
-// 分类：字符串、前后缀统计
-// 创建：MYC，2026/8/3
+// 题目：C - 小月的密码锁
+// 链接：https://ac.nowcoder.com/acm/contest/138240/C
+// 状态：未完成
+// 算法：字符串、前后缀统计（待完成）
 
 #include<bits/stdc++.h>
 using namespace std;

@@ -1,8 +1,8 @@
 // 比赛：牛客周赛 Round 155（138240）
-// 题目：B - 小月的立方体 - https://ac.nowcoder.com/acm/contest/138240/B
-// 状态：已通过（账号评测状态已于 2026-08-08 核对）
-// 分类：三维枚举、空间对角线
-// 创建：MYC，2026/8/2
+// 题目：B - 小月的立方体
+// 链接：https://ac.nowcoder.com/acm/contest/138240/B
+// 状态：已通过
+// 算法：三维枚举、空间对角线
 
 #include<bits/stdc++.h>
 using namespace std;

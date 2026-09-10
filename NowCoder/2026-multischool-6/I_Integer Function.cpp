@@ -1,7 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 6（133881）
-// 题目：I - Integer Function - https://ac.nowcoder.com/acm/contest/133881/I
-// 状态：未完成（账号未通过；位计数公式与复杂度仍需修正）
-// 分类：位运算、计数
+// 题目：I - Integer Function
+// 链接：https://ac.nowcoder.com/acm/contest/133881/I
+// 状态：未完成
+// 算法：位运算、计数（公式与复杂度待修正）
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long ;

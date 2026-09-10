@@ -1,7 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 7（133882）
-// 题目：D - Tenkaichi Budōkai - https://ac.nowcoder.com/acm/contest/133882/D
-// 状态：已通过（账号评测状态已于 2026-08-08 核对）
-// 分类：排列、删除过程、树状数组
+// 题目：D - Tenkaichi Budōkai
+// 链接：https://ac.nowcoder.com/acm/contest/133882/D
+// 状态：已通过
+// 算法：排列、删除过程、树状数组
 
 /* #include<bits/stdc++.h>
 using namespace std;

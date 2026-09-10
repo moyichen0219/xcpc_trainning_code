@@ -1,8 +1,9 @@
 // 比赛：2026 牛客暑期多校训练营 5（133880）
-// 题目：E - Koishi and Function - https://ac.nowcoder.com/acm/contest/133880/E
-// 状态：未完成（账号已通过，但当前文件仅有输入框架，不是 AC 版本）
-// 分类：数论、质因子计数、整数拆分、深度优先搜索、最小未出现值、线性筛
-// 创建：MYC，2026/7/31
+// 题目：E - Koishi and Function
+// 链接：https://ac.nowcoder.com/acm/contest/133880/E
+// 状态：未完成
+// 算法：数论、质因子计数、整数拆分、DFS、MEX、线性筛（待实现）
+// 备注：账号已有 AC，但当前本地文件仅有输入框架，不是 AC 版本。
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

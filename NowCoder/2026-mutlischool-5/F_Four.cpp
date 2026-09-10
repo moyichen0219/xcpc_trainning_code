@@ -1,8 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 5（133880）
-// 题目：F - Four - https://ac.nowcoder.com/acm/contest/133880/F
-// 状态：未完成（账号未通过；仅有输入框架）
-// 分类：数论、最大公因数与最小公倍数、欧拉函数、莫比乌斯反演、狄利克雷前后缀和
-// 创建：MYC，2026/7/31
+// 题目：F - Four
+// 链接：https://ac.nowcoder.com/acm/contest/133880/F
+// 状态：未完成
+// 算法：数论、GCD/LCM、欧拉函数、莫比乌斯反演（待实现）
 #include <bits/stdc++.h>
 using namespace std;
 using ll = long long;

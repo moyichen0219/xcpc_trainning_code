@@ -1,8 +1,8 @@
 // 比赛：牛客周赛 Round 155（138240）
-// 题目：A - 小月的奇偶灯控 - https://ac.nowcoder.com/acm/contest/138240/A
-// 状态：已通过（账号评测状态已于 2026-08-08 核对）
-// 分类：模拟、奇偶性
-// 创建：MYC，2026/8/2
+// 题目：A - 小月的奇偶灯控
+// 链接：https://ac.nowcoder.com/acm/contest/138240/A
+// 状态：已通过
+// 算法：模拟、奇偶性
 
 #include<bits/stdc++.h>
 using namespace std;

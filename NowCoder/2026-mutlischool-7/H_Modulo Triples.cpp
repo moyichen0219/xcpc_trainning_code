@@ -1,7 +1,9 @@
 // 比赛：2026 牛客暑期多校训练营 7（133882）
-// 题目：H - Modulo Triples - https://ac.nowcoder.com/acm/contest/133882/H
-// 状态：已通过（团队提交 84415833，2026-08-09 核对）
-// 分类：构造、排列、模运算
+// 题目：H - Modulo Triples
+// 链接：https://ac.nowcoder.com/acm/contest/133882/H
+// 状态：已通过
+// 算法：构造、排列、模运算
+// 备注：团队提交 84415833，2026-08-09 核对。
 
 #include<bits/stdc++.h>
 using namespace std;

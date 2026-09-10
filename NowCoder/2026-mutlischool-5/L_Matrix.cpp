@@ -1,8 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 5（133880）
-// 题目：L - Matrix - https://ac.nowcoder.com/acm/contest/133880/L
-// 状态：未完成（账号未通过；仅有部分分类讨论）
-// 分类：网格、反对角线分层、流量分配、前缀和、贪心
-// 创建：MYC，2026/7/31
+// 题目：L - Matrix
+// 链接：https://ac.nowcoder.com/acm/contest/133880/L
+// 状态：未完成
+// 算法：网格、反对角线分层、流量分配、前缀和、贪心
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;

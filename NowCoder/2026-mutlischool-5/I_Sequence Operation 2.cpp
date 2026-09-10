@@ -1,8 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 5（133880）
-// 题目：I - Sequence Operation 2 - https://ac.nowcoder.com/acm/contest/133880/I
-// 状态：未通过（已有实现，但账号评测状态无 AC）
-// 分类：位运算、异或不变量、构造
-// 创建：MYC，2026/7/31
+// 题目：I - Sequence Operation 2
+// 链接：https://ac.nowcoder.com/acm/contest/133880/I
+// 状态：未通过
+// 算法：位运算、异或不变量、构造
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;

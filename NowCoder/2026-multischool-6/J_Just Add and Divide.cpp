@@ -1,7 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 6（133881）
-// 题目：J - Just Add and Divide - https://ac.nowcoder.com/acm/contest/133881/J
-// 状态：未完成（账号未通过；当前区间加、区间和模板不符合题意）
-// 分类：点修改、区间最优点对、线段树
+// 题目：J - Just Add and Divide
+// 链接：https://ac.nowcoder.com/acm/contest/133881/J
+// 状态：未完成
+// 算法：点修改、区间最优点对、线段树（当前模板不符合题意）
 #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;

@@ -1,8 +1,8 @@
-// 平台：洛谷
-// 题目：P1563 [NOIP 2016 提高组] 玩具谜题 - https://www.luogu.com.cn/problem/P1563
-// 状态：未完成（仅有空的 solve() 框架）
-// 分类：环形模拟
-// 创建：MYC，2026/8/2
+// 比赛：NOIP 2016 提高组
+// 题目：P1563 - 玩具谜题
+// 链接：https://www.luogu.com.cn/problem/P1563
+// 状态：未完成
+// 算法：环形模拟（待实现）
 
 #include<bits/stdc++.h>
 using namespace std;

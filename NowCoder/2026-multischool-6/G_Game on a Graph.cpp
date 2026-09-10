@@ -1,7 +1,8 @@
 // 比赛：2026 牛客暑期多校训练营 6（133881）
-// 题目：G - Game on a Graph - https://ac.nowcoder.com/acm/contest/133881/G
-// 状态：未通过（本地样例通过，但账号评测状态无 AC）
-// 分类：图、邻接关系、集合去重
+// 题目：G - Game on a Graph
+// 链接：https://ac.nowcoder.com/acm/contest/133881/G
+// 状态：未通过
+// 算法：图、邻接关系、集合去重
 /* #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
