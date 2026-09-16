@@ -1,7 +1,7 @@
 // 比赛：NOIP 1998 提高组
 // 题目：P1012 - 拼数
 // 链接：https://www.luogu.com.cn/problem/P1012
-// 状态：待验证
+// 状态：已通过
 // 算法：贪心排序、字符串拼接
 
 #include<bits/stdc++.h>

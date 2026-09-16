@@ -1,7 +1,7 @@
 // 比赛：洛谷
 // 题目：P1443 - 马的遍历
 // 链接：https://www.luogu.com.cn/problem/P1443
-// 状态：待验证
+// 状态：已通过
 // 算法：BFS、网格最短路、马步遍历
 
 #include<bits/stdc++.h>

@@ -1,7 +1,7 @@
 // 比赛：GXPC-S 2024
 // 题目：B4168 - 分糖果
 // 链接：https://www.luogu.com.cn/problem/B4168
-// 状态：待验证
+// 状态：已通过
 // 算法：动态规划、博弈
 
 #include<bits/stdc++.h>
