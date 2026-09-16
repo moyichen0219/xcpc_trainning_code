@@ -38,7 +38,7 @@
 | ABC 239 | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e) | [ABC239_E_Subtree K-th Max.cpp](./ABC239_E_Subtree%20K-th%20Max.cpp) | 已通过 | 树上 DFS、Top-K 合并 |
 | ABC 240 | [C - Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c) | [ABC240_C_Jumping Takahashi.cpp](./ABC240_C_Jumping%20Takahashi.cpp) | 已通过 | 动态规划、可达性 |
 | ABC 245 | [C - Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c) | [ABC245_C_Choose Elements.cpp](./ABC245_C_Choose%20Elements.cpp) | 已通过 | 动态规划、状态压缩 |
-| ABC 246 | [C - Coupon](https://atcoder.jp/contests/abc246/tasks/abc246_c) | [ABC246_C_Coupon.cpp](./ABC246_C_Coupon.cpp) | 已通过 | 贪心、排序 |
+| ABC 246 | [C - Coupon](https://atcoder.jp/contests/abc246/tasks/abc246_c) | [ABC246_C_Coupon.cpp](./ABC246_C_Coupon.cpp) | 已通过 | 贪心、优先队列 |
 | ABC 250 | [C - Adjacent Swaps](https://atcoder.jp/contests/abc250/tasks/abc250_c) | [ABC250_C_Adjacent Swaps.cpp](./ABC250_C_Adjacent%20Swaps.cpp) | 已通过 | 模拟、位置数组 |
 | ABC 251 | [C - Poem Online Judge](https://atcoder.jp/contests/abc251/tasks/abc251_c) | [ABC251_C_Poem Online Judge.cpp](./ABC251_C_Poem%20Online%20Judge.cpp) | 已通过 | 集合、枚举 |
 | ABC 252 | [C - Slot Strategy](https://atcoder.jp/contests/abc252/tasks/abc252_c) | [ABC252_C_Slot Strategy.cpp](./ABC252_C_Slot%20Strategy.cpp) | 已通过 | 枚举、排序 |

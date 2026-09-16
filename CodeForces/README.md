@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态核对日期：2026-09-08。以下 30 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态最近核对日期：2026-09-16。以下 31 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -21,6 +21,7 @@
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
+| 1367C | [Social Distance](https://codeforces.com/problemset/problem/1367/C) | [1367C_Social Distance.cpp](./1367C_Social%20Distance.cpp) | 已通过 | 贪心、字符串、间隔计数 |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
 | 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
@@ -40,3 +41,5 @@
 > 2026-09-05 新归档 444C、474E 与 1542B，分别对应 AC 提交 `#389245451`、`#389239362`、`#389196450`（1542B 另有 AC `#389196522`）。
 
 > 2026-09-08 新归档 Gym 104725F 与 105487H，分别对应 AC 提交 `#389874936`（另有 AC `#389873963`）和 `#389865085`。105487H 与 QOJ 归档中的 2024 CCPC 女生专场 H 为同题的另一份本地实现。
+
+> 2026-09-16 新归档 1367C，对应 AC 提交 `#390898963`。

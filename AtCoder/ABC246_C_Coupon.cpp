@@ -2,9 +2,9 @@
 // 题目：ABC246 C - Coupon
 // 链接：https://atcoder.jp/contests/abc246/tasks/abc246_c
 // 状态：已通过
-// 算法：贪心、排序
+// 算法：贪心、优先队列
 
-#include<bits/stdc++.h>
+/* #include<bits/stdc++.h>
 using namespace std;
 using ll = long long;
 
@@ -38,6 +38,57 @@ void solve(){
     for (int i = 1; i <= n; i ++){
         ans += a[i];
     }
+    cout << ans << '\n';
+}
+
+int main (){
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+    cout.tie(0);
+    int t = 1;
+    while (t --){
+        solve();
+    }
+    return 0;
+} */
+
+#include<bits/stdc++.h>
+using namespace std;
+using ll = long long;
+
+void solve(){
+    int n, k, x;
+    cin >> n >> k >> x;
+
+    priority_queue <int> pq;
+    for (int i = 1; i <= n; i ++){
+        int y;
+        cin >> y;
+        pq.push(y);
+    }
+
+    while (k && !pq.empty()){
+        int p = pq.top();
+        pq.pop();
+        if (p >= x){
+            int use = min(k, p / x);
+            p -= use * x;
+            k -= use;
+            if (p > 0){
+                pq.push(p);
+            }
+        } else {
+            k --;
+        }
+    }
+
+    ll ans = 0;
+    while (!pq.empty()){
+        int p = pq.top();
+        pq.pop();
+        ans += p;
+    }
+
     cout << ans << '\n';
 }
 
