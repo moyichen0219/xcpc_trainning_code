@@ -1,6 +1,6 @@
 # 洛谷代码索引
 
-题目元数据最近核对日期：2026-09-16；账号状态最近核对日期：2026-09-16。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
+题目元数据最近核对日期：2026-09-18；账号状态最近核对日期：2026-09-18。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -12,13 +12,16 @@
 | P1042 | [[NOIP 2003 普及组] 乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./P1042_乒乓球.cpp) | 已通过 | 模拟、计分规则 |
 | P1082 | [[NOIP 2012 提高组] 同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [[JSOI2008] 星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
+| P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
 | P1330 | [封锁阳光大学](https://www.luogu.com.cn/problem/P1330) | [P1330_封锁阳光大学.cpp](./P1330_封锁阳光大学.cpp) | 未完成 | 二分图染色、连通块两侧计数（待实现） |
+| P1339 | [[USACO09OCT] Heat Wave G](https://www.luogu.com.cn/problem/P1339) | [P1339_Heat Wave G.cpp](./P1339_Heat%20Wave%20G.cpp) | 已通过 | Dijkstra、无向图最短路 |
 | P1352 | [没有上司的舞会](https://www.luogu.com.cn/problem/P1352) | [P1352_没有上司的舞会.cpp](./P1352_没有上司的舞会.cpp) | 已通过 | 树形动态规划、最大权独立集 |
 | P1443 | [马的遍历](https://www.luogu.com.cn/problem/P1443) | [P1443_马的遍历.cpp](./P1443_马的遍历.cpp) | 已通过 | BFS、网格最短路、马步遍历 |
 | P1495 | [【模板】中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
 | P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [[NOIP 2016 提高组] 玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
+| P1576 | [最小花费](https://www.luogu.com.cn/problem/P1576) | [P1576_最小花费.cpp](./P1576_最小花费.cpp) | 已通过 | Dijkstra、乘法权值、反向最短路 |
 | P1725 | [琪露诺](https://www.luogu.com.cn/problem/P1725) | [P1725_琪露诺.cpp](./P1725_琪露诺.cpp) | 已通过 | 动态规划、单调队列、滑动窗口最值 |
 | P17331 | [「TPOI-2A」Min Mex](https://www.luogu.com.cn/problem/P17331) | [P17331_Min Mex.cpp](./P17331_Min%20Mex.cpp) | 已通过 | 排序、贪心、MEX |
 | P1879 | [[USACO06NOV] Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
@@ -61,3 +64,5 @@
 > 2026-09-08 新归档 B3879、B4168、P1004、P1012、P1330。P1004 仍含调试输出和无法终止的贪心遍历，P1330 仅完成输入，故标为“未完成”；其余实现完整但缺少个人评测记录，暂标“待验证”。
 
 > 2026-09-16 新归档 P2648「赚钱」，并复核 B3879、B4168、P1012、P1443；五题均在[账号公开练习页](https://www.luogu.com.cn/user/625985/practice)的已通过列表中。本次仅更新归档与账号状态，未对本地源码重新编译或运行，也未逐字比对在线提交源码。
+
+> 2026-09-18 新归档 P1223、P1339、P1576，三题均在账号公开练习页的已通过列表中。
