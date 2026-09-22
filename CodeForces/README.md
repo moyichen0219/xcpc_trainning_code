@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-09-16。以下 31 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态最近核对日期：2026-09-22。以下 32 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -29,6 +29,7 @@
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
+| 1538C | [Number of Pairs](https://codeforces.com/problemset/problem/1538/C) | [1538C_Number of Pairs.cpp](./1538C_Number%20of%20Pairs.cpp) | 已通过 | 排序、双指针、区间计数 |
 | 1542B | [Plus and Multiply](https://codeforces.com/problemset/problem/1542/B) | [1542B_Plus and Multiply.cpp](./1542B_Plus%20and%20Multiply.cpp) | 已通过 | 数学、幂枚举、整除判断 |
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
 | 1661B | [Getting Zero](https://codeforces.com/problemset/problem/1661/B) | [1661B_Getting Zero.cpp](./1661B_Getting%20Zero.cpp) | 已通过 | 暴力枚举、模运算 |
@@ -43,3 +44,5 @@
 > 2026-09-08 新归档 Gym 104725F 与 105487H，分别对应 AC 提交 `#389874936`（另有 AC `#389873963`）和 `#389865085`。105487H 与 QOJ 归档中的 2024 CCPC 女生专场 H 为同题的另一份本地实现。
 
 > 2026-09-16 新归档 1367C，对应 AC 提交 `#390898963`。
+
+> 2026-09-22 新归档 1538C，对应 AC 提交 `#391116571`。

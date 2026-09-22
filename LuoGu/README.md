@@ -1,12 +1,13 @@
 # 洛谷代码索引
 
-题目元数据最近核对日期：2026-09-18；账号状态最近核对日期：2026-09-18。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
+题目元数据最近核对日期：2026-09-22；账号状态最近核对日期：2026-09-22。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
 | B3879 | [[信息与未来 2015] 连续数的和（加强版）](https://www.luogu.com.cn/problem/B3879) | [B3879_连续数的和（加强版）.cpp](./B3879_连续数的和（加强版）.cpp) | 已通过 | 数学、平方因子消除、奇偶分类、枚举 |
 | B4168 | [[GXPC-S 2024] 分糖果](https://www.luogu.com.cn/problem/B4168) | [B4168_分糖果.cpp](./B4168_分糖果.cpp) | 已通过 | 动态规划、博弈 |
 | P1004 | [[NOIP 2000 提高组] 方格取数](https://www.luogu.com.cn/problem/P1004) | [P1004_方格取数.cpp](./P1004_方格取数.cpp) | 未完成 | 贪心尝试；应改为双路径动态规划 |
+| P1009 | [[NOIP 1998 普及组] 阶乘之和](https://www.luogu.com.cn/problem/P1009) | [P1009_阶乘之和.cpp](./P1009_阶乘之和.cpp) | 已通过 | 高精度、乘法、加法 |
 | P1012 | [[NOIP 1998 提高组] 拼数](https://www.luogu.com.cn/problem/P1012) | [P1012_拼数.cpp](./P1012_拼数.cpp) | 已通过 | 贪心排序、字符串拼接 |
 | P1020 | [[NOIP 1999 提高组] 导弹拦截](https://www.luogu.com.cn/problem/P1020) | [P1020_导弹拦截.cpp](./P1020_导弹拦截.cpp) | 已通过 | 最长不上升子序列、最长上升子序列、二分优化 |
 | P1042 | [[NOIP 2003 普及组] 乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./P1042_乒乓球.cpp) | 已通过 | 模拟、计分规则 |
@@ -19,15 +20,18 @@
 | P1443 | [马的遍历](https://www.luogu.com.cn/problem/P1443) | [P1443_马的遍历.cpp](./P1443_马的遍历.cpp) | 已通过 | BFS、网格最短路、马步遍历 |
 | P1495 | [【模板】中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
 | P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
+| P1546 | [[USACO3.1] 最短网络 Agri-Net](https://www.luogu.com.cn/problem/P1546) | [P1546_最短网络 Agri-Net.cpp](./P1546_最短网络%20Agri-Net.cpp) | 已通过 | Kruskal、最小生成树、并查集 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [[NOIP 2016 提高组] 玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
 | P1576 | [最小花费](https://www.luogu.com.cn/problem/P1576) | [P1576_最小花费.cpp](./P1576_最小花费.cpp) | 已通过 | Dijkstra、乘法权值、反向最短路 |
 | P1725 | [琪露诺](https://www.luogu.com.cn/problem/P1725) | [P1725_琪露诺.cpp](./P1725_琪露诺.cpp) | 已通过 | 动态规划、单调队列、滑动窗口最值 |
 | P17331 | [「TPOI-2A」Min Mex](https://www.luogu.com.cn/problem/P17331) | [P17331_Min Mex.cpp](./P17331_Min%20Mex.cpp) | 已通过 | 排序、贪心、MEX |
+| P1803 | [凌乱的yyy / 线段覆盖](https://www.luogu.com.cn/problem/P1803) | [P1803_凌乱的yyy-线段覆盖.cpp](./P1803_凌乱的yyy-线段覆盖.cpp) | 已通过 | 贪心、区间调度、排序 |
 | P1879 | [[USACO06NOV] Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
 | P1880 | [[NOI1995] 石子合并](https://www.luogu.com.cn/problem/P1880) | [P1880_石子合并.cpp](./P1880_石子合并.cpp) | 已通过 | 环形区间动态规划、前缀和 |
 | P1908 | [逆序对](https://www.luogu.com.cn/problem/P1908) | [P1908_逆序对.cpp](./P1908_逆序对.cpp) | 已通过 | 离散化、树状数组、逆序对 |
 | P2014 | [[CTSC1997] 选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
+| P2036 | [[COCI 2008/2009 #2] PERKET](https://www.luogu.com.cn/problem/P2036) | [P2036_PERKET.cpp](./P2036_PERKET.cpp) | 已通过 | 子集枚举、暴力搜索 |
 | P2240 | [[深基12.例1] 部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./P2240_部分背包问题.cpp) | 已通过 | 贪心、按单位价值排序 |
 | P2371 | [[国家集训队] 墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
 | P2627 | [[USACO11OPEN] Mowing the Lawn G](https://www.luogu.com.cn/problem/P2627) | [P2627_Mowing the Lawn G.cpp](./P2627_Mowing%20the%20Lawn%20G.cpp) | 已通过 | 动态规划、单调队列、补集转化 |
@@ -51,7 +55,7 @@
 | P5536 | [【XR-3】核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
 | P5656 | [【模板】二元一次不定方程 (exgcd)](https://www.luogu.com.cn/problem/P5656) | [P5656_二元一次不定方程.cpp](./P5656_二元一次不定方程.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程、解集计数 |
 
-> 本轮新增的 7 道题均在账号过题列表中。P2662 当前本地版本缺少可用长度整体 gcd 大于 1 时的无解判断，故单独标注“本地需修正”；P5536 虽有账号过题记录，但本地源码仍未完成。
+> 当时新增的 7 道题中，P2662 当前本地版本缺少可用长度整体 gcd 大于 1 时的无解判断，故单独标注“本地需修正”；P5536 本地源码仍未完成，且 2026-09-22 公开练习页显示为已提交但未通过。
 
 > 2026-08-29 新归档 P1495、P3868、P4777，三题均在账号过题列表中。P3868 当前本地版本对官方约束允许的 `k=1` 固定输出 `0`，故保留账号状态并标注“本地需修正”。
 
@@ -66,3 +70,5 @@
 > 2026-09-16 新归档 P2648「赚钱」，并复核 B3879、B4168、P1012、P1443；五题均在[账号公开练习页](https://www.luogu.com.cn/user/625985/practice)的已通过列表中。本次仅更新归档与账号状态，未对本地源码重新编译或运行，也未逐字比对在线提交源码。
 
 > 2026-09-18 新归档 P1223、P1339、P1576，三题均在账号公开练习页的已通过列表中。
+
+> 2026-09-22 新归档 P1009、P1546、P1803、P2036，四题均在账号公开练习页的已通过列表中。

@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 246 个非空 C++ 源文件：230 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 251 个非空 C++ 源文件：235 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 66 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 71 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目账号状态最近于 2026-09-18 核对，Codeforces 账号状态最近于 2026-09-16 核对，QOJ 新增多人比赛源码最近于 2026-09-08 核对，AtCoder 账号状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷新增题目与 Codeforces 账号状态最近于 2026-09-22 核对，QOJ 新增多人比赛源码最近于 2026-09-08 核对，AtCoder 账号状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -98,6 +98,7 @@
 | B3879 | [连续数的和（加强版）](https://www.luogu.com.cn/problem/B3879) | [B3879_连续数的和（加强版）.cpp](./LuoGu/B3879_连续数的和（加强版）.cpp) | 已通过 | 数学、平方因子消除、奇偶分类、枚举 |
 | B4168 | [分糖果](https://www.luogu.com.cn/problem/B4168) | [B4168_分糖果.cpp](./LuoGu/B4168_分糖果.cpp) | 已通过 | 动态规划、博弈 |
 | P1004 | [方格取数](https://www.luogu.com.cn/problem/P1004) | [P1004_方格取数.cpp](./LuoGu/P1004_方格取数.cpp) | 未完成 | 贪心尝试；应改为双路径动态规划 |
+| P1009 | [阶乘之和](https://www.luogu.com.cn/problem/P1009) | [P1009_阶乘之和.cpp](./LuoGu/P1009_阶乘之和.cpp) | 已通过 | 高精度、乘法、加法 |
 | P1012 | [拼数](https://www.luogu.com.cn/problem/P1012) | [P1012_拼数.cpp](./LuoGu/P1012_拼数.cpp) | 已通过 | 贪心排序、字符串拼接 |
 | P1020 | [导弹拦截](https://www.luogu.com.cn/problem/P1020) | [P1020_导弹拦截.cpp](./LuoGu/P1020_导弹拦截.cpp) | 已通过 | 最长不上升子序列、最长上升子序列、二分优化 |
 | P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 已通过 | 模拟 |
@@ -110,15 +111,18 @@
 | P1443 | [马的遍历](https://www.luogu.com.cn/problem/P1443) | [P1443_马的遍历.cpp](./LuoGu/P1443_马的遍历.cpp) | 已通过 | BFS、网格最短路、马步遍历 |
 | P1495 | [中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./LuoGu/P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
 | P1516 | [青蛙的约会](https://www.luogu.com.cn/problem/P1516) | [P1516_青蛙的约会.cpp](./LuoGu/P1516_青蛙的约会.cpp) | 已通过 | 扩展欧几里得、线性同余方程 |
+| P1546 | [最短网络 Agri-Net](https://www.luogu.com.cn/problem/P1546) | [P1546_最短网络 Agri-Net.cpp](./LuoGu/P1546_最短网络%20Agri-Net.cpp) | 已通过 | Kruskal、最小生成树、并查集 |
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./LuoGu/P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
 | P1576 | [最小花费](https://www.luogu.com.cn/problem/P1576) | [P1576_最小花费.cpp](./LuoGu/P1576_最小花费.cpp) | 已通过 | Dijkstra、乘法权值、反向最短路 |
 | P1725 | [琪露诺](https://www.luogu.com.cn/problem/P1725) | [P1725_琪露诺.cpp](./LuoGu/P1725_琪露诺.cpp) | 已通过 | 动态规划、单调队列、滑动窗口最值 |
 | P17331 | [Min Mex](https://www.luogu.com.cn/problem/P17331) | [P17331_Min Mex.cpp](./LuoGu/P17331_Min%20Mex.cpp) | 已通过 | 排序、贪心、MEX |
+| P1803 | [凌乱的yyy / 线段覆盖](https://www.luogu.com.cn/problem/P1803) | [P1803_凌乱的yyy-线段覆盖.cpp](./LuoGu/P1803_凌乱的yyy-线段覆盖.cpp) | 已通过 | 贪心、区间调度、排序 |
 | P1879 | [Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./LuoGu/P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
 | P1880 | [石子合并](https://www.luogu.com.cn/problem/P1880) | [P1880_石子合并.cpp](./LuoGu/P1880_石子合并.cpp) | 已通过 | 环形区间动态规划、前缀和 |
 | P1908 | [逆序对](https://www.luogu.com.cn/problem/P1908) | [P1908_逆序对.cpp](./LuoGu/P1908_逆序对.cpp) | 已通过 | 离散化、树状数组、逆序对 |
 | P2014 | [选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./LuoGu/P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
+| P2036 | [PERKET](https://www.luogu.com.cn/problem/P2036) | [P2036_PERKET.cpp](./LuoGu/P2036_PERKET.cpp) | 已通过 | 子集枚举、暴力搜索 |
 | P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 已通过 | 贪心、排序 |
 | P2371 | [墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./LuoGu/P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
 | P2627 | [Mowing the Lawn G](https://www.luogu.com.cn/problem/P2627) | [P2627_Mowing the Lawn G.cpp](./LuoGu/P2627_Mowing%20the%20Lawn%20G.cpp) | 已通过 | 动态规划、单调队列、补集转化 |
@@ -212,6 +216,7 @@
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./CodeForces/1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./CodeForces/1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./CodeForces/1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
+| 1538C | [Number of Pairs](https://codeforces.com/problemset/problem/1538/C) | [1538C_Number of Pairs.cpp](./CodeForces/1538C_Number%20of%20Pairs.cpp) | 已通过 | 排序、双指针、区间计数 |
 | 1542B | [Plus and Multiply](https://codeforces.com/problemset/problem/1542/B) | [1542B_Plus and Multiply.cpp](./CodeForces/1542B_Plus%20and%20Multiply.cpp) | 已通过 | 数学、幂枚举、整除判断 |
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./CodeForces/1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
 | 1661B | [Getting Zero](https://codeforces.com/problemset/problem/1661/B) | [1661B_Getting Zero.cpp](./CodeForces/1661B_Getting%20Zero.cpp) | 已通过 | 暴力枚举、模运算 |
@@ -268,7 +273,7 @@
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 31 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 32 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
