@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 254 个非空 C++ 源文件：238 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 265 个非空 C++ 源文件：249 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 74 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 85 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；CSES 题目元数据最近于 2026-09-24 核对，洛谷新增题目与 Codeforces 账号状态最近于 2026-09-22 核对，QOJ 新增多人比赛源码最近于 2026-09-08 核对，AtCoder 账号状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；CSES 题目元数据最近于 2026-09-29 核对，洛谷新增题目与 Codeforces 账号状态最近于 2026-09-22 核对，QOJ 新增多人比赛源码最近于 2026-09-08 核对，AtCoder 账号状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -191,9 +191,20 @@
 
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
+| 1084 | [Apartments](https://cses.fi/problemset/task/1084/) | [1084_Apartments.cpp](./CSES/1084_Apartments.cpp) | 待验证 | 排序、双指针、贪心 |
+| 1085 | [Array Division](https://cses.fi/problemset/task/1085/) | [1085_Array Division.cpp](./CSES/1085_Array%20Division.cpp) | 待验证 | 二分答案、贪心 |
+| 1090 | [Ferris Wheel](https://cses.fi/problemset/task/1090/) | [1090_Ferris Wheel.cpp](./CSES/1090_Ferris%20Wheel.cpp) | 待验证 | 排序、双指针、贪心 |
 | 1094 | [Increasing Array](https://cses.fi/problemset/task/1094/) | [1094_Increasing Array.cpp](./CSES/1094_Increasing%20Array.cpp) | 待验证 | 贪心、线性扫描 |
+| 1095 | [Exponentiation](https://cses.fi/problemset/task/1095/) | [1095_Exponentiation.cpp](./CSES/1095_Exponentiation.cpp) | 待验证 | 快速幂、模运算 |
+| 1141 | [Playlist](https://cses.fi/problemset/task/1141/) | [1141_Playlist.cpp](./CSES/1141_Playlist.cpp) | 待验证 | 滑动窗口、映射、双指针 |
 | 1192 | [Counting Rooms](https://cses.fi/problemset/task/1192/) | [1192_Counting Rooms.cpp](./CSES/1192_Counting%20Rooms.cpp) | 待验证 | BFS、网格连通块 |
+| 1620 | [Factory Machines](https://cses.fi/problemset/task/1620/) | [1620_Factory Machines.cpp](./CSES/1620_Factory%20Machines.cpp) | 待验证 | 二分答案、产量判定 |
 | 1629 | [Movie Festival](https://cses.fi/problemset/task/1629/) | [1629_Movie Festival.cpp](./CSES/1629_Movie%20Festival.cpp) | 待验证 | 贪心、区间调度、排序 |
+| 1630 | [Tasks and Deadlines](https://cses.fi/problemset/task/1630/) | [1630_Tasks and Deadlines.cpp](./CSES/1630_Tasks%20and%20Deadlines.cpp) | 待验证 | 贪心、排序、最短作业优先 |
+| 1646 | [Static Range Sum Queries](https://cses.fi/problemset/task/1646/) | [1646_Static Range Sum Queries.cpp](./CSES/1646_Static%20Range%20Sum%20Queries.cpp) | 待验证 | 前缀和、区间查询 |
+| 1660 | [Subarray Sums I](https://cses.fi/problemset/task/1660/) | [1660_Subarray Sums I.cpp](./CSES/1660_Subarray%20Sums%20I.cpp) | 待验证 | 滑动窗口、双指针 |
+| 1661 | [Subarray Sums II](https://cses.fi/problemset/task/1661/) | [1661_Subarray Sums II.cpp](./CSES/1661_Subarray%20Sums%20II.cpp) | 待验证 | 前缀和、频次映射 |
+| 2183 | [Missing Coin Sum](https://cses.fi/problemset/task/2183/) | [2183_Missing Coin Sum.cpp](./CSES/2183_Missing%20Coin%20Sum.cpp) | 待验证 | 贪心、排序、可表示区间 |
 
 详见 [CSES/README.md](./CSES/README.md)。
 
