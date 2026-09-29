@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-09-22。以下 32 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态最近核对日期：2026-09-29。以下 36 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -8,6 +8,7 @@
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 282E | [Sausage Maximization](https://codeforces.com/problemset/problem/282/E) | [282E_Sausage Maximization.cpp](./282E_Sausage%20Maximization.cpp) | 已通过 | 前缀异或、后缀异或、01 字典树 |
 | 444C | [DZY Loves Colors](https://codeforces.com/problemset/problem/444/C) | [444C_DZY Loves Colors.cpp](./444C_DZY%20Loves%20Colors.cpp) | 已通过 | 线段树、区间推平、区间加、历史贡献 |
 | 455A | [Boredom](https://codeforces.com/problemset/problem/455/A) | [455A_Boredom.cpp](./455A_Boredom.cpp) | 已通过 | 动态规划、值域计数 |
 | 467B | [Fedor and New Game](https://codeforces.com/problemset/problem/467/B) | [467B_Fedor and New Game.cpp](./467B_Fedor%20and%20New%20Game.cpp) | 已通过 | 位运算、枚举 |
@@ -20,6 +21,9 @@
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
+| 665E | [Beautiful Subarrays](https://codeforces.com/problemset/problem/665/E) | [665E_Beautiful Subarrays.cpp](./665E_Beautiful%20Subarrays.cpp) | 已通过 | 前缀异或、01 字典树、子数组计数 |
+| 706D | [Vasiliy's Multiset](https://codeforces.com/problemset/problem/706/D) | [706D_Vasiliy's Multiset.cpp](./706D_Vasiliy's%20Multiset.cpp) | 已通过 | 01 字典树、动态多重集合、最大异或 |
+| 923C | [Perfect Security](https://codeforces.com/problemset/problem/923/C) | [923C_Perfect Security.cpp](./923C_Perfect%20Security.cpp) | 已通过 | 01 字典树、贪心、可删除多重集合 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
 | 1367C | [Social Distance](https://codeforces.com/problemset/problem/1367/C) | [1367C_Social Distance.cpp](./1367C_Social%20Distance.cpp) | 已通过 | 贪心、字符串、间隔计数 |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
@@ -46,3 +50,5 @@
 > 2026-09-16 新归档 1367C，对应 AC 提交 `#390898963`。
 
 > 2026-09-22 新归档 1538C，对应 AC 提交 `#391116571`。
+
+> 2026-09-29 新归档 282E、665E、706D、923C，分别对应 AC 提交 `#392613362`（另有 `#392614330`）、`#392622285`、`#392602930`、`#392607936`。

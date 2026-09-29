@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 265 个非空 C++ 源文件：249 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 270 个非空 C++ 源文件：254 个题目及历史实现文件和 16 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 85 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 90 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；CSES 题目元数据最近于 2026-09-29 核对，洛谷新增题目与 Codeforces 账号状态最近于 2026-09-22 核对，QOJ 新增多人比赛源码最近于 2026-09-08 核对，AtCoder 账号状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；CSES 题目元数据、洛谷新增题目与 Codeforces 账号状态最近于 2026-09-29 核对，QOJ 新增多人比赛源码最近于 2026-09-08 核对，AtCoder 账号状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -139,6 +139,7 @@
 | P3951 | [小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./LuoGu/P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P3957 | [跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./LuoGu/P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
 | P4549 | [裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./LuoGu/P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
+| P4551 | [最长异或路径](https://www.luogu.com.cn/problem/P4551) | [P4551_最长异或路径.cpp](./LuoGu/P4551_最长异或路径.cpp) | 已通过 | 树上前缀异或、DFS、01 字典树 |
 | P4777 | [扩展中国剩余定理（EXCRT）](https://www.luogu.com.cn/problem/P4777) | [P4777_扩展中国剩余定理（EXCRT）.cpp](./LuoGu/P4777_扩展中国剩余定理（EXCRT）.cpp) | 已通过 | 扩展中国剩余定理、扩展欧几里得 |
 | P5019 | [铺设道路](https://www.luogu.com.cn/problem/P5019) | [P5019_铺设道路.cpp](./LuoGu/P5019_铺设道路.cpp) | 已通过 | 贪心、差分 |
 | P5318 | [查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./LuoGu/P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS |
@@ -216,6 +217,7 @@
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./CodeForces/189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./CodeForces/217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./CodeForces/230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 282E | [Sausage Maximization](https://codeforces.com/problemset/problem/282/E) | [282E_Sausage Maximization.cpp](./CodeForces/282E_Sausage%20Maximization.cpp) | 已通过 | 前缀异或、后缀异或、01 字典树 |
 | 444C | [DZY Loves Colors](https://codeforces.com/problemset/problem/444/C) | [444C_DZY Loves Colors.cpp](./CodeForces/444C_DZY%20Loves%20Colors.cpp) | 已通过 | 线段树、区间推平、区间加、历史贡献 |
 | 455A | [Boredom](https://codeforces.com/problemset/problem/455/A) | [455A_Boredom.cpp](./CodeForces/455A_Boredom.cpp) | 已通过 | 动态规划、值域计数 |
 | 467B | [Fedor and New Game](https://codeforces.com/problemset/problem/467/B) | [467B_Fedor and New Game.cpp](./CodeForces/467B_Fedor%20and%20New%20Game.cpp) | 已通过 | 位运算、枚举 |
@@ -228,6 +230,9 @@
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./CodeForces/522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./CodeForces/580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./CodeForces/580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
+| 665E | [Beautiful Subarrays](https://codeforces.com/problemset/problem/665/E) | [665E_Beautiful Subarrays.cpp](./CodeForces/665E_Beautiful%20Subarrays.cpp) | 已通过 | 前缀异或、01 字典树、子数组计数 |
+| 706D | [Vasiliy's Multiset](https://codeforces.com/problemset/problem/706/D) | [706D_Vasiliy's Multiset.cpp](./CodeForces/706D_Vasiliy's%20Multiset.cpp) | 已通过 | 01 字典树、动态多重集合、最大异或 |
+| 923C | [Perfect Security](https://codeforces.com/problemset/problem/923/C) | [923C_Perfect Security.cpp](./CodeForces/923C_Perfect%20Security.cpp) | 已通过 | 01 字典树、贪心、可删除多重集合 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./CodeForces/1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
 | 1367C | [Social Distance](https://codeforces.com/problemset/problem/1367/C) | [1367C_Social Distance.cpp](./CodeForces/1367C_Social%20Distance.cpp) | 已通过 | 贪心、字符串、间隔计数 |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./CodeForces/1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
@@ -294,7 +299,7 @@
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 32 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 36 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
