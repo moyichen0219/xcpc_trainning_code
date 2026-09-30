@@ -1,6 +1,6 @@
 # 洛谷代码索引
 
-题目元数据最近核对日期：2026-09-29；账号状态最近核对日期：2026-09-29。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
+题目元数据最近核对日期：2026-09-30；账号状态最近核对日期：2026-09-30。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@
 | P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
 | P1330 | [封锁阳光大学](https://www.luogu.com.cn/problem/P1330) | [P1330_封锁阳光大学.cpp](./P1330_封锁阳光大学.cpp) | 未完成 | 二分图染色、连通块两侧计数（待实现） |
 | P1339 | [[USACO09OCT] Heat Wave G](https://www.luogu.com.cn/problem/P1339) | [P1339_Heat Wave G.cpp](./P1339_Heat%20Wave%20G.cpp) | 已通过 | Dijkstra、无向图最短路 |
+| P1349 | [广义斐波那契数列](https://www.luogu.com.cn/problem/P1349) | [P1349_广义斐波那契数列.cpp](./P1349_广义斐波那契数列.cpp) | 已通过 | 矩阵快速幂、二阶线性递推、模运算 |
 | P1352 | [没有上司的舞会](https://www.luogu.com.cn/problem/P1352) | [P1352_没有上司的舞会.cpp](./P1352_没有上司的舞会.cpp) | 已通过 | 树形动态规划、最大权独立集 |
 | P1443 | [马的遍历](https://www.luogu.com.cn/problem/P1443) | [P1443_马的遍历.cpp](./P1443_马的遍历.cpp) | 已通过 | BFS、网格最短路、马步遍历 |
 | P1495 | [【模板】中国剩余定理（CRT）/ 曹冲养猪](https://www.luogu.com.cn/problem/P1495) | [P1495_中国剩余定理（CRT）-曹冲养猪.cpp](./P1495_中国剩余定理（CRT）-曹冲养猪.cpp) | 已通过 | 中国剩余定理、扩展欧几里得 |
@@ -30,6 +31,8 @@
 | P1879 | [[USACO06NOV] Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
 | P1880 | [[NOI1995] 石子合并](https://www.luogu.com.cn/problem/P1880) | [P1880_石子合并.cpp](./P1880_石子合并.cpp) | 已通过 | 环形区间动态规划、前缀和 |
 | P1908 | [逆序对](https://www.luogu.com.cn/problem/P1908) | [P1908_逆序对.cpp](./P1908_逆序对.cpp) | 已通过 | 离散化、树状数组、逆序对 |
+| P1939 | [矩阵加速（数列）](https://www.luogu.com.cn/problem/P1939) | [P1939_矩阵加速（数列）.cpp](./P1939_矩阵加速（数列）.cpp) | 已通过 | 矩阵快速幂、三阶线性递推 |
+| P1962 | [斐波那契数列](https://www.luogu.com.cn/problem/P1962) | [P1962_斐波那契数列.cpp](./P1962_斐波那契数列.cpp) | 已通过 | 矩阵快速幂、斐波那契数列 |
 | P2014 | [[CTSC1997] 选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
 | P2036 | [[COCI 2008/2009 #2] PERKET](https://www.luogu.com.cn/problem/P2036) | [P2036_PERKET.cpp](./P2036_PERKET.cpp) | 已通过 | 子集枚举、暴力搜索 |
 | P2240 | [[深基12.例1] 部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./P2240_部分背包问题.cpp) | 已通过 | 贪心、按单位价值排序 |
@@ -75,3 +78,5 @@
 > 2026-09-22 新归档 P1009、P1546、P1803、P2036，四题均在账号公开练习页的已通过列表中。
 
 > 2026-09-29 新归档 P4551，已在账号公开练习页的已通过列表中确认。
+
+> 2026-09-30 新归档 P1349、P1939、P1962，三题均已在[账号公开练习页](https://www.luogu.com.cn/user/625985/practice)的已通过列表中确认。本次按题面核对转移矩阵并补齐索引，仅做轻量静态检查，未重新编译、运行或逐字比对在线提交源码。
