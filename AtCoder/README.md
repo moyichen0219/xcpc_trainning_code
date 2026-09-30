@@ -1,6 +1,6 @@
 # AtCoder 代码索引
 
-评测状态核对日期：2026-09-05。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
+评测状态最近核对日期：2026-09-30（本次核对 ABC164 D、ABC233 D、DP P 与 ABC471 F）。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
 
 | 比赛 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -13,7 +13,7 @@
 | Educational DP Contest | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [DP_G_Longest Path.cpp](./DP_G_Longest%20Path.cpp) | 已通过 | DAG 动态规划、记忆化 DFS |
 | Educational DP Contest | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [DP_H_Grid 1.cpp](./DP_H_Grid%201.cpp) | 已通过 | 网格动态规划、路径计数 |
 | Educational DP Contest | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [DP_I_Coins.cpp](./DP_I_Coins.cpp) | 已通过 | 概率动态规划、正面次数计数 |
-| Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./DP_P_Independent%20Set.cpp) | 待验证 | 树形动态规划、独立集计数 |
+| Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./DP_P_Independent%20Set.cpp) | 已通过 | 树形动态规划、独立集计数 |
 | Educational DP Contest | [Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q) | [DP_Q_Flowers.cpp](./DP_Q_Flowers.cpp) | 已通过 | 动态规划、树状数组、前缀最大值 |
 | ABC 085 | [D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d) | [ABC085_D_Katana Thrower.cpp](./ABC085_D_Katana%20Thrower.cpp) | 已通过（账号） | 贪心、排序 |
 | ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./ABC121_C_Energy%20Drink%20Collector.cpp) | 已通过 | 贪心、排序 |
@@ -25,6 +25,7 @@
 | ABC 140 | [C - Maximal Value](https://atcoder.jp/contests/abc140/tasks/abc140_c) | [ABC140_C_Maximal Value.cpp](./ABC140_C_Maximal%20Value.cpp) | 已通过 | 贪心、相邻约束 |
 | ABC 147 | [C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c) | [ABC147_C_HonestOrUnkind2.cpp](./ABC147_C_HonestOrUnkind2.cpp) | 已通过 | 二进制枚举、状态验证 |
 | ABC 153 | [C - Fennec vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_c) | [ABC153_C_Fennec vs Monster.cpp](./ABC153_C_Fennec%20vs%20Monster.cpp) | 已通过 | 排序、贪心 |
+| ABC 164 | [D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d) | [ABC164_D_Multiple of 2019.cpp](./ABC164_D_Multiple%20of%202019.cpp) | 已通过 | 后缀取模、同余、频次映射 |
 | ABC 168 | [D - .. (Double Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_d) | [ABC168_D_.. (Double Dots).cpp](<./ABC168_D_.. (Double Dots).cpp>) | 已通过 | BFS、最短路树、父节点记录 |
 | ABC 176 | [C - Step](https://atcoder.jp/contests/abc176/tasks/abc176_c) | [ABC176_C_Step.cpp](./ABC176_C_Step.cpp) | 已通过 | 贪心、前缀最大值 |
 | ABC 183 | [C - Travel](https://atcoder.jp/contests/abc183/tasks/abc183_c) | [ABC183_C_Travel.cpp](./ABC183_C_Travel.cpp) | 已通过 | 全排列、暴力枚举 |
@@ -35,6 +36,7 @@
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./ABC212_C_Min%20Difference.cpp) | 已通过 | 排序、双指针 |
 | ABC 221 | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c) | [ABC221_C_Select Mul.cpp](./ABC221_C_Select%20Mul.cpp) | 已通过 | 二进制枚举、排序、数位构造 |
 | ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
+| ABC 233 | [D - Count Interval](https://atcoder.jp/contests/abc233/tasks/abc233_d) | [ABC233_D_Count Interval.cpp](./ABC233_D_Count%20Interval.cpp) | 待验证 | 前缀和、频次映射、子数组计数 |
 | ABC 239 | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e) | [ABC239_E_Subtree K-th Max.cpp](./ABC239_E_Subtree%20K-th%20Max.cpp) | 已通过 | 树上 DFS、Top-K 合并 |
 | ABC 240 | [C - Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c) | [ABC240_C_Jumping Takahashi.cpp](./ABC240_C_Jumping%20Takahashi.cpp) | 已通过 | 动态规划、可达性 |
 | ABC 245 | [C - Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c) | [ABC245_C_Choose Elements.cpp](./ABC245_C_Choose%20Elements.cpp) | 已通过 | 动态规划、状态压缩 |
@@ -82,3 +84,5 @@
 > 2026-09-02 新归档 Educational DP Contest H，并用已完成版本更新 I；两题分别对应 AC 提交 `#78873794`、`#78873575`。
 
 > 2026-09-05 新归档 ABC126 D、ABC339 E 与 Educational DP Contest Q，分别对应 AC 提交 `#78899260`、`#78912820`、`#78906000`。
+
+> 2026-09-30 新归档 ABC164 D、ABC233 D，并复核 DP P 与 ABC471 F。官方提交页需要登录，已连接浏览器读取失败，本次以 [AtCoder Problems 公开个人提交索引](https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user=Moyichen0219&from_second=0)补充核对：ABC164 D 对应 AC 提交 [#79643086](https://atcoder.jp/contests/abc164/submissions/79643086)，DP P 对应 AC 提交 [#78873421](https://atcoder.jp/contests/dp/submissions/78873421)，故更新为“已通过”；ABC233 D 尚无匹配记录，保留“待验证”；ABC471 F 仍显示 5 次 WA、0 次 AC。公开索引可能存在延迟，未逐字比对在线源码。

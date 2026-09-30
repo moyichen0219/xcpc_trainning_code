@@ -1,7 +1,7 @@
 // 比赛：Educational DP Contest
 // 题目：P - Independent Set
 // 链接：https://atcoder.jp/contests/dp/tasks/dp_p
-// 状态：待验证
+// 状态：已通过
 // 算法：树形动态规划、独立集计数
 
 #include<bits/stdc++.h>

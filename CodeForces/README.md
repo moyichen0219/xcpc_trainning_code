@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-09-29。以下 36 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态最近核对日期：2026-09-30。以下 37 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -27,6 +27,7 @@
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
 | 1367C | [Social Distance](https://codeforces.com/problemset/problem/1367/C) | [1367C_Social Distance.cpp](./1367C_Social%20Distance.cpp) | 已通过 | 贪心、字符串、间隔计数 |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
+| 1398C | [Good Subarrays](https://codeforces.com/problemset/problem/1398/C) | [1398C_Good Subarrays.cpp](./1398C_Good%20Subarrays.cpp) | 已通过 | 前缀和、等值计数、频次映射 |
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
 | 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
 | 1472C | [Long Jumps](https://codeforces.com/problemset/problem/1472/C) | [1472C_Long Jumps.cpp](./1472C_Long%20Jumps.cpp) | 已通过 | 动态规划、递推 |
@@ -52,3 +53,5 @@
 > 2026-09-22 新归档 1538C，对应 AC 提交 `#391116571`。
 
 > 2026-09-29 新归档 282E、665E、706D、923C，分别对应 AC 提交 `#392613362`（另有 `#392614330`）、`#392622285`、`#392602930`、`#392607936`。
+
+> 2026-09-30 新归档 1398C，已通过 Codeforces 官方 API 确认 AC 提交 [#392723386](https://codeforces.com/contest/1398/submission/392723386)。

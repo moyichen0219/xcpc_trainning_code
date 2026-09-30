@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 274 个非空 C++ 源文件：257 个题目及历史实现文件和 17 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 277 个非空 C++ 源文件：260 个题目及历史实现文件和 17 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 94 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 97 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目最近于 2026-09-30 核对，CSES 题目元数据与 Codeforces 账号状态最近于 2026-09-29 核对，QOJ 新增多人比赛源码最近于 2026-09-08 核对，AtCoder 账号状态最近于 2026-09-05 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷新增题目、Codeforces 账号状态与 AtCoder 部分题目状态最近于 2026-09-30 核对（AtCoder 本次使用公开提交索引，详见平台 README），CSES 题目元数据最近于 2026-09-29 核对，QOJ 新增多人比赛源码最近于 2026-09-08 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -31,7 +31,7 @@
 | Educational DP Contest | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [DP_G_Longest Path.cpp](./AtCoder/DP_G_Longest%20Path.cpp) | 已通过 | DAG 动态规划、记忆化 DFS |
 | Educational DP Contest | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [DP_H_Grid 1.cpp](./AtCoder/DP_H_Grid%201.cpp) | 已通过 | 网格动态规划、路径计数 |
 | Educational DP Contest | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [DP_I_Coins.cpp](./AtCoder/DP_I_Coins.cpp) | 已通过 | 概率动态规划、正面次数计数 |
-| Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./AtCoder/DP_P_Independent%20Set.cpp) | 待验证 | 树形动态规划、独立集计数 |
+| Educational DP Contest | [P - Independent Set](https://atcoder.jp/contests/dp/tasks/dp_p) | [DP_P_Independent Set.cpp](./AtCoder/DP_P_Independent%20Set.cpp) | 已通过 | 树形动态规划、独立集计数 |
 | Educational DP Contest | [Q - Flowers](https://atcoder.jp/contests/dp/tasks/dp_q) | [DP_Q_Flowers.cpp](./AtCoder/DP_Q_Flowers.cpp) | 已通过 | 动态规划、树状数组、前缀最大值 |
 | ABC 085 | [D - Katana Thrower](https://atcoder.jp/contests/abc085/tasks/abc085_d) | [ABC085_D_Katana Thrower.cpp](./AtCoder/ABC085_D_Katana%20Thrower.cpp) | 已通过（账号；本地需修正） | 贪心、排序 |
 | ABC 121 | [C - Energy Drink Collector](https://atcoder.jp/contests/abc121/tasks/abc121_c) | [ABC121_C_Energy Drink Collector.cpp](./AtCoder/ABC121_C_Energy%20Drink%20Collector.cpp) | 已通过 | 贪心、排序 |
@@ -43,6 +43,7 @@
 | ABC 140 | [C - Maximal Value](https://atcoder.jp/contests/abc140/tasks/abc140_c) | [ABC140_C_Maximal Value.cpp](./AtCoder/ABC140_C_Maximal%20Value.cpp) | 已通过 | 贪心、相邻约束 |
 | ABC 147 | [C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c) | [ABC147_C_HonestOrUnkind2.cpp](./AtCoder/ABC147_C_HonestOrUnkind2.cpp) | 已通过 | 二进制枚举、状态验证 |
 | ABC 153 | [C - Fennec vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_c) | [ABC153_C_Fennec vs Monster.cpp](./AtCoder/ABC153_C_Fennec%20vs%20Monster.cpp) | 已通过 | 排序、贪心 |
+| ABC 164 | [D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d) | [ABC164_D_Multiple of 2019.cpp](./AtCoder/ABC164_D_Multiple%20of%202019.cpp) | 已通过 | 后缀取模、同余、频次映射 |
 | ABC 168 | [D - .. (Double Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_d) | [ABC168_D_.. (Double Dots).cpp](<./AtCoder/ABC168_D_.. (Double Dots).cpp>) | 已通过 | BFS、最短路树、父节点记录 |
 | ABC 176 | [C - Step](https://atcoder.jp/contests/abc176/tasks/abc176_c) | [ABC176_C_Step.cpp](./AtCoder/ABC176_C_Step.cpp) | 已通过 | 贪心、前缀最大值 |
 | ABC 183 | [C - Travel](https://atcoder.jp/contests/abc183/tasks/abc183_c) | [ABC183_C_Travel.cpp](./AtCoder/ABC183_C_Travel.cpp) | 已通过 | 全排列、暴力枚举 |
@@ -53,6 +54,7 @@
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./AtCoder/ABC212_C_Min%20Difference.cpp) | 已通过 | 排序、双指针 |
 | ABC 221 | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c) | [ABC221_C_Select Mul.cpp](./AtCoder/ABC221_C_Select%20Mul.cpp) | 已通过 | 二进制枚举、排序、数位构造 |
 | ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./AtCoder/ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
+| ABC 233 | [D - Count Interval](https://atcoder.jp/contests/abc233/tasks/abc233_d) | [ABC233_D_Count Interval.cpp](./AtCoder/ABC233_D_Count%20Interval.cpp) | 待验证 | 前缀和、频次映射、子数组计数 |
 | ABC 239 | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e) | [ABC239_E_Subtree K-th Max.cpp](./AtCoder/ABC239_E_Subtree%20K-th%20Max.cpp) | 已通过 | 树上 DFS、Top-K 合并 |
 | ABC 240 | [C - Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c) | [ABC240_C_Jumping Takahashi.cpp](./AtCoder/ABC240_C_Jumping%20Takahashi.cpp) | 已通过 | 动态规划、可达性 |
 | ABC 245 | [C - Choose Elements](https://atcoder.jp/contests/abc245/tasks/abc245_c) | [ABC245_C_Choose Elements.cpp](./AtCoder/ABC245_C_Choose%20Elements.cpp) | 已通过 | 动态规划、状态压缩 |
@@ -239,6 +241,7 @@
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./CodeForces/1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
 | 1367C | [Social Distance](https://codeforces.com/problemset/problem/1367/C) | [1367C_Social Distance.cpp](./CodeForces/1367C_Social%20Distance.cpp) | 已通过 | 贪心、字符串、间隔计数 |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./CodeForces/1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
+| 1398C | [Good Subarrays](https://codeforces.com/problemset/problem/1398/C) | [1398C_Good Subarrays.cpp](./CodeForces/1398C_Good%20Subarrays.cpp) | 已通过 | 前缀和、等值计数、频次映射 |
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./CodeForces/1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
 | 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./CodeForces/1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
 | 1472C | [Long Jumps](https://codeforces.com/problemset/problem/1472/C) | [1472C_Long Jumps.cpp](./CodeForces/1472C_Long%20Jumps.cpp) | 已通过 | 动态规划、递推 |
@@ -302,7 +305,7 @@
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 36 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 37 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
