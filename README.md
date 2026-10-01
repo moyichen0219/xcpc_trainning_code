@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 281 个非空 C++ 源文件：264 个题目及历史实现文件和 17 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 283 个非空 C++ 源文件：266 个题目及历史实现文件和 17 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,7 +14,7 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 101 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 103 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
 - 样例通过不等于在线评测通过；洛谷新增题目、Codeforces 账号状态与 AtCoder 部分题目状态最近于 2026-09-30 核对（AtCoder 本次使用公开提交索引，详见平台 README），CSES 题目元数据最近于 2026-09-29 核对，QOJ 新增多人比赛源码最近于 2026-10-01 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
@@ -306,6 +306,8 @@
 | 2026 ICPC 贵州省赛 | [B - Aquarium Bubble Lights](https://qoj.ac/contest/4121/problem/20285) | [B_Aquarium Bubble Lights.cpp](./2026Guizhou/B_Aquarium%20Bubble%20Lights.cpp) | 待验证 | 时间偏移、桶计数、动态维护正数数量 |
 | 2026 ICPC 贵州省赛 | [C - Aquarium Feeding](https://qoj.ac/contest/4121/problem/20286) | [C_Aquarium Feeding.cpp](./2026Guizhou/C_Aquarium%20Feeding.cpp) | 待验证 | 周期往返、必要充分条件、线性扫描 |
 | 2026 ICPC 贵州省赛 | [D - Bacteria Culture](https://qoj.ac/contest/4121/problem/20287) | [D_Bacteria Culture.cpp](./2026Guizhou/D_Bacteria%20Culture.cpp) | 待验证 | 倍增次数、区间操作、贪心扫描 |
+| 2026 ICPC 贵州省赛 | [E - Charging Adapters](https://qoj.ac/contest/4121/problem/20288) | [E_Charging Adapters.cpp](./2026Guizhou/E_Charging%20Adapters.cpp) | 待验证 | 分层图建模、相邻连接、Dijkstra |
+| 2026 ICPC 贵州省赛 | [K - Two-Tone Palindromes](https://qoj.ac/contest/4121/problem/20294) | [K_Two-Tone Palindromes.cpp](./2026Guizhou/K_Two-Tone%20Palindromes.cpp) | 未完成 | 空题框架 |
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 

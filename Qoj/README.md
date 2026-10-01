@@ -6,4 +6,4 @@
 | --- | --- | --- | --- |
 | [The 2025 ICPC Asia East Continent Online Contest (I)](https://qoj.ac/contest/2513) | [AsiaECOnline2025(Ⅰ)](<./AsiaECOnline2025(Ⅰ)/>) | B、C、G、I | B/G/I 待验证；C 未完成 |
 | [The 2026 ICPC Asia East Continent Online Contest (I)](https://qoj.ac/contest/4071) | [AsiaECOnline2026(Ⅰ)](<./AsiaECOnline2026(Ⅰ)/>) | A、C、D、F、M | 均待验证 |
-| [The 2026 ICPC Guizhou Provincial Contest](https://qoj.ac/contest/4121) | [2026Guizhou](../2026Guizhou/) | A、B、C、D | 均待验证 |
+| [The 2026 ICPC Guizhou Provincial Contest](https://qoj.ac/contest/4121) | [2026Guizhou](../2026Guizhou/) | A、B、C、D、E、K | A–E 待验证；K 未完成 |

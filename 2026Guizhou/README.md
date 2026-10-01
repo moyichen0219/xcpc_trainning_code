@@ -8,5 +8,7 @@
 | B | [Aquarium Bubble Lights](https://qoj.ac/contest/4121/problem/20285) | [B_Aquarium Bubble Lights.cpp](./B_Aquarium%20Bubble%20Lights.cpp) | 待验证 | 时间偏移、桶计数、动态维护正数数量 |
 | C | [Aquarium Feeding](https://qoj.ac/contest/4121/problem/20286) | [C_Aquarium Feeding.cpp](./C_Aquarium%20Feeding.cpp) | 待验证 | 周期往返、必要充分条件、线性扫描 |
 | D | [Bacteria Culture](https://qoj.ac/contest/4121/problem/20287) | [D_Bacteria Culture.cpp](./D_Bacteria%20Culture.cpp) | 待验证 | 倍增次数、区间操作、贪心扫描 |
+| E | [Charging Adapters](https://qoj.ac/contest/4121/problem/20288) | [E_Charging Adapters.cpp](./E_Charging%20Adapters.cpp) | 待验证 | 分层图建模、相邻连接、Dijkstra |
+| K | [Two-Tone Palindromes](https://qoj.ac/contest/4121/problem/20294) | [K_Two-Tone Palindromes.cpp](./K_Two-Tone%20Palindromes.cpp) | 未完成 | 空题框架 |
 
-> 本比赛为多人比赛，只记录仓库中已有源码。当前无法读取已登录 Edge 中的 QOJ 个人提交记录，Codeforces Gym 公开接口也未发现账号 `Moyichen0219` 的本场提交，因此四份完整实现暂标“待验证”，不根据团队 AC 状态认定个人完成。
+> 本比赛为多人比赛，只记录仓库中已有源码。当前无法读取已登录 Edge 中的 QOJ 个人提交记录，Codeforces Gym 公开接口也未发现账号 `Moyichen0219` 的本场提交，因此 A–E 五份完整实现暂标“待验证”，不根据团队 AC 状态认定个人完成；K 仅有空题框架，标为“未完成”。
