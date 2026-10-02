@@ -1,6 +1,6 @@
 # AtCoder 代码索引
 
-评测状态最近核对日期：2026-09-30（本次核对 ABC164 D、ABC233 D、DP P 与 ABC471 F）。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
+评测状态最近核对日期：2026-10-02（本次核对 ABC277 E）。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
 
 | 比赛 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -49,6 +49,7 @@
 | ABC 271 | [C - Manga](https://atcoder.jp/contests/abc271/tasks/abc271_c) | [ABC271_C_Manga.cpp](./ABC271_C_Manga.cpp) | 已通过 | 贪心、排序、双指针 |
 | ABC 274 | [D - Robot Arms 2](https://atcoder.jp/contests/abc274/tasks/abc274_d) | [ABC274_D_Robot Arms 2.cpp](./ABC274_D_Robot%20Arms%202.cpp) | 已通过 | 动态规划、二维可达性拆分 |
 | ABC 277 | [C - Ladder Takahashi](https://atcoder.jp/contests/abc277/tasks/abc277_c) | [ABC277_C_Ladder Takahashi.cpp](./ABC277_C_Ladder%20Takahashi.cpp) | 已通过 | BFS、图遍历、离散顶点 |
+| ABC 277 | [E - Crystal Switches](https://atcoder.jp/contests/abc277/tasks/abc277_e) | [ABC277_E_Crystal Switches.cpp](./ABC277_E_Crystal%20Switches.cpp) | 已通过 | 分层状态图、Dijkstra、零代价状态切换 |
 | ABC 284 | [C - Count Connected Components](https://atcoder.jp/contests/abc284/tasks/abc284_c) | [ABC284_C_Count Connected Components.cpp](./ABC284_C_Count%20Connected%20Components.cpp) | 已通过 | 并查集、连通块 |
 | ABC 286 | [C - Rotate and Palindrome](https://atcoder.jp/contests/abc286/tasks/abc286_c) | [ABC286_C_Rotate and Palindrome.cpp](./ABC286_C_Rotate%20and%20Palindrome.cpp) | 已通过 | 枚举、字符串、回文 |
 | ABC 290 | [C - Max MEX](https://atcoder.jp/contests/abc290/tasks/abc290_c) | [ABC290_C_Max MEX.cpp](./ABC290_C_Max%20MEX.cpp) | 已通过 | 排序、MEX |
@@ -86,3 +87,5 @@
 > 2026-09-05 新归档 ABC126 D、ABC339 E 与 Educational DP Contest Q，分别对应 AC 提交 `#78899260`、`#78912820`、`#78906000`。
 
 > 2026-09-30 新归档 ABC164 D、ABC233 D，并复核 DP P 与 ABC471 F。官方提交页需要登录，已连接浏览器读取失败，本次以 [AtCoder Problems 公开个人提交索引](https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user=Moyichen0219&from_second=0)补充核对：ABC164 D 对应 AC 提交 [#79643086](https://atcoder.jp/contests/abc164/submissions/79643086)，DP P 对应 AC 提交 [#78873421](https://atcoder.jp/contests/dp/submissions/78873421)，故更新为“已通过”；ABC233 D 尚无匹配记录，保留“待验证”；ABC471 F 仍显示 5 次 WA、0 次 AC。公开索引可能存在延迟，未逐字比对在线源码。
+
+> 2026-10-02 新归档 ABC277 E；AtCoder Problems 公开个人提交索引中存在 AC 提交 [#79663845](https://atcoder.jp/contests/abc277/submissions/79663845)，故标为“已通过”。未逐字比对在线提交源码。

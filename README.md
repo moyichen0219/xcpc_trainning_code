@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 283 个非空 C++ 源文件：266 个题目及历史实现文件和 17 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 287 个非空 C++ 源文件：269 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 103 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 107 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目、Codeforces 账号状态与 AtCoder 部分题目状态最近于 2026-09-30 核对（AtCoder 本次使用公开提交索引，详见平台 README），CSES 题目元数据最近于 2026-09-29 核对，QOJ 新增多人比赛源码最近于 2026-10-01 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷新增题目与 AtCoder ABC277 E 最近于 2026-10-02 核对（AtCoder 使用公开提交索引，详见平台 README），Codeforces 账号状态最近于 2026-09-30 核对，CSES 题目元数据最近于 2026-09-29 核对，QOJ 新增多人比赛源码最近于 2026-10-01 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -67,6 +67,7 @@
 | ABC 271 | [C - Manga](https://atcoder.jp/contests/abc271/tasks/abc271_c) | [ABC271_C_Manga.cpp](./AtCoder/ABC271_C_Manga.cpp) | 已通过 | 贪心、排序、双指针 |
 | ABC 274 | [D - Robot Arms 2](https://atcoder.jp/contests/abc274/tasks/abc274_d) | [ABC274_D_Robot Arms 2.cpp](./AtCoder/ABC274_D_Robot%20Arms%202.cpp) | 已通过 | 动态规划、二维可达性拆分 |
 | ABC 277 | [C - Ladder Takahashi](https://atcoder.jp/contests/abc277/tasks/abc277_c) | [ABC277_C_Ladder Takahashi.cpp](./AtCoder/ABC277_C_Ladder%20Takahashi.cpp) | 已通过 | BFS、图遍历、离散顶点 |
+| ABC 277 | [E - Crystal Switches](https://atcoder.jp/contests/abc277/tasks/abc277_e) | [ABC277_E_Crystal Switches.cpp](./AtCoder/ABC277_E_Crystal%20Switches.cpp) | 已通过 | 分层状态图、Dijkstra、零代价状态切换 |
 | ABC 284 | [C - Count Connected Components](https://atcoder.jp/contests/abc284/tasks/abc284_c) | [ABC284_C_Count Connected Components.cpp](./AtCoder/ABC284_C_Count%20Connected%20Components.cpp) | 已通过 | 并查集、连通块 |
 | ABC 286 | [C - Rotate and Palindrome](https://atcoder.jp/contests/abc286/tasks/abc286_c) | [ABC286_C_Rotate and Palindrome.cpp](./AtCoder/ABC286_C_Rotate%20and%20Palindrome.cpp) | 已通过 | 枚举、字符串、回文 |
 | ABC 290 | [C - Max MEX](https://atcoder.jp/contests/abc290/tasks/abc290_c) | [ABC290_C_Max MEX.cpp](./AtCoder/ABC290_C_Max%20MEX.cpp) | 已通过 | 排序、MEX |
@@ -139,12 +140,15 @@
 | P3367 | [并查集](https://www.luogu.com.cn/problem/P3367) | [P3367_并查集.cpp](./LuoGu/P3367_并查集.cpp) | 已通过 | 并查集、路径压缩 |
 | P3376 | [网络最大流](https://www.luogu.com.cn/problem/P3376) | [P3376_网络最大流.cpp](./LuoGu/P3376_网络最大流.cpp) | 已通过 | Dinic、分层图、当前弧优化 |
 | P3379 | [最近公共祖先（LCA）](https://www.luogu.com.cn/problem/P3379) | [P3379_最近公共祖先.cpp](./LuoGu/P3379_最近公共祖先.cpp) | 已通过 | 倍增、LCA、树上查询 |
+| P3390 | [矩阵快速幂](https://www.luogu.com.cn/problem/P3390) | [P3390_矩阵快速幂.cpp](./LuoGu/P3390_矩阵快速幂.cpp) | 已通过（账号；本地需修正） | 矩阵快速幂；负元素尚未归一化到模域 |
 | P3403 | [跳楼机](https://www.luogu.com.cn/problem/P3403) | [P3403_跳楼机.cpp](./LuoGu/P3403_跳楼机.cpp) | 已通过 | 同余最短路、Dijkstra、可达状态计数 |
+| P3805 | [Manacher](https://www.luogu.com.cn/problem/P3805) | [P3805_Manacher.cpp](./LuoGu/P3805_Manacher.cpp) | 已通过 | Manacher、最长回文子串 |
 | P3868 | [猜数字](https://www.luogu.com.cn/problem/P3868) | [P3868_猜数字.cpp](./LuoGu/P3868_猜数字.cpp) | 已通过（账号；本地需修正） | 中国剩余定理；`k=1` 分支固定输出 0 |
 | P3951 | [小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./LuoGu/P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P3957 | [跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./LuoGu/P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
 | P4549 | [裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./LuoGu/P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P4551 | [最长异或路径](https://www.luogu.com.cn/problem/P4551) | [P4551_最长异或路径.cpp](./LuoGu/P4551_最长异或路径.cpp) | 已通过 | 树上前缀异或、DFS、01 字典树 |
+| P4568 | [飞行路线](https://www.luogu.com.cn/problem/P4568) | [P4568_飞行路线.cpp](./LuoGu/P4568_飞行路线.cpp) | 已通过 | 分层图、Dijkstra、免费边状态 |
 | P4777 | [扩展中国剩余定理（EXCRT）](https://www.luogu.com.cn/problem/P4777) | [P4777_扩展中国剩余定理（EXCRT）.cpp](./LuoGu/P4777_扩展中国剩余定理（EXCRT）.cpp) | 已通过 | 扩展中国剩余定理、扩展欧几里得 |
 | P5019 | [铺设道路](https://www.luogu.com.cn/problem/P5019) | [P5019_铺设道路.cpp](./LuoGu/P5019_铺设道路.cpp) | 已通过 | 贪心、差分 |
 | P5318 | [查找文献](https://www.luogu.com.cn/problem/P5318) | [P5318_查找文献.cpp](./LuoGu/P5318_查找文献.cpp) | 已通过 | 图遍历、DFS、BFS |
@@ -307,7 +311,6 @@
 | 2026 ICPC 贵州省赛 | [C - Aquarium Feeding](https://qoj.ac/contest/4121/problem/20286) | [C_Aquarium Feeding.cpp](./2026Guizhou/C_Aquarium%20Feeding.cpp) | 待验证 | 周期往返、必要充分条件、线性扫描 |
 | 2026 ICPC 贵州省赛 | [D - Bacteria Culture](https://qoj.ac/contest/4121/problem/20287) | [D_Bacteria Culture.cpp](./2026Guizhou/D_Bacteria%20Culture.cpp) | 待验证 | 倍增次数、区间操作、贪心扫描 |
 | 2026 ICPC 贵州省赛 | [E - Charging Adapters](https://qoj.ac/contest/4121/problem/20288) | [E_Charging Adapters.cpp](./2026Guizhou/E_Charging%20Adapters.cpp) | 待验证 | 分层图建模、相邻连接、Dijkstra |
-| 2026 ICPC 贵州省赛 | [K - Two-Tone Palindromes](https://qoj.ac/contest/4121/problem/20294) | [K_Two-Tone Palindromes.cpp](./2026Guizhou/K_Two-Tone%20Palindromes.cpp) | 未完成 | 空题框架 |
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
@@ -315,7 +318,7 @@ Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 37 道 
 
 ## 知识总结
 
-可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)，新增动态规划复习笔记；通用源码模板见 [Templates/README.md](./Templates/README.md)，其中还收录了 DP 模板总复习，以及矩阵快速幂、同余最短路、最大流、数论、线段树、匹配、筛法、组合数和概率模板。
+可复用的算法笔记收录在 [Knowledge/README.md](./Knowledge/README.md)，新增动态规划复习笔记；通用源码模板见 [Templates/README.md](./Templates/README.md)，其中还收录了 DP 模板总复习，以及 Manacher、矩阵快速幂、同余最短路、最大流、数论、线段树、匹配、筛法、组合数和概率模板。
 
 ## 维护约定
 
