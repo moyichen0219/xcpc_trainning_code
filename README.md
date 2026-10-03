@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 287 个非空 C++ 源文件：269 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 290 个非空 C++ 源文件：272 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 107 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 110 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目与 AtCoder ABC277 E 最近于 2026-10-02 核对（AtCoder 使用公开提交索引，详见平台 README），Codeforces 账号状态最近于 2026-09-30 核对，CSES 题目元数据最近于 2026-09-29 核对，QOJ 新增多人比赛源码最近于 2026-10-01 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷新增题目、Codeforces 账号状态与 QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），CSES 题目元数据最近于 2026-09-29 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -119,6 +119,7 @@
 | P1551 | [亲戚](https://www.luogu.com.cn/problem/P1551) | [P1551_亲戚.cpp](./LuoGu/P1551_亲戚.cpp) | 已通过 | 并查集、连通性查询 |
 | P1563 | [玩具谜题](https://www.luogu.com.cn/problem/P1563) | [P1563_玩具谜题.cpp](./LuoGu/P1563_玩具谜题.cpp) | 未完成 | 环形模拟 |
 | P1576 | [最小花费](https://www.luogu.com.cn/problem/P1576) | [P1576_最小花费.cpp](./LuoGu/P1576_最小花费.cpp) | 已通过 | Dijkstra、乘法权值、反向最短路 |
+| P1659 | [拉拉队排练](https://www.luogu.com.cn/problem/P1659) | [P1659_拉拉队排练.cpp](./LuoGu/P1659_拉拉队排练.cpp) | 已通过 | Manacher、奇回文计数、贪心、快速幂 |
 | P1725 | [琪露诺](https://www.luogu.com.cn/problem/P1725) | [P1725_琪露诺.cpp](./LuoGu/P1725_琪露诺.cpp) | 已通过 | 动态规划、单调队列、滑动窗口最值 |
 | P17331 | [Min Mex](https://www.luogu.com.cn/problem/P17331) | [P17331_Min Mex.cpp](./LuoGu/P17331_Min%20Mex.cpp) | 已通过 | 排序、贪心、MEX |
 | P1803 | [凌乱的yyy / 线段覆盖](https://www.luogu.com.cn/problem/P1803) | [P1803_凌乱的yyy-线段覆盖.cpp](./LuoGu/P1803_凌乱的yyy-线段覆盖.cpp) | 已通过 | 贪心、区间调度、排序 |
@@ -239,6 +240,7 @@
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./CodeForces/522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./CodeForces/580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./CodeForces/580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
+| 621C | [Wet Shark and Flowers](https://codeforces.com/problemset/problem/621/C) | [621C_Wet Shark and Flowers.cpp](./CodeForces/621C_Wet%20Shark%20and%20Flowers.cpp) | 已通过 | 概率、区间倍数计数、期望线性性 |
 | 665E | [Beautiful Subarrays](https://codeforces.com/problemset/problem/665/E) | [665E_Beautiful Subarrays.cpp](./CodeForces/665E_Beautiful%20Subarrays.cpp) | 已通过 | 前缀异或、01 字典树、子数组计数 |
 | 706D | [Vasiliy's Multiset](https://codeforces.com/problemset/problem/706/D) | [706D_Vasiliy's Multiset.cpp](./CodeForces/706D_Vasiliy's%20Multiset.cpp) | 已通过 | 01 字典树、动态多重集合、最大异或 |
 | 923C | [Perfect Security](https://codeforces.com/problemset/problem/923/C) | [923C_Perfect Security.cpp](./CodeForces/923C_Perfect%20Security.cpp) | 已通过 | 01 字典树、贪心、可删除多重集合 |
@@ -311,10 +313,11 @@
 | 2026 ICPC 贵州省赛 | [C - Aquarium Feeding](https://qoj.ac/contest/4121/problem/20286) | [C_Aquarium Feeding.cpp](./2026Guizhou/C_Aquarium%20Feeding.cpp) | 待验证 | 周期往返、必要充分条件、线性扫描 |
 | 2026 ICPC 贵州省赛 | [D - Bacteria Culture](https://qoj.ac/contest/4121/problem/20287) | [D_Bacteria Culture.cpp](./2026Guizhou/D_Bacteria%20Culture.cpp) | 待验证 | 倍增次数、区间操作、贪心扫描 |
 | 2026 ICPC 贵州省赛 | [E - Charging Adapters](https://qoj.ac/contest/4121/problem/20288) | [E_Charging Adapters.cpp](./2026Guizhou/E_Charging%20Adapters.cpp) | 待验证 | 分层图建模、相邻连接、Dijkstra |
+| 2026 ICPC 贵州省赛 | [K - Two-Tone Palindromes](https://qoj.ac/contest/4121/problem/20294) | [K_Two-Tone Palindromes.cpp](./2026Guizhou/K_Two-Tone%20Palindromes.cpp) | 待验证 | 双指针、Manacher、回文子串计数 |
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 37 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 38 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 

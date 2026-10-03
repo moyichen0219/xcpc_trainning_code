@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-09-30。以下 37 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态最近核对日期：2026-10-03。以下 38 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -21,6 +21,7 @@
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
+| 621C | [Wet Shark and Flowers](https://codeforces.com/problemset/problem/621/C) | [621C_Wet Shark and Flowers.cpp](./621C_Wet%20Shark%20and%20Flowers.cpp) | 已通过 | 概率、区间倍数计数、期望线性性 |
 | 665E | [Beautiful Subarrays](https://codeforces.com/problemset/problem/665/E) | [665E_Beautiful Subarrays.cpp](./665E_Beautiful%20Subarrays.cpp) | 已通过 | 前缀异或、01 字典树、子数组计数 |
 | 706D | [Vasiliy's Multiset](https://codeforces.com/problemset/problem/706/D) | [706D_Vasiliy's Multiset.cpp](./706D_Vasiliy's%20Multiset.cpp) | 已通过 | 01 字典树、动态多重集合、最大异或 |
 | 923C | [Perfect Security](https://codeforces.com/problemset/problem/923/C) | [923C_Perfect Security.cpp](./923C_Perfect%20Security.cpp) | 已通过 | 01 字典树、贪心、可删除多重集合 |
@@ -55,3 +56,5 @@
 > 2026-09-29 新归档 282E、665E、706D、923C，分别对应 AC 提交 `#392613362`（另有 `#392614330`）、`#392622285`、`#392602930`、`#392607936`。
 
 > 2026-09-30 新归档 1398C，已通过 Codeforces 官方 API 确认 AC 提交 [#392723386](https://codeforces.com/contest/1398/submission/392723386)。
+
+> 2026-10-03 新归档 621C，已通过 Codeforces 官方 API 确认 AC 提交 [#392991914](https://codeforces.com/contest/621/submission/392991914)。
