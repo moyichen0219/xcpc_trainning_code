@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 290 个非空 C++ 源文件：272 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 292 个非空 C++ 源文件：274 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 110 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 112 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目、Codeforces 账号状态与 QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），CSES 题目元数据最近于 2026-09-29 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷新增题目与 Codeforces 账号状态最近于 2026-10-04 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），CSES 题目元数据最近于 2026-09-29 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -147,6 +147,7 @@
 | P3868 | [猜数字](https://www.luogu.com.cn/problem/P3868) | [P3868_猜数字.cpp](./LuoGu/P3868_猜数字.cpp) | 已通过（账号；本地需修正） | 中国剩余定理；`k=1` 分支固定输出 0 |
 | P3951 | [小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./LuoGu/P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P3957 | [跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./LuoGu/P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
+| P4316 | [绿豆蛙的归宿](https://www.luogu.com.cn/problem/P4316) | [P4316_绿豆蛙的归宿.cpp](./LuoGu/P4316_绿豆蛙的归宿.cpp) | 已通过 | DAG、拓扑排序、期望动态规划 |
 | P4549 | [裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./LuoGu/P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P4551 | [最长异或路径](https://www.luogu.com.cn/problem/P4551) | [P4551_最长异或路径.cpp](./LuoGu/P4551_最长异或路径.cpp) | 已通过 | 树上前缀异或、DFS、01 字典树 |
 | P4568 | [飞行路线](https://www.luogu.com.cn/problem/P4568) | [P4568_飞行路线.cpp](./LuoGu/P4568_飞行路线.cpp) | 已通过 | 分层图、Dijkstra、免费边状态 |
@@ -237,6 +238,7 @@
 | 489C | [Given Length and Sum of Digits...](https://codeforces.com/problemset/problem/489/C) | [489C_Given Length and Sum of Digits.cpp](./CodeForces/489C_Given%20Length%20and%20Sum%20of%20Digits.cpp) | 已通过 | 贪心、构造、数位 |
 | 500A | [New Year Transportation](https://codeforces.com/problemset/problem/500/A) | [500A_New Year Transportation.cpp](./CodeForces/500A_New%20Year%20Transportation.cpp) | 已通过 | 模拟、图遍历 |
 | 510D | [Fox And Jumping](https://codeforces.com/problemset/problem/510/D) | [510D_Fox And Jumping.cpp](./CodeForces/510D_Fox%20And%20Jumping.cpp) | 已通过 | 动态规划、最大公约数、状态压缩 |
+| 518D | [Ilya and Escalator](https://codeforces.com/problemset/problem/518/D) | [518D_Ilya and Escalator.cpp](./CodeForces/518D_Ilya%20and%20Escalator.cpp) | 已通过 | 概率动态规划、期望 |
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./CodeForces/522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./CodeForces/580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./CodeForces/580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
@@ -317,7 +319,7 @@
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 38 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 39 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 

@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-10-03。以下 38 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态最近核对日期：2026-10-04。以下 39 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -18,6 +18,7 @@
 | 489C | [Given Length and Sum of Digits...](https://codeforces.com/problemset/problem/489/C) | [489C_Given Length and Sum of Digits.cpp](./489C_Given%20Length%20and%20Sum%20of%20Digits.cpp) | 已通过 | 贪心、构造、数位 |
 | 500A | [New Year Transportation](https://codeforces.com/problemset/problem/500/A) | [500A_New Year Transportation.cpp](./500A_New%20Year%20Transportation.cpp) | 已通过 | 模拟、图遍历 |
 | 510D | [Fox And Jumping](https://codeforces.com/problemset/problem/510/D) | [510D_Fox And Jumping.cpp](./510D_Fox%20And%20Jumping.cpp) | 已通过 | 动态规划、最大公约数、状态压缩 |
+| 518D | [Ilya and Escalator](https://codeforces.com/problemset/problem/518/D) | [518D_Ilya and Escalator.cpp](./518D_Ilya%20and%20Escalator.cpp) | 已通过 | 概率动态规划、期望 |
 | 522A | [Reposts](https://codeforces.com/problemset/problem/522/A) | [522A_Reposts.cpp](./522A_Reposts.cpp) | 已通过 | BFS、最长链、字符串处理 |
 | 580C | [Kefa and Park](https://codeforces.com/problemset/problem/580/C) | [580C_Kefa and Park.cpp](<./580C_Kefa and Park.cpp>) | 已通过 | 树上 DFS、连续段约束、叶子计数 |
 | 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
@@ -58,3 +59,5 @@
 > 2026-09-30 新归档 1398C，已通过 Codeforces 官方 API 确认 AC 提交 [#392723386](https://codeforces.com/contest/1398/submission/392723386)。
 
 > 2026-10-03 新归档 621C，已通过 Codeforces 官方 API 确认 AC 提交 [#392991914](https://codeforces.com/contest/621/submission/392991914)。
+
+> 2026-10-04 新归档 518D，已通过 Codeforces 官方 API 确认 AC 提交 [#393106428](https://codeforces.com/contest/518/submission/393106428)。空的 148D 草稿没有提交记录，本轮不归档。
