@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 292 个非空 C++ 源文件：274 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 306 个非空 C++ 源文件：288 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 112 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 126 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目与 Codeforces 账号状态最近于 2026-10-04 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），CSES 题目元数据最近于 2026-09-29 核对，新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷 P2168 与账号状态最近于 2026-10-13 核对，CCPC2026 网络热身赛第二场及 CSES 题目元数据最近于 2026-10-13 核对，Codeforces 账号状态最近于 2026-10-04 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -130,6 +130,7 @@
 | P1962 | [斐波那契数列](https://www.luogu.com.cn/problem/P1962) | [P1962_斐波那契数列.cpp](./LuoGu/P1962_斐波那契数列.cpp) | 已通过 | 矩阵快速幂、斐波那契数列 |
 | P2014 | [选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./LuoGu/P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
 | P2036 | [PERKET](https://www.luogu.com.cn/problem/P2036) | [P2036_PERKET.cpp](./LuoGu/P2036_PERKET.cpp) | 已通过 | 子集枚举、暴力搜索 |
+| P2168 | [荷马史诗](https://www.luogu.com.cn/problem/P2168) | [P2168_荷马史诗.cpp](./LuoGu/P2168_荷马史诗.cpp) | 已通过 | K 叉 Huffman 树、优先队列、树高统计 |
 | P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 已通过 | 贪心、排序 |
 | P2371 | [墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./LuoGu/P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
 | P2627 | [Mowing the Lawn G](https://www.luogu.com.cn/problem/P2627) | [P2627_Mowing the Lawn G.cpp](./LuoGu/P2627_Mowing%20the%20Lawn%20G.cpp) | 已通过 | 动态规划、单调队列、补集转化 |
@@ -206,6 +207,7 @@
 | 1084 | [Apartments](https://cses.fi/problemset/task/1084/) | [1084_Apartments.cpp](./CSES/1084_Apartments.cpp) | 待验证 | 排序、双指针、贪心 |
 | 1085 | [Array Division](https://cses.fi/problemset/task/1085/) | [1085_Array Division.cpp](./CSES/1085_Array%20Division.cpp) | 待验证 | 二分答案、贪心 |
 | 1090 | [Ferris Wheel](https://cses.fi/problemset/task/1090/) | [1090_Ferris Wheel.cpp](./CSES/1090_Ferris%20Wheel.cpp) | 待验证 | 排序、双指针、贪心 |
+| 1092 | [Two Sets](https://cses.fi/problemset/task/1092/) | [1092_Two Sets.cpp](./CSES/1092_Two%20Sets.cpp) | 待验证 | 贪心构造、等和划分 |
 | 1094 | [Increasing Array](https://cses.fi/problemset/task/1094/) | [1094_Increasing Array.cpp](./CSES/1094_Increasing%20Array.cpp) | 待验证 | 贪心、线性扫描 |
 | 1095 | [Exponentiation](https://cses.fi/problemset/task/1095/) | [1095_Exponentiation.cpp](./CSES/1095_Exponentiation.cpp) | 待验证 | 快速幂、模运算 |
 | 1141 | [Playlist](https://cses.fi/problemset/task/1141/) | [1141_Playlist.cpp](./CSES/1141_Playlist.cpp) | 待验证 | 滑动窗口、映射、双指针 |
@@ -216,9 +218,28 @@
 | 1646 | [Static Range Sum Queries](https://cses.fi/problemset/task/1646/) | [1646_Static Range Sum Queries.cpp](./CSES/1646_Static%20Range%20Sum%20Queries.cpp) | 待验证 | 前缀和、区间查询 |
 | 1660 | [Subarray Sums I](https://cses.fi/problemset/task/1660/) | [1660_Subarray Sums I.cpp](./CSES/1660_Subarray%20Sums%20I.cpp) | 待验证 | 滑动窗口、双指针 |
 | 1661 | [Subarray Sums II](https://cses.fi/problemset/task/1661/) | [1661_Subarray Sums II.cpp](./CSES/1661_Subarray%20Sums%20II.cpp) | 待验证 | 前缀和、频次映射 |
+| 1713 | [Counting Divisors](https://cses.fi/problemset/task/1713/) | [1713_Counting Divisors.cpp](./CSES/1713_Counting%20Divisors.cpp) | 待验证 | 约数筛、调和级数 |
+| 1755 | [Palindrome Reorder](https://cses.fi/problemset/task/1755/) | [1755_Palindrome Reorder.cpp](./CSES/1755_Palindrome%20Reorder.cpp) | 待验证 | 字符计数、回文构造 |
 | 2183 | [Missing Coin Sum](https://cses.fi/problemset/task/2183/) | [2183_Missing Coin Sum.cpp](./CSES/2183_Missing%20Coin%20Sum.cpp) | 待验证 | 贪心、排序、可表示区间 |
 
 详见 [CSES/README.md](./CSES/README.md)。
+
+## CCPCOJ
+
+| 比赛 | 题目 | 代码 | 状态 | 主题 |
+| --- | --- | --- | --- | --- |
+| CCPC2026 网络热身赛第二场 | [A - 潮汐灯带](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1583) | [A_潮汐灯带.cpp](./CCPC_Test2/A_潮汐灯带.cpp) | 待验证 | 环形数组、滑动窗口 |
+| CCPC2026 网络热身赛第二场 | [B - 暗水位](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1584) | [B_暗水位.cpp](./CCPC_Test2/B_暗水位.cpp) | 待验证 | 交互、二分答案 |
+| CCPC2026 网络热身赛第二场 | [C - 浮桥配重](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1585) | [C_浮桥配重.cpp](./CCPC_Test2/C_浮桥配重.cpp) | 待验证 | 贪心、优先队列、前缀可行性 |
+| CCPC2026 网络热身赛第二场 | [D - 分尺传讯](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1586) | [D_分尺传讯.cpp](./CCPC_Test2/D_分尺传讯.cpp) | 待验证 | 排序、贪心、双阶段协议 |
+| CCPC2026 网络热身赛第二场 | [E - 双泊对照](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1587) | [E_双泊对照.cpp](./CCPC_Test2/E_双泊对照.cpp) | 待验证 | 排序、多重集合、双角色通信 |
+| CCPC2026 网络热身赛第二场 | [F - 第二阵风](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1588) | [F_第二阵风.cpp](./CCPC_Test2/F_第二阵风.cpp) | 待验证 | 单调栈、有序集合、排列贡献统计 |
+| CCPC2026 网络热身赛第二场 | [G - 逐潮探点](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1589) | [G_逐潮探点.cpp](./CCPC_Test2/G_逐潮探点.cpp) | 待验证 | 交互、逐项二分答案 |
+| CCPC2026 网络热身赛第二场 | [H - 树潮报文](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1590) | [H_树潮报文.cpp](./CCPC_Test2/H_树潮报文.cpp) | 待验证 | 树上 DFS、路径恢复、路径最小值计数 |
+| CCPC2026 网络热身赛第二场 | [I - 四段并港](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1591) | [I_四段并港.cpp](./CCPC_Test2/I_四段并港.cpp) | 待验证 | 并查集、连通块计数、多阶段通信 |
+| CCPC2026 网络热身赛第二场 | [J - 封闭车站](https://cpc.csgrandeur.cn/csgoj/problemset/problem?pid=1592) | [J_封闭车站.cpp](./CCPC_Test2/J_封闭车站.cpp) | 待验证 | 全源 BFS、无权图最短路 |
+
+详见 [CCPC_Test2/README.md](./CCPC_Test2/README.md)。
 
 ## Codeforces
 

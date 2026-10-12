@@ -1,6 +1,6 @@
 # 洛谷代码索引
 
-题目元数据最近核对日期：2026-10-04；账号状态最近核对日期：2026-10-04。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
+题目元数据最近核对日期：2026-10-13；账号状态最近核对日期：2026-10-13。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -36,6 +36,7 @@
 | P1962 | [斐波那契数列](https://www.luogu.com.cn/problem/P1962) | [P1962_斐波那契数列.cpp](./P1962_斐波那契数列.cpp) | 已通过 | 矩阵快速幂、斐波那契数列 |
 | P2014 | [[CTSC1997] 选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
 | P2036 | [[COCI 2008/2009 #2] PERKET](https://www.luogu.com.cn/problem/P2036) | [P2036_PERKET.cpp](./P2036_PERKET.cpp) | 已通过 | 子集枚举、暴力搜索 |
+| P2168 | [[NOI2015] 荷马史诗](https://www.luogu.com.cn/problem/P2168) | [P2168_荷马史诗.cpp](./P2168_荷马史诗.cpp) | 已通过 | K 叉 Huffman 树、优先队列、树高统计 |
 | P2240 | [[深基12.例1] 部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./P2240_部分背包问题.cpp) | 已通过 | 贪心、按单位价值排序 |
 | P2371 | [[国家集训队] 墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
 | P2627 | [[USACO11OPEN] Mowing the Lawn G](https://www.luogu.com.cn/problem/P2627) | [P2627_Mowing the Lawn G.cpp](./P2627_Mowing%20the%20Lawn%20G.cpp) | 已通过 | 动态规划、单调队列、补集转化 |
@@ -91,3 +92,5 @@
 > 2026-10-03 新归档 P1659，已在[账号公开练习页](https://www.luogu.com.cn/user/625985/practice)的 `passed` 列表中确认。
 
 > 2026-10-04 新归档 P4316，已在账号公开练习页的 `passed` 列表中确认。
+
+> 2026-10-13 新归档 P2168「[NOI2015] 荷马史诗」，已在账号公开练习页的已通过列表中确认。
