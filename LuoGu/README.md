@@ -11,6 +11,7 @@
 | P1012 | [[NOIP 1998 提高组] 拼数](https://www.luogu.com.cn/problem/P1012) | [P1012_拼数.cpp](./P1012_拼数.cpp) | 已通过 | 贪心排序、字符串拼接 |
 | P1020 | [[NOIP 1999 提高组] 导弹拦截](https://www.luogu.com.cn/problem/P1020) | [P1020_导弹拦截.cpp](./P1020_导弹拦截.cpp) | 已通过 | 最长不上升子序列、最长上升子序列、二分优化 |
 | P1042 | [[NOIP 2003 普及组] 乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./P1042_乒乓球.cpp) | 已通过 | 模拟、计分规则 |
+| P10505 | [Dropping Test](https://www.luogu.com.cn/problem/P10505) | [P10505_Dropping Test.cpp](./P10505_Dropping%20Test.cpp) | 已通过 | 01 分数规划、二分答案、贪心排序 |
 | P1082 | [[NOIP 2012 提高组] 同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [[JSOI2008] 星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
@@ -29,6 +30,7 @@
 | P1725 | [琪露诺](https://www.luogu.com.cn/problem/P1725) | [P1725_琪露诺.cpp](./P1725_琪露诺.cpp) | 已通过 | 动态规划、单调队列、滑动窗口最值 |
 | P17331 | [「TPOI-2A」Min Mex](https://www.luogu.com.cn/problem/P17331) | [P17331_Min Mex.cpp](./P17331_Min%20Mex.cpp) | 已通过 | 排序、贪心、MEX |
 | P1803 | [凌乱的yyy / 线段覆盖](https://www.luogu.com.cn/problem/P1803) | [P1803_凌乱的yyy-线段覆盖.cpp](./P1803_凌乱的yyy-线段覆盖.cpp) | 已通过 | 贪心、区间调度、排序 |
+| P1868 | [饥饿的奶牛](https://www.luogu.com.cn/problem/P1868) | [P1868_饥饿的奶牛.cpp](./P1868_饥饿的奶牛.cpp) | 已通过 | 动态规划、树状数组、区间调度 |
 | P1879 | [[USACO06NOV] Corn Fields G](https://www.luogu.com.cn/problem/P1879) | [P1879_Corn Fields G.cpp](./P1879_Corn%20Fields%20G.cpp) | 未完成 | 状态压缩动态规划（待实现） |
 | P1880 | [[NOI1995] 石子合并](https://www.luogu.com.cn/problem/P1880) | [P1880_石子合并.cpp](./P1880_石子合并.cpp) | 已通过 | 环形区间动态规划、前缀和 |
 | P1908 | [逆序对](https://www.luogu.com.cn/problem/P1908) | [P1908_逆序对.cpp](./P1908_逆序对.cpp) | 已通过 | 离散化、树状数组、逆序对 |
@@ -48,6 +50,7 @@
 | P3367 | [【模板】并查集](https://www.luogu.com.cn/problem/P3367) | [P3367_并查集.cpp](./P3367_并查集.cpp) | 已通过 | 并查集、路径压缩 |
 | P3376 | [【模板】网络最大流](https://www.luogu.com.cn/problem/P3376) | [P3376_网络最大流.cpp](./P3376_网络最大流.cpp) | 已通过 | Dinic、分层图、当前弧优化 |
 | P3379 | [【模板】最近公共祖先（LCA）](https://www.luogu.com.cn/problem/P3379) | [P3379_最近公共祖先.cpp](./P3379_最近公共祖先.cpp) | 已通过 | 倍增、LCA、树上查询 |
+| P3382 | [三分](https://www.luogu.com.cn/problem/P3382) | [P3382_三分.cpp](./P3382_三分.cpp) | 已通过 | 三分搜索、Horner 法求值 |
 | P3390 | [【模板】矩阵快速幂](https://www.luogu.com.cn/problem/P3390) | [P3390_矩阵快速幂.cpp](./P3390_矩阵快速幂.cpp) | 已通过（账号；本地需修正） | 矩阵快速幂；负元素尚未归一化到模域 |
 | P3403 | [跳楼机](https://www.luogu.com.cn/problem/P3403) | [P3403_跳楼机.cpp](./P3403_跳楼机.cpp) | 已通过 | 同余最短路、Dijkstra、可达状态计数 |
 | P3805 | [【模板】Manacher](https://www.luogu.com.cn/problem/P3805) | [P3805_Manacher.cpp](./P3805_Manacher.cpp) | 已通过 | Manacher、最长回文子串 |
@@ -55,6 +58,7 @@
 | P3951 | [[NOIP 2017 提高组] 小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P3957 | [[NOIP 2017 普及组] 跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
 | P4316 | [绿豆蛙的归宿](https://www.luogu.com.cn/problem/P4316) | [P4316_绿豆蛙的归宿.cpp](./P4316_绿豆蛙的归宿.cpp) | 已通过 | DAG、拓扑排序、期望动态规划 |
+| P4377 | [[USACO18OPEN] Talent Show G](https://www.luogu.com.cn/problem/P4377) | [P4377_Talent Show G.cpp](./P4377_Talent%20Show%20G.cpp) | 已通过 | 01 分数规划、二分答案、01 背包 |
 | P4549 | [【模板】裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P4551 | [最长异或路径](https://www.luogu.com.cn/problem/P4551) | [P4551_最长异或路径.cpp](./P4551_最长异或路径.cpp) | 已通过 | 树上前缀异或、DFS、01 字典树 |
 | P4568 | [[JLOI2011] 飞行路线](https://www.luogu.com.cn/problem/P4568) | [P4568_飞行路线.cpp](./P4568_飞行路线.cpp) | 已通过 | 分层图、Dijkstra、免费边状态 |
@@ -94,3 +98,5 @@
 > 2026-10-04 新归档 P4316，已在账号公开练习页的 `passed` 列表中确认。
 
 > 2026-10-13 新归档 P2168「[NOI2015] 荷马史诗」，已在账号公开练习页的已通过列表中确认。
+
+> 2026-10-13 新归档 P10505、P1868、P3382、P4377，四题均已在账号公开练习页的 `passed` 列表中确认；仅做轻量静态检查，未重新编译或运行。
