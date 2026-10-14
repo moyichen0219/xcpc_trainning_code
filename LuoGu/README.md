@@ -1,6 +1,6 @@
 # 洛谷代码索引
 
-题目元数据最近核对日期：2026-10-13；账号状态最近核对日期：2026-10-13。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
+题目元数据最近核对日期：2026-10-14；账号状态最近核对日期：2026-10-14。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -12,6 +12,7 @@
 | P1020 | [[NOIP 1999 提高组] 导弹拦截](https://www.luogu.com.cn/problem/P1020) | [P1020_导弹拦截.cpp](./P1020_导弹拦截.cpp) | 已通过 | 最长不上升子序列、最长上升子序列、二分优化 |
 | P1042 | [[NOIP 2003 普及组] 乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./P1042_乒乓球.cpp) | 已通过 | 模拟、计分规则 |
 | P10505 | [Dropping Test](https://www.luogu.com.cn/problem/P10505) | [P10505_Dropping Test.cpp](./P10505_Dropping%20Test.cpp) | 已通过 | 01 分数规划、二分答案、贪心排序 |
+| P10729 | [[NOISG 2023 Qualification] Dolls](https://www.luogu.com.cn/problem/P10729) | [P10729_Dolls.cpp](./P10729_Dolls.cpp) | 已通过 | 并查集、动态连续段、贡献维护 |
 | P1082 | [[NOIP 2012 提高组] 同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [[JSOI2008] 星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
@@ -37,6 +38,7 @@
 | P1939 | [矩阵加速（数列）](https://www.luogu.com.cn/problem/P1939) | [P1939_矩阵加速（数列）.cpp](./P1939_矩阵加速（数列）.cpp) | 已通过 | 矩阵快速幂、三阶线性递推 |
 | P1962 | [斐波那契数列](https://www.luogu.com.cn/problem/P1962) | [P1962_斐波那契数列.cpp](./P1962_斐波那契数列.cpp) | 已通过 | 矩阵快速幂、斐波那契数列 |
 | P2014 | [[CTSC1997] 选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
+| P2015 | [二叉苹果树](https://www.luogu.com.cn/problem/P2015) | [P2015_二叉苹果树.cpp](./P2015_二叉苹果树.cpp) | 已通过 | 树形动态规划、树上背包 |
 | P2036 | [[COCI 2008/2009 #2] PERKET](https://www.luogu.com.cn/problem/P2036) | [P2036_PERKET.cpp](./P2036_PERKET.cpp) | 已通过 | 子集枚举、暴力搜索 |
 | P2168 | [[NOI2015] 荷马史诗](https://www.luogu.com.cn/problem/P2168) | [P2168_荷马史诗.cpp](./P2168_荷马史诗.cpp) | 已通过 | K 叉 Huffman 树、优先队列、树高统计 |
 | P2240 | [[深基12.例1] 部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./P2240_部分背包问题.cpp) | 已通过 | 贪心、按单位价值排序 |
@@ -58,6 +60,7 @@
 | P3951 | [[NOIP 2017 提高组] 小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P3957 | [[NOIP 2017 普及组] 跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
 | P4316 | [绿豆蛙的归宿](https://www.luogu.com.cn/problem/P4316) | [P4316_绿豆蛙的归宿.cpp](./P4316_绿豆蛙的归宿.cpp) | 已通过 | DAG、拓扑排序、期望动态规划 |
+| P4322 | [[JSOI2016] 最佳团体](https://www.luogu.com.cn/problem/P4322) | [P4322_最佳团体.cpp](./P4322_最佳团体.cpp) | 已通过 | 01 分数规划、二分答案、依赖型树上背包 |
 | P4377 | [[USACO18OPEN] Talent Show G](https://www.luogu.com.cn/problem/P4377) | [P4377_Talent Show G.cpp](./P4377_Talent%20Show%20G.cpp) | 已通过 | 01 分数规划、二分答案、01 背包 |
 | P4549 | [【模板】裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P4551 | [最长异或路径](https://www.luogu.com.cn/problem/P4551) | [P4551_最长异或路径.cpp](./P4551_最长异或路径.cpp) | 已通过 | 树上前缀异或、DFS、01 字典树 |
@@ -68,6 +71,7 @@
 | P5490 | [【模板】扫描线 & 矩形面积并](https://www.luogu.com.cn/problem/P5490) | [P5490_扫描线与矩形面积并.cpp](./P5490_扫描线与矩形面积并.cpp) | 已通过 | 扫描线、离散化、线段树、矩形面积并 |
 | P5536 | [【XR-3】核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
 | P5656 | [【模板】二元一次不定方程 (exgcd)](https://www.luogu.com.cn/problem/P5656) | [P5656_二元一次不定方程.cpp](./P5656_二元一次不定方程.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程、解集计数 |
+| P9873 | [[EC Final 2021] Beautiful String](https://www.luogu.com.cn/problem/P9873) | [P9873_Beautiful String.cpp](./P9873_Beautiful%20String.cpp) | 未通过 | 字符串模式匹配、最近合法起点、子串计数 |
 
 > 当时新增的 7 道题中，P2662 当前本地版本缺少可用长度整体 gcd 大于 1 时的无解判断，故单独标注“本地需修正”；P5536 本地源码仍未完成，且 2026-09-22 公开练习页显示为已提交但未通过。
 
@@ -100,3 +104,5 @@
 > 2026-10-13 新归档 P2168「[NOI2015] 荷马史诗」，已在账号公开练习页的已通过列表中确认。
 
 > 2026-10-13 新归档 P10505、P1868、P3382、P4377，四题均已在账号公开练习页的 `passed` 列表中确认；仅做轻量静态检查，未重新编译或运行。
+
+> 2026-10-14 新归档 P10729、P2015、P4322、P9873。前三题在账号公开练习页的 `passed` 列表中；P9873 仅位于 `submitted` 列表，故标为“未通过”。本轮仅做轻量静态检查。

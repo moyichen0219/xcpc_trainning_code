@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 310 个非空 C++ 源文件：292 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 314 个非空 C++ 源文件：296 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 130 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 134 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目与账号状态最近于 2026-10-13 核对，CCPC2026 网络热身赛第二场及 CSES 题目元数据最近于 2026-10-13 核对，Codeforces 账号状态最近于 2026-10-04 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷新增题目与账号状态最近于 2026-10-14 核对，CCPC2026 网络热身赛第二场及 CSES 题目元数据最近于 2026-10-13 核对，Codeforces 账号状态最近于 2026-10-04 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -106,6 +106,7 @@
 | P1020 | [导弹拦截](https://www.luogu.com.cn/problem/P1020) | [P1020_导弹拦截.cpp](./LuoGu/P1020_导弹拦截.cpp) | 已通过 | 最长不上升子序列、最长上升子序列、二分优化 |
 | P1042 | [乒乓球](https://www.luogu.com.cn/problem/P1042) | [P1042_乒乓球.cpp](./LuoGu/P1042_乒乓球.cpp) | 已通过 | 模拟 |
 | P10505 | [Dropping Test](https://www.luogu.com.cn/problem/P10505) | [P10505_Dropping Test.cpp](./LuoGu/P10505_Dropping%20Test.cpp) | 已通过 | 01 分数规划、二分答案、贪心排序 |
+| P10729 | [Dolls](https://www.luogu.com.cn/problem/P10729) | [P10729_Dolls.cpp](./LuoGu/P10729_Dolls.cpp) | 已通过 | 并查集、动态连续段、贡献维护 |
 | P1082 | [同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./LuoGu/P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./LuoGu/P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
@@ -131,6 +132,7 @@
 | P1939 | [矩阵加速（数列）](https://www.luogu.com.cn/problem/P1939) | [P1939_矩阵加速（数列）.cpp](./LuoGu/P1939_矩阵加速（数列）.cpp) | 已通过 | 矩阵快速幂、三阶线性递推 |
 | P1962 | [斐波那契数列](https://www.luogu.com.cn/problem/P1962) | [P1962_斐波那契数列.cpp](./LuoGu/P1962_斐波那契数列.cpp) | 已通过 | 矩阵快速幂、斐波那契数列 |
 | P2014 | [选课](https://www.luogu.com.cn/problem/P2014) | [P2014_选课.cpp](./LuoGu/P2014_选课.cpp) | 已通过 | 依赖型树上背包、虚拟根 |
+| P2015 | [二叉苹果树](https://www.luogu.com.cn/problem/P2015) | [P2015_二叉苹果树.cpp](./LuoGu/P2015_二叉苹果树.cpp) | 已通过 | 树形动态规划、树上背包 |
 | P2036 | [PERKET](https://www.luogu.com.cn/problem/P2036) | [P2036_PERKET.cpp](./LuoGu/P2036_PERKET.cpp) | 已通过 | 子集枚举、暴力搜索 |
 | P2168 | [荷马史诗](https://www.luogu.com.cn/problem/P2168) | [P2168_荷马史诗.cpp](./LuoGu/P2168_荷马史诗.cpp) | 已通过 | K 叉 Huffman 树、优先队列、树高统计 |
 | P2240 | [部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./LuoGu/P2240_部分背包问题.cpp) | 已通过 | 贪心、排序 |
@@ -152,6 +154,7 @@
 | P3951 | [小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./LuoGu/P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P3957 | [跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./LuoGu/P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
 | P4316 | [绿豆蛙的归宿](https://www.luogu.com.cn/problem/P4316) | [P4316_绿豆蛙的归宿.cpp](./LuoGu/P4316_绿豆蛙的归宿.cpp) | 已通过 | DAG、拓扑排序、期望动态规划 |
+| P4322 | [最佳团体](https://www.luogu.com.cn/problem/P4322) | [P4322_最佳团体.cpp](./LuoGu/P4322_最佳团体.cpp) | 已通过 | 01 分数规划、二分答案、依赖型树上背包 |
 | P4377 | [Talent Show G](https://www.luogu.com.cn/problem/P4377) | [P4377_Talent Show G.cpp](./LuoGu/P4377_Talent%20Show%20G.cpp) | 已通过 | 01 分数规划、二分答案、01 背包 |
 | P4549 | [裴蜀定理](https://www.luogu.com.cn/problem/P4549) | [P4549_裴蜀定理.cpp](./LuoGu/P4549_裴蜀定理.cpp) | 已通过 | 裴蜀定理、最大公约数 |
 | P4551 | [最长异或路径](https://www.luogu.com.cn/problem/P4551) | [P4551_最长异或路径.cpp](./LuoGu/P4551_最长异或路径.cpp) | 已通过 | 树上前缀异或、DFS、01 字典树 |
@@ -162,6 +165,7 @@
 | P5490 | [扫描线与矩形面积并](https://www.luogu.com.cn/problem/P5490) | [P5490_扫描线与矩形面积并.cpp](./LuoGu/P5490_扫描线与矩形面积并.cpp) | 已通过 | 扫描线、离散化、线段树、矩形面积并 |
 | P5536 | [核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./LuoGu/P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
 | P5656 | [二元一次不定方程](https://www.luogu.com.cn/problem/P5656) | [P5656_二元一次不定方程.cpp](./LuoGu/P5656_二元一次不定方程.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程、解集计数 |
+| P9873 | [Beautiful String](https://www.luogu.com.cn/problem/P9873) | [P9873_Beautiful String.cpp](./LuoGu/P9873_Beautiful%20String.cpp) | 未通过 | 字符串模式匹配、最近合法起点、子串计数 |
 
 详见 [LuoGu/README.md](./LuoGu/README.md)。
 
