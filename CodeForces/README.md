@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-10-04。以下 39 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态最近核对日期：2026-10-15。以下 43 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -41,6 +41,10 @@
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
 | 1661B | [Getting Zero](https://codeforces.com/problemset/problem/1661/B) | [1661B_Getting Zero.cpp](./1661B_Getting%20Zero.cpp) | 已通过 | 暴力枚举、模运算 |
 | 1829E | [The Lakes](https://codeforces.com/problemset/problem/1829/E) | [1829E_The Lakes.cpp](./1829E_The%20Lakes.cpp) | 已通过 | 网格 DFS、连通块 |
+| 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | [2276A_Perfect Sandwiches.cpp](./2276A_Perfect%20Sandwiches.cpp) | 已通过 | 数学、分类讨论 |
+| 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | [2276B_Replace and Compress.cpp](./2276B_Replace%20and%20Compress.cpp) | 已通过 | 字符串、局部模式、分类讨论 |
+| 2276C | [Subarrays](https://codeforces.com/contest/2276/problem/C) | [2276C_Subarrays.cpp](./2276C_Subarrays.cpp) | 已通过 | 前缀和、同余计数、滑动窗口 |
+| 2276D | [Caveman](https://codeforces.com/contest/2276/problem/D) | [2276D_Caveman.cpp](./2276D_Caveman.cpp) | 已通过 | 图论、度数统计、分类讨论 |
 | 104725F | [最长上升子序列](https://codeforces.com/gym/104725/problem/F) | [104725F_最长上升子序列.cpp](./104725F_最长上升子序列.cpp) | 已通过 | 构造、LIS 分层、逆序赋值 |
 | 105487H | [Square Root](https://codeforces.com/gym/105487/problem/H) | [105487H_Square Root.cpp](./105487H_Square%20Root.cpp) | 已通过 | 连续段、数学、贪心拆分 |
 
@@ -61,3 +65,5 @@
 > 2026-10-03 新归档 621C，已通过 Codeforces 官方 API 确认 AC 提交 [#392991914](https://codeforces.com/contest/621/submission/392991914)。
 
 > 2026-10-04 新归档 518D，已通过 Codeforces 官方 API 确认 AC 提交 [#393106428](https://codeforces.com/contest/518/submission/393106428)。空的 148D 草稿没有提交记录，本轮不归档。
+
+> 2026-10-15 新归档 2276A、2276B、2276C、2276D，分别对应 AC 提交 [#394538697](https://codeforces.com/contest/2276/submission/394538697)、[#394555344](https://codeforces.com/contest/2276/submission/394555344)、[#394572413](https://codeforces.com/contest/2276/submission/394572413)、[#394585107](https://codeforces.com/contest/2276/submission/394585107)。2276C 在 AC 前另有一次 WA。

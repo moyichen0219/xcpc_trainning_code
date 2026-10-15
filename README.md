@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 314 个非空 C++ 源文件：296 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 318 个非空 C++ 源文件：300 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 134 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 138 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目与账号状态最近于 2026-10-14 核对，CCPC2026 网络热身赛第二场及 CSES 题目元数据最近于 2026-10-13 核对，Codeforces 账号状态最近于 2026-10-04 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；Codeforces 新增题目与账号状态最近于 2026-10-15 核对，洛谷新增题目与账号状态最近于 2026-10-14 核对，CCPC2026 网络热身赛第二场及 CSES 题目元数据最近于 2026-10-13 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -290,6 +290,10 @@
 | 1593C | [Save More Mice](https://codeforces.com/problemset/problem/1593/C) | [1593C_Save More Mice.cpp](./CodeForces/1593C_Save%20More%20Mice.cpp) | 已通过 | 排序、贪心 |
 | 1661B | [Getting Zero](https://codeforces.com/problemset/problem/1661/B) | [1661B_Getting Zero.cpp](./CodeForces/1661B_Getting%20Zero.cpp) | 已通过 | 暴力枚举、模运算 |
 | 1829E | [The Lakes](https://codeforces.com/problemset/problem/1829/E) | [1829E_The Lakes.cpp](./CodeForces/1829E_The%20Lakes.cpp) | 已通过 | 网格 DFS、连通块 |
+| 2276A | [Perfect Sandwiches](https://codeforces.com/contest/2276/problem/A) | [2276A_Perfect Sandwiches.cpp](./CodeForces/2276A_Perfect%20Sandwiches.cpp) | 已通过 | 数学、分类讨论 |
+| 2276B | [Replace and Compress](https://codeforces.com/contest/2276/problem/B) | [2276B_Replace and Compress.cpp](./CodeForces/2276B_Replace%20and%20Compress.cpp) | 已通过 | 字符串、局部模式、分类讨论 |
+| 2276C | [Subarrays](https://codeforces.com/contest/2276/problem/C) | [2276C_Subarrays.cpp](./CodeForces/2276C_Subarrays.cpp) | 已通过 | 前缀和、同余计数、滑动窗口 |
+| 2276D | [Caveman](https://codeforces.com/contest/2276/problem/D) | [2276D_Caveman.cpp](./CodeForces/2276D_Caveman.cpp) | 已通过 | 图论、度数统计、分类讨论 |
 | 104725F | [最长上升子序列](https://codeforces.com/gym/104725/problem/F) | [104725F_最长上升子序列.cpp](./CodeForces/104725F_最长上升子序列.cpp) | 已通过 | 构造、LIS 分层、逆序赋值 |
 | 105487H | [Square Root](https://codeforces.com/gym/105487/problem/H) | [105487H_Square Root.cpp](./CodeForces/105487H_Square%20Root.cpp) | 已通过 | 连续段、数学、贪心拆分 |
 
@@ -348,7 +352,7 @@
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 39 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 43 道 Codeforces 题目均有 `Accepted` 提交。
 
 ## 知识总结
 
