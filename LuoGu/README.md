@@ -1,6 +1,6 @@
 # 洛谷代码索引
 
-题目元数据最近核对日期：2026-10-14；账号状态最近核对日期：2026-10-14。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
+题目元数据最近核对日期：2026-10-20；账号状态最近核对日期：2026-10-20。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -16,6 +16,7 @@
 | P1082 | [[NOIP 2012 提高组] 同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
 | P1197 | [[JSOI2008] 星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
+| P1227 | [[JSOI2008] 完美的对称](https://www.luogu.com.cn/problem/P1227) | [P1227_完美的对称.cpp](./P1227_完美的对称.cpp) | 已通过 | 几何中心、中心对称、频次映射 |
 | P1330 | [封锁阳光大学](https://www.luogu.com.cn/problem/P1330) | [P1330_封锁阳光大学.cpp](./P1330_封锁阳光大学.cpp) | 未完成 | 二分图染色、连通块两侧计数（待实现） |
 | P1339 | [[USACO09OCT] Heat Wave G](https://www.luogu.com.cn/problem/P1339) | [P1339_Heat Wave G.cpp](./P1339_Heat%20Wave%20G.cpp) | 已通过 | Dijkstra、无向图最短路 |
 | P1349 | [广义斐波那契数列](https://www.luogu.com.cn/problem/P1349) | [P1349_广义斐波那契数列.cpp](./P1349_广义斐波那契数列.cpp) | 已通过 | 矩阵快速幂、二阶线性递推、模运算 |
@@ -43,6 +44,7 @@
 | P2168 | [[NOI2015] 荷马史诗](https://www.luogu.com.cn/problem/P2168) | [P2168_荷马史诗.cpp](./P2168_荷马史诗.cpp) | 已通过 | K 叉 Huffman 树、优先队列、树高统计 |
 | P2240 | [[深基12.例1] 部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./P2240_部分背包问题.cpp) | 已通过 | 贪心、按单位价值排序 |
 | P2371 | [[国家集训队] 墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
+| P2577 | [[ZJOI2005] 午餐](https://www.luogu.com.cn/problem/P2577) | [P2577_午餐.cpp](./P2577_午餐.cpp) | 已通过 | 排序、动态规划、双队列调度 |
 | P2627 | [[USACO11OPEN] Mowing the Lawn G](https://www.luogu.com.cn/problem/P2627) | [P2627_Mowing the Lawn G.cpp](./P2627_Mowing%20the%20Lawn%20G.cpp) | 已通过 | 动态规划、单调队列、补集转化 |
 | P2648 | [赚钱](https://www.luogu.com.cn/problem/P2648) | [P2648_赚钱.cpp](./P2648_赚钱.cpp) | 已通过 | Floyd、最大收益路径、正环检测 |
 | P2670 | [[NOIP 2015 普及组] 扫雷游戏](https://www.luogu.com.cn/problem/P2670) | [P2670_扫雷游戏.cpp](./P2670_扫雷游戏.cpp) | 已通过 | 网格模拟、八方向枚举 |
@@ -106,3 +108,5 @@
 > 2026-10-13 新归档 P10505、P1868、P3382、P4377，四题均已在账号公开练习页的 `passed` 列表中确认；仅做轻量静态检查，未重新编译或运行。
 
 > 2026-10-14 新归档 P10729、P2015、P4322、P9873。前三题在账号公开练习页的 `passed` 列表中；P9873 仅位于 `submitted` 列表，故标为“未通过”。本轮仅做轻量静态检查。
+
+> 2026-10-20 新归档 P1227、P2577，两题均已在账号公开练习页的 `passed` 列表中确认；P1273 仅有空实现框架且无提交记录，未归档。
