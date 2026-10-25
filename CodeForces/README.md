@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-10-15。以下 43 道题均已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录。
+评测状态最近核对日期：2026-10-26。当前归档 48 道题，其中 47 道已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录；1368B 的本地实现未完成，账号记录中也尚无通过提交。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -26,14 +26,19 @@
 | 665E | [Beautiful Subarrays](https://codeforces.com/problemset/problem/665/E) | [665E_Beautiful Subarrays.cpp](./665E_Beautiful%20Subarrays.cpp) | 已通过 | 前缀异或、01 字典树、子数组计数 |
 | 706D | [Vasiliy's Multiset](https://codeforces.com/problemset/problem/706/D) | [706D_Vasiliy's Multiset.cpp](./706D_Vasiliy's%20Multiset.cpp) | 已通过 | 01 字典树、动态多重集合、最大异或 |
 | 923C | [Perfect Security](https://codeforces.com/problemset/problem/923/C) | [923C_Perfect Security.cpp](./923C_Perfect%20Security.cpp) | 已通过 | 01 字典树、贪心、可删除多重集合 |
+| 977A | [Wrong Subtraction](https://codeforces.com/problemset/problem/977/A) | [977A_Wrong Subtraction.cpp](./977A_Wrong%20Subtraction.cpp) | 已通过 | 模拟、数位 |
+| 977D | [Divide by three, multiply by two](https://codeforces.com/problemset/problem/977/D) | [977D_Divide by three, multiply by two.cpp](./977D_Divide%20by%20three,%20multiply%20by%20two.cpp) | 已通过 | 排序、质因数指数、构造 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
+| 1294C | [Product of Three Numbers](https://codeforces.com/problemset/problem/1294/C) | [1294C_Product of Three Numbers.cpp](./1294C_Product%20of%20Three%20Numbers.cpp) | 已通过 | 数论、因数分解、构造 |
 | 1367C | [Social Distance](https://codeforces.com/problemset/problem/1367/C) | [1367C_Social Distance.cpp](./1367C_Social%20Distance.cpp) | 已通过 | 贪心、字符串、间隔计数 |
+| 1368B | [Codeforces Subsequences](https://codeforces.com/problemset/problem/1368/B) | [1368B_Codeforces Subsequences.cpp](./1368B_Codeforces%20Subsequences.cpp) | 未完成 | 构造、贪心（待实现） |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
 | 1398C | [Good Subarrays](https://codeforces.com/problemset/problem/1398/C) | [1398C_Good Subarrays.cpp](./1398C_Good%20Subarrays.cpp) | 已通过 | 前缀和、等值计数、频次映射 |
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
 | 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
 | 1472C | [Long Jumps](https://codeforces.com/problemset/problem/1472/C) | [1472C_Long Jumps.cpp](./1472C_Long%20Jumps.cpp) | 已通过 | 动态规划、递推 |
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
+| 1515C | [Phoenix and Towers](https://codeforces.com/problemset/problem/1515/C) | [1515C_Phoenix and Towers.cpp](./1515C_Phoenix%20and%20Towers.cpp) | 已通过 | 贪心、优先队列、构造 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
 | 1538C | [Number of Pairs](https://codeforces.com/problemset/problem/1538/C) | [1538C_Number of Pairs.cpp](./1538C_Number%20of%20Pairs.cpp) | 已通过 | 排序、双指针、区间计数 |
@@ -67,3 +72,5 @@
 > 2026-10-04 新归档 518D，已通过 Codeforces 官方 API 确认 AC 提交 [#393106428](https://codeforces.com/contest/518/submission/393106428)。空的 148D 草稿没有提交记录，本轮不归档。
 
 > 2026-10-15 新归档 2276A、2276B、2276C、2276D，分别对应 AC 提交 [#394538697](https://codeforces.com/contest/2276/submission/394538697)、[#394555344](https://codeforces.com/contest/2276/submission/394555344)、[#394572413](https://codeforces.com/contest/2276/submission/394572413)、[#394585107](https://codeforces.com/contest/2276/submission/394585107)。2276C 在 AC 前另有一次 WA。
+
+> 2026-10-26 新归档 977A、977D、1294C、1368B、1515C。977A、977D、1294C、1515C 分别对应 AC 提交 [#395886796](https://codeforces.com/contest/977/submission/395886796)、[#396036284](https://codeforces.com/contest/977/submission/396036284)、[#395885100](https://codeforces.com/contest/1294/submission/395885100)、[#395644730](https://codeforces.com/contest/1515/submission/395644730)；1368B 的四次提交均为 Runtime Error，且本地 `solve()` 仍为空，故标为“未完成”。

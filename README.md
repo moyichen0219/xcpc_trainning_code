@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 320 个非空 C++ 源文件：302 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 328 个非空 C++ 源文件：310 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 140 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 148 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；洛谷新增题目与账号状态最近于 2026-10-20 核对，Codeforces 新增题目与账号状态最近于 2026-10-15 核对，CCPC2026 网络热身赛第二场及 CSES 题目元数据最近于 2026-10-13 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
+- 样例通过不等于在线评测通过；洛谷与 Codeforces 新增题目及账号状态最近于 2026-10-26 核对，CSES 题目元数据最近于 2026-10-26 核对，CCPC2026 网络热身赛第二场最近于 2026-10-13 核对，QOJ 新增多人比赛源码最近于 2026-10-03 核对，AtCoder ABC277 E 最近于 2026-10-02 核对（使用公开提交索引，详见平台 README），新一批竞极源码于 2026-09-05 按本地实现语义归档，牛客多校 8 H 于 2026-08-25 复核，码题集状态由用户于 2026-08-22 确认，其余牛客状态于 2026-08-21 核对。
 
 ## AtCoder
 
@@ -108,9 +108,11 @@
 | P10505 | [Dropping Test](https://www.luogu.com.cn/problem/P10505) | [P10505_Dropping Test.cpp](./LuoGu/P10505_Dropping%20Test.cpp) | 已通过 | 01 分数规划、二分答案、贪心排序 |
 | P10729 | [Dolls](https://www.luogu.com.cn/problem/P10729) | [P10729_Dolls.cpp](./LuoGu/P10729_Dolls.cpp) | 已通过 | 并查集、动态连续段、贡献维护 |
 | P1082 | [同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./LuoGu/P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
+| P1122 | [最大子树和](https://www.luogu.com.cn/problem/P1122) | [P1122_最大子树和.cpp](./LuoGu/P1122_最大子树和.cpp) | 已通过 | 树形动态规划、最大连通子树 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./LuoGu/P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
 | P1227 | [完美的对称](https://www.luogu.com.cn/problem/P1227) | [P1227_完美的对称.cpp](./LuoGu/P1227_完美的对称.cpp) | 已通过 | 几何中心、中心对称、频次映射 |
+| P1273 | [有线电视网](https://www.luogu.com.cn/problem/P1273) | [P1273_有线电视网.cpp](./LuoGu/P1273_有线电视网.cpp) | 已通过 | 树形动态规划、树上背包、收益最大化 |
 | P1330 | [封锁阳光大学](https://www.luogu.com.cn/problem/P1330) | [P1330_封锁阳光大学.cpp](./LuoGu/P1330_封锁阳光大学.cpp) | 未完成 | 二分图染色、连通块两侧计数（待实现） |
 | P1339 | [Heat Wave G](https://www.luogu.com.cn/problem/P1339) | [P1339_Heat Wave G.cpp](./LuoGu/P1339_Heat%20Wave%20G.cpp) | 已通过 | Dijkstra、无向图最短路 |
 | P1349 | [广义斐波那契数列](https://www.luogu.com.cn/problem/P1349) | [P1349_广义斐波那契数列.cpp](./LuoGu/P1349_广义斐波那契数列.cpp) | 已通过 | 矩阵快速幂、二阶线性递推、模运算 |
@@ -214,6 +216,7 @@
 
 | 题号 | 题目 | 代码 | 状态 | 主题 |
 | --- | --- | --- | --- | --- |
+| 1071 | [Number Spiral](https://cses.fi/problemset/task/1071/) | [1071_Number Spiral.cpp](./CSES/1071_Number%20Spiral.cpp) | 待验证 | 数学、坐标规律、奇偶分类 |
 | 1084 | [Apartments](https://cses.fi/problemset/task/1084/) | [1084_Apartments.cpp](./CSES/1084_Apartments.cpp) | 待验证 | 排序、双指针、贪心 |
 | 1085 | [Array Division](https://cses.fi/problemset/task/1085/) | [1085_Array Division.cpp](./CSES/1085_Array%20Division.cpp) | 待验证 | 二分答案、贪心 |
 | 1090 | [Ferris Wheel](https://cses.fi/problemset/task/1090/) | [1090_Ferris Wheel.cpp](./CSES/1090_Ferris%20Wheel.cpp) | 待验证 | 排序、双指针、贪心 |
@@ -277,14 +280,19 @@
 | 665E | [Beautiful Subarrays](https://codeforces.com/problemset/problem/665/E) | [665E_Beautiful Subarrays.cpp](./CodeForces/665E_Beautiful%20Subarrays.cpp) | 已通过 | 前缀异或、01 字典树、子数组计数 |
 | 706D | [Vasiliy's Multiset](https://codeforces.com/problemset/problem/706/D) | [706D_Vasiliy's Multiset.cpp](./CodeForces/706D_Vasiliy's%20Multiset.cpp) | 已通过 | 01 字典树、动态多重集合、最大异或 |
 | 923C | [Perfect Security](https://codeforces.com/problemset/problem/923/C) | [923C_Perfect Security.cpp](./CodeForces/923C_Perfect%20Security.cpp) | 已通过 | 01 字典树、贪心、可删除多重集合 |
+| 977A | [Wrong Subtraction](https://codeforces.com/problemset/problem/977/A) | [977A_Wrong Subtraction.cpp](./CodeForces/977A_Wrong%20Subtraction.cpp) | 已通过 | 模拟、数位 |
+| 977D | [Divide by three, multiply by two](https://codeforces.com/problemset/problem/977/D) | [977D_Divide by three, multiply by two.cpp](./CodeForces/977D_Divide%20by%20three,%20multiply%20by%20two.cpp) | 已通过 | 排序、质因数指数、构造 |
 | 1157B | [Long Number](https://codeforces.com/problemset/problem/1157/B) | [1157B_Long Number.cpp](./CodeForces/1157B_Long%20Number.cpp) | 已通过 | 贪心、字符串 |
+| 1294C | [Product of Three Numbers](https://codeforces.com/problemset/problem/1294/C) | [1294C_Product of Three Numbers.cpp](./CodeForces/1294C_Product%20of%20Three%20Numbers.cpp) | 已通过 | 数论、因数分解、构造 |
 | 1367C | [Social Distance](https://codeforces.com/problemset/problem/1367/C) | [1367C_Social Distance.cpp](./CodeForces/1367C_Social%20Distance.cpp) | 已通过 | 贪心、字符串、间隔计数 |
+| 1368B | [Codeforces Subsequences](https://codeforces.com/problemset/problem/1368/B) | [1368B_Codeforces Subsequences.cpp](./CodeForces/1368B_Codeforces%20Subsequences.cpp) | 未完成 | 构造、贪心（待实现） |
 | 1370B | [GCD Compression](https://codeforces.com/problemset/problem/1370/B) | [1370B_GCD Compression.cpp](./CodeForces/1370B_GCD%20Compression.cpp) | 已通过 | 奇偶分类、构造 |
 | 1398C | [Good Subarrays](https://codeforces.com/problemset/problem/1398/C) | [1398C_Good Subarrays.cpp](./CodeForces/1398C_Good%20Subarrays.cpp) | 已通过 | 前缀和、等值计数、频次映射 |
 | 1399C | [Boats Competition](https://codeforces.com/problemset/problem/1399/C) | [1399C_Boats Competition.cpp](./CodeForces/1399C_Boats%20Competition.cpp) | 已通过 | 枚举、排序、双指针 |
 | 1400C | [Binary String Reconstruction](https://codeforces.com/problemset/problem/1400/C) | [1400C_Binary String Reconstruction.cpp](./CodeForces/1400C_Binary%20String%20Reconstruction.cpp) | 已通过 | 贪心、构造、字符串 |
 | 1472C | [Long Jumps](https://codeforces.com/problemset/problem/1472/C) | [1472C_Long Jumps.cpp](./CodeForces/1472C_Long%20Jumps.cpp) | 已通过 | 动态规划、递推 |
 | 1490E | [Accidental Victory](https://codeforces.com/problemset/problem/1490/E) | [1490E_Accidental Victory.cpp](./CodeForces/1490E_Accidental%20Victory.cpp) | 已通过 | 排序、前缀和、贪心 |
+| 1515C | [Phoenix and Towers](https://codeforces.com/problemset/problem/1515/C) | [1515C_Phoenix and Towers.cpp](./CodeForces/1515C_Phoenix%20and%20Towers.cpp) | 已通过 | 贪心、优先队列、构造 |
 | 1530C | [Pursuit](https://codeforces.com/problemset/problem/1530/C) | [1530C_Pursuit.cpp](./CodeForces/1530C_Pursuit.cpp) | 已通过 | 排序、前缀和、二分答案 |
 | 1530D | [Secret Santa](https://codeforces.com/problemset/problem/1530/D) | [1530D_Secret Santa.cpp](./CodeForces/1530D_Secret%20Santa.cpp) | 已通过 | 贪心、构造、置换 |
 | 1538C | [Number of Pairs](https://codeforces.com/problemset/problem/1538/C) | [1538C_Number of Pairs.cpp](./CodeForces/1538C_Number%20of%20Pairs.cpp) | 已通过 | 排序、双指针、区间计数 |
@@ -354,7 +362,7 @@
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md) 和 [ccpc_women_2025/README.md](./ccpc_women_2025/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 43 道 Codeforces 题目均有 `Accepted` 提交。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 48 道 Codeforces 题目里有 47 道存在 `Accepted` 提交，1368B 的本地实现尚未完成且账号只有 Runtime Error 记录。
 
 ## 知识总结
 
