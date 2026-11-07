@@ -1,12 +1,14 @@
 # 洛谷代码索引
 
-题目元数据最近核对日期：2026-10-26；账号状态最近核对日期：2026-10-26。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
+题目元数据最近核对日期：2026-11-08；账号状态最近核对日期：2026-11-08。账号 `Moyichen2007`（UID `625985`）练习页中列入“已通过的题目”的完整仓库源码标为“已通过”。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
+| B3692 | [[语言月赛202212] 打 ACM 最快乐的就是滚榜读队名了（Easy Version）](https://www.luogu.com.cn/problem/B3692) | [B3692_打 ACM 最快乐的就是滚榜读队名了（Easy Version）.cpp](./B3692_打%20ACM%20最快乐的就是滚榜读队名了（Easy%20Version）.cpp) | 未完成 | ICPC 榜单、封榜滚榜、模拟（待实现） |
 | B3879 | [[信息与未来 2015] 连续数的和（加强版）](https://www.luogu.com.cn/problem/B3879) | [B3879_连续数的和（加强版）.cpp](./B3879_连续数的和（加强版）.cpp) | 已通过 | 数学、平方因子消除、奇偶分类、枚举 |
 | B4168 | [[GXPC-S 2024] 分糖果](https://www.luogu.com.cn/problem/B4168) | [B4168_分糖果.cpp](./B4168_分糖果.cpp) | 已通过 | 动态规划、博弈 |
 | P1004 | [[NOIP 2000 提高组] 方格取数](https://www.luogu.com.cn/problem/P1004) | [P1004_方格取数.cpp](./P1004_方格取数.cpp) | 未完成 | 贪心尝试；应改为双路径动态规划 |
+| P1007 | [独木桥](https://www.luogu.com.cn/problem/P1007) | [P1007_独木桥.cpp](./P1007_独木桥.cpp) | 已通过 | 贪心、等价交换、极值 |
 | P1009 | [[NOIP 1998 普及组] 阶乘之和](https://www.luogu.com.cn/problem/P1009) | [P1009_阶乘之和.cpp](./P1009_阶乘之和.cpp) | 已通过 | 高精度、乘法、加法 |
 | P1012 | [[NOIP 1998 提高组] 拼数](https://www.luogu.com.cn/problem/P1012) | [P1012_拼数.cpp](./P1012_拼数.cpp) | 已通过 | 贪心排序、字符串拼接 |
 | P1020 | [[NOIP 1999 提高组] 导弹拦截](https://www.luogu.com.cn/problem/P1020) | [P1020_导弹拦截.cpp](./P1020_导弹拦截.cpp) | 已通过 | 最长不上升子序列、最长上升子序列、二分优化 |
@@ -14,6 +16,7 @@
 | P10505 | [Dropping Test](https://www.luogu.com.cn/problem/P10505) | [P10505_Dropping Test.cpp](./P10505_Dropping%20Test.cpp) | 已通过 | 01 分数规划、二分答案、贪心排序 |
 | P10729 | [[NOISG 2023 Qualification] Dolls](https://www.luogu.com.cn/problem/P10729) | [P10729_Dolls.cpp](./P10729_Dolls.cpp) | 已通过 | 并查集、动态连续段、贡献维护 |
 | P1082 | [[NOIP 2012 提高组] 同余方程](https://www.luogu.com.cn/problem/P1082) | [P1082_同余方程.cpp](./P1082_同余方程.cpp) | 已通过 | 扩展欧几里得、乘法逆元 |
+| P1106 | [删数问题](https://www.luogu.com.cn/problem/P1106) | [P1106_删数问题.cpp](./P1106_删数问题.cpp) | 已通过 | 单调栈、贪心、前导零 |
 | P1122 | [最大子树和](https://www.luogu.com.cn/problem/P1122) | [P1122_最大子树和.cpp](./P1122_最大子树和.cpp) | 已通过 | 树形动态规划、最大连通子树 |
 | P1197 | [[JSOI2008] 星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
@@ -44,6 +47,7 @@
 | P2015 | [二叉苹果树](https://www.luogu.com.cn/problem/P2015) | [P2015_二叉苹果树.cpp](./P2015_二叉苹果树.cpp) | 已通过 | 树形动态规划、树上背包 |
 | P2036 | [[COCI 2008/2009 #2] PERKET](https://www.luogu.com.cn/problem/P2036) | [P2036_PERKET.cpp](./P2036_PERKET.cpp) | 已通过 | 子集枚举、暴力搜索 |
 | P2168 | [[NOI2015] 荷马史诗](https://www.luogu.com.cn/problem/P2168) | [P2168_荷马史诗.cpp](./P2168_荷马史诗.cpp) | 已通过 | K 叉 Huffman 树、优先队列、树高统计 |
+| P2197 | [【模板】Nim 游戏](https://www.luogu.com.cn/problem/P2197) | [P2197_Nim 游戏.cpp](./P2197_Nim%20游戏.cpp) | 已通过 | 博弈论、Nim 异或 |
 | P2240 | [[深基12.例1] 部分背包问题](https://www.luogu.com.cn/problem/P2240) | [P2240_部分背包问题.cpp](./P2240_部分背包问题.cpp) | 已通过 | 贪心、按单位价值排序 |
 | P2371 | [[国家集训队] 墨墨的等式](https://www.luogu.com.cn/problem/P2371) | [P2371_墨墨的等式.cpp](./P2371_墨墨的等式.cpp) | 已通过 | 同余最短路、Dijkstra、区间计数 |
 | P2577 | [[ZJOI2005] 午餐](https://www.luogu.com.cn/problem/P2577) | [P2577_午餐.cpp](./P2577_午餐.cpp) | 已通过 | 排序、动态规划、双队列调度 |
@@ -63,6 +67,7 @@
 | P3868 | [[TJOI2009] 猜数字](https://www.luogu.com.cn/problem/P3868) | [P3868_猜数字.cpp](./P3868_猜数字.cpp) | 已通过（账号；本地需修正） | 中国剩余定理；`k=1` 分支固定输出 0 |
 | P3951 | [[NOIP 2017 提高组] 小凯的疑惑](https://www.luogu.com.cn/problem/P3951) | [P3951_小凯的疑惑.cpp](./P3951_小凯的疑惑.cpp) | 已通过 | 数论、裴蜀定理、Frobenius 数 |
 | P3957 | [[NOIP 2017 普及组] 跳房子](https://www.luogu.com.cn/problem/P3957) | [P3957_跳房子.cpp](./P3957_跳房子.cpp) | 已通过 | 二分答案、动态规划、单调队列 |
+| P4018 | [Roy&October之取石子](https://www.luogu.com.cn/problem/P4018) | [P4018_Roy&October之取石子.cpp](./P4018_Roy%26October之取石子.cpp) | 已通过 | 博弈论、规律、模 6 分类 |
 | P4316 | [绿豆蛙的归宿](https://www.luogu.com.cn/problem/P4316) | [P4316_绿豆蛙的归宿.cpp](./P4316_绿豆蛙的归宿.cpp) | 已通过 | DAG、拓扑排序、期望动态规划 |
 | P4322 | [[JSOI2016] 最佳团体](https://www.luogu.com.cn/problem/P4322) | [P4322_最佳团体.cpp](./P4322_最佳团体.cpp) | 已通过 | 01 分数规划、二分答案、依赖型树上背包 |
 | P4377 | [[USACO18OPEN] Talent Show G](https://www.luogu.com.cn/problem/P4377) | [P4377_Talent Show G.cpp](./P4377_Talent%20Show%20G.cpp) | 已通过 | 01 分数规划、二分答案、01 背包 |
@@ -76,6 +81,7 @@
 | P5536 | [【XR-3】核心城市](https://www.luogu.com.cn/problem/P5536) | [P5536_核心城市.cpp](./P5536_核心城市.cpp) | 未完成 | 树的直径、树形 DP（未完成） |
 | P5656 | [【模板】二元一次不定方程 (exgcd)](https://www.luogu.com.cn/problem/P5656) | [P5656_二元一次不定方程.cpp](./P5656_二元一次不定方程.cpp) | 已通过 | 扩展欧几里得、线性丢番图方程、解集计数 |
 | P9873 | [[EC Final 2021] Beautiful String](https://www.luogu.com.cn/problem/P9873) | [P9873_Beautiful String.cpp](./P9873_Beautiful%20String.cpp) | 未通过 | 字符串模式匹配、最近合法起点、子串计数 |
+| U83355 | [删数问题【升级版】](https://www.luogu.com.cn/problem/U83355) | [U83355_删数问题（升级版）.cpp](./U83355_删数问题（升级版）.cpp) | 待验证 | 单调栈、贪心、多组数据 |
 
 > 当时新增的 7 道题中，P2662 当前本地版本缺少可用长度整体 gcd 大于 1 时的无解判断，故单独标注“本地需修正”；P5536 本地源码仍未完成，且 2026-09-22 公开练习页显示为已提交但未通过。
 
@@ -114,3 +120,5 @@
 > 2026-10-20 新归档 P1227、P2577，两题均已在账号公开练习页的 `passed` 列表中确认。
 
 > 2026-10-26 新归档 P1122、P1273；两份本地实现均已完整，并已在账号公开练习页的 `passed` 列表中确认。
+
+> 2026-11-08 新归档 B3692、P1007、P1106、P2197、P4018、U83355。P1007、P1106、P2197、P4018 已在账号公开练习页的 `passed` 列表中确认；B3692 的本地实现尚未完成，U83355 实现完整但无匹配评测记录。

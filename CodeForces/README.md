@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-10-26。当前归档 48 道题，其中 47 道已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录；1368B 的本地实现未完成，账号记录中也尚无通过提交。
+评测状态最近核对日期：2026-11-08。当前归档 49 道题，其中 47 道已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录；701C 的本地实现完整但无匹配提交，1368B 的本地实现未完成且账号记录中也尚无通过提交。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -24,6 +24,7 @@
 | 580D | [Kefa and Dishes](https://codeforces.com/problemset/problem/580/D) | [580D_Kefa and Dishes.cpp](./580D_Kefa%20and%20Dishes.cpp) | 已通过 | 状压动态规划 |
 | 621C | [Wet Shark and Flowers](https://codeforces.com/problemset/problem/621/C) | [621C_Wet Shark and Flowers.cpp](./621C_Wet%20Shark%20and%20Flowers.cpp) | 已通过 | 概率、区间倍数计数、期望线性性 |
 | 665E | [Beautiful Subarrays](https://codeforces.com/problemset/problem/665/E) | [665E_Beautiful Subarrays.cpp](./665E_Beautiful%20Subarrays.cpp) | 已通过 | 前缀异或、01 字典树、子数组计数 |
+| 701C | [They Are Everywhere](https://codeforces.com/problemset/problem/701/C) | [701C_They Are Everywhere.cpp](./701C_They%20Are%20Everywhere.cpp) | 待验证 | 滑动窗口、双指针、字符计数 |
 | 706D | [Vasiliy's Multiset](https://codeforces.com/problemset/problem/706/D) | [706D_Vasiliy's Multiset.cpp](./706D_Vasiliy's%20Multiset.cpp) | 已通过 | 01 字典树、动态多重集合、最大异或 |
 | 923C | [Perfect Security](https://codeforces.com/problemset/problem/923/C) | [923C_Perfect Security.cpp](./923C_Perfect%20Security.cpp) | 已通过 | 01 字典树、贪心、可删除多重集合 |
 | 977A | [Wrong Subtraction](https://codeforces.com/problemset/problem/977/A) | [977A_Wrong Subtraction.cpp](./977A_Wrong%20Subtraction.cpp) | 已通过 | 模拟、数位 |
@@ -74,3 +75,5 @@
 > 2026-10-15 新归档 2276A、2276B、2276C、2276D，分别对应 AC 提交 [#394538697](https://codeforces.com/contest/2276/submission/394538697)、[#394555344](https://codeforces.com/contest/2276/submission/394555344)、[#394572413](https://codeforces.com/contest/2276/submission/394572413)、[#394585107](https://codeforces.com/contest/2276/submission/394585107)。2276C 在 AC 前另有一次 WA。
 
 > 2026-10-26 新归档 977A、977D、1294C、1368B、1515C。977A、977D、1294C、1515C 分别对应 AC 提交 [#395886796](https://codeforces.com/contest/977/submission/395886796)、[#396036284](https://codeforces.com/contest/977/submission/396036284)、[#395885100](https://codeforces.com/contest/1294/submission/395885100)、[#395644730](https://codeforces.com/contest/1515/submission/395644730)；1368B 的四次提交均为 Runtime Error，且本地 `solve()` 仍为空，故标为“未完成”。
+
+> 2026-11-08 新归档 701C；本地滑动窗口实现完整，但 Codeforces 官方 API 中没有账号 `Moyichen0219` 的匹配提交，故暂标“待验证”。

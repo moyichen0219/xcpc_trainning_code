@@ -1,9 +1,10 @@
 # AtCoder 代码索引
 
-评测状态最近核对日期：2026-10-02（本次核对 ABC277 E）。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
+评测状态最近核对日期：2026-11-08（本次核对典型 90 问 002）。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
 
 | 比赛 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
+| 典型 90 问 | [002 - Encyclopedia of Parentheses](https://atcoder.jp/contests/typical90/tasks/typical90_b) | [002_Encyclopedia of Parentheses.cpp](./002_Encyclopedia%20of%20Parentheses.cpp) | 已通过 | DFS、回溯、括号序列生成 |
 | 算法与数学 演习问题集 | [060 - Stones Game 1](https://atcoder.jp/contests/math-and-algorithm/tasks/math_and_algorithm_az) | [060_Stones Game 1.cpp](./060_Stones%20Game%201.cpp) | 已通过 | 博弈论、数学 |
 | Educational DP Contest | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a) | [DP_A_Frog 1.cpp](./DP_A_Frog%201.cpp) | 已通过 | 动态规划、线性 DP |
 | Educational DP Contest | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b) | [DP_B_Frog 2.cpp](./DP_B_Frog%202.cpp) | 已通过 | 动态规划、线性 DP |
@@ -89,3 +90,5 @@
 > 2026-09-30 新归档 ABC164 D、ABC233 D，并复核 DP P 与 ABC471 F。官方提交页需要登录，已连接浏览器读取失败，本次以 [AtCoder Problems 公开个人提交索引](https://kenkoooo.com/atcoder/atcoder-api/v3/user/submissions?user=Moyichen0219&from_second=0)补充核对：ABC164 D 对应 AC 提交 [#79643086](https://atcoder.jp/contests/abc164/submissions/79643086)，DP P 对应 AC 提交 [#78873421](https://atcoder.jp/contests/dp/submissions/78873421)，故更新为“已通过”；ABC233 D 尚无匹配记录，保留“待验证”；ABC471 F 仍显示 5 次 WA、0 次 AC。公开索引可能存在延迟，未逐字比对在线源码。
 
 > 2026-10-02 新归档 ABC277 E；AtCoder Problems 公开个人提交索引中存在 AC 提交 [#79663845](https://atcoder.jp/contests/abc277/submissions/79663845)，故标为“已通过”。未逐字比对在线提交源码。
+
+> 2026-11-08 新归档典型 90 问 002；AtCoder Problems 公开个人提交索引中存在 AC 提交 [#80402814](https://atcoder.jp/contests/typical90/submissions/80402814) 和 [#80403027](https://atcoder.jp/contests/typical90/submissions/80403027)，故标为“已通过”。
