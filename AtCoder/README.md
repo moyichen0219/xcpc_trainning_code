@@ -1,6 +1,6 @@
 # AtCoder 代码索引
 
-评测状态最近核对日期：2026-11-08（本次核对典型 90 问 002）。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
+评测状态最近核对日期：2026-11-17（本次核对 ABC209 D、ABC229 D）。账号 `Moyichen0219` 中存在 AC 记录且可与本地实现对应的题目标为“已通过”；ABC246 C 的状态由用户确认，没有匹配 AC 记录的完整实现标为“未通过”或“待验证”。
 
 | 比赛 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -33,10 +33,12 @@
 | ABC 190 | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [ABC190_C_Bowls and Dishes.cpp](./ABC190_C_Bowls%20and%20Dishes.cpp) | 已通过 | DFS、回溯、状态枚举 |
 | ABC 203 | [C - Friends and Travel costs](https://atcoder.jp/contests/abc203/tasks/abc203_c) | [ABC203_C_Friends and Travel costs.cpp](./ABC203_C_Friends%20and%20Travel%20costs.cpp) | 已通过 | 排序、贪心 |
 | ABC 208 | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c) | [ABC208_C_Fair Candy Distribution.cpp](./ABC208_C_Fair%20Candy%20Distribution.cpp) | 已通过 | 排序、模拟 |
+| ABC 209 | [D - Collision](https://atcoder.jp/contests/abc209/tasks/abc209_d) | [ABC209_D_Collision.cpp](./ABC209_D_Collision.cpp) | 已通过 | 树上距离、LCA、奇偶性 |
 | ABC 211 | [C - chokudai](https://atcoder.jp/contests/abc211/tasks/abc211_c) | [ABC211_C_chokudai.cpp](./ABC211_C_chokudai.cpp) | 已通过 | 动态规划、子序列计数 |
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./ABC212_C_Min%20Difference.cpp) | 已通过 | 排序、双指针 |
 | ABC 221 | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c) | [ABC221_C_Select Mul.cpp](./ABC221_C_Select%20Mul.cpp) | 已通过 | 二进制枚举、排序、数位构造 |
 | ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
+| ABC 229 | [D - Longest X](https://atcoder.jp/contests/abc229/tasks/abc229_d) | [ABC229_D_Longest X.cpp](./ABC229_D_Longest%20X.cpp) | 已通过 | 滑动窗口、双指针、前缀和 |
 | ABC 233 | [D - Count Interval](https://atcoder.jp/contests/abc233/tasks/abc233_d) | [ABC233_D_Count Interval.cpp](./ABC233_D_Count%20Interval.cpp) | 待验证 | 前缀和、频次映射、子数组计数 |
 | ABC 239 | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e) | [ABC239_E_Subtree K-th Max.cpp](./ABC239_E_Subtree%20K-th%20Max.cpp) | 已通过 | 树上 DFS、Top-K 合并 |
 | ABC 240 | [C - Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c) | [ABC240_C_Jumping Takahashi.cpp](./ABC240_C_Jumping%20Takahashi.cpp) | 已通过 | 动态规划、可达性 |
@@ -92,3 +94,5 @@
 > 2026-10-02 新归档 ABC277 E；AtCoder Problems 公开个人提交索引中存在 AC 提交 [#79663845](https://atcoder.jp/contests/abc277/submissions/79663845)，故标为“已通过”。未逐字比对在线提交源码。
 
 > 2026-11-08 新归档典型 90 问 002；AtCoder Problems 公开个人提交索引中存在 AC 提交 [#80402814](https://atcoder.jp/contests/typical90/submissions/80402814) 和 [#80403027](https://atcoder.jp/contests/typical90/submissions/80403027)，故标为“已通过”。
+
+> 2026-11-17 新归档 ABC209 D、ABC229 D；分别对应 AC 提交 [#80881487](https://atcoder.jp/contests/abc209/submissions/80881487) 和 [#80894886](https://atcoder.jp/contests/abc229/submissions/80894886)。ABC209 D 在 AC 前另有一次 TLE。

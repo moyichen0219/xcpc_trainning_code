@@ -1,6 +1,6 @@
 # XCPC 代码仓库
 
-本仓库按 **平台 → 比赛/题号** 归档，共有 344 个非空 C++ 源文件：326 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
+本仓库按 **平台 → 比赛/题号** 归档，共有 349 个非空 C++ 源文件：331 个题目及历史实现文件和 18 个算法模板。题目链接、代码状态与源码入口汇总如下。
 
 ## 状态说明
 
@@ -14,9 +14,9 @@
 
 ## 当前验证结果
 
-- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 164 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
+- 最近一次全仓语法检查覆盖当时的 180 个 `.cpp` 文件；此后新增的 169 个源码按用户要求仅做轻量静态整理，不重复全仓编译。
 - 已完成的样例或构造回归记录为：35 个文件、64 组检查，64/64 组通过。本轮不增加批量运行回归计数；P2662 与 P3868 的本地边界缺陷均已单独标注。
-- 样例通过不等于在线评测通过；AtCoder、洛谷、Codeforces 新增题目及账号状态最近于 2026-11-08 核对，CSES 与 QOJ 新增题目元数据最近于 2026-11-08 核对，CCPC2026 网络热身赛第二场最近于 2026-10-13 核对，其余平台的历史核对日期见各目录 README。
+- 样例通过不等于在线评测通过；AtCoder、洛谷、Codeforces 新增题目及账号状态最近于 2026-11-17 核对，QOJ 新增题目元数据最近于 2026-11-17 核对，CSES 新增题目元数据最近于 2026-11-08 核对，CCPC2026 网络热身赛第二场最近于 2026-10-13 核对，其余平台的历史核对日期见各目录 README。
 
 ## AtCoder
 
@@ -51,10 +51,12 @@
 | ABC 190 | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [ABC190_C_Bowls and Dishes.cpp](./AtCoder/ABC190_C_Bowls%20and%20Dishes.cpp) | 已通过 | DFS、回溯、状态枚举 |
 | ABC 203 | [C - Friends and Travel costs](https://atcoder.jp/contests/abc203/tasks/abc203_c) | [ABC203_C_Friends and Travel costs.cpp](./AtCoder/ABC203_C_Friends%20and%20Travel%20costs.cpp) | 已通过 | 排序、贪心 |
 | ABC 208 | [C - Fair Candy Distribution](https://atcoder.jp/contests/abc208/tasks/abc208_c) | [ABC208_C_Fair Candy Distribution.cpp](./AtCoder/ABC208_C_Fair%20Candy%20Distribution.cpp) | 已通过 | 排序、模拟 |
+| ABC 209 | [D - Collision](https://atcoder.jp/contests/abc209/tasks/abc209_d) | [ABC209_D_Collision.cpp](./AtCoder/ABC209_D_Collision.cpp) | 已通过 | 树上距离、LCA、奇偶性 |
 | ABC 211 | [C - chokudai](https://atcoder.jp/contests/abc211/tasks/abc211_c) | [ABC211_C_chokudai.cpp](./AtCoder/ABC211_C_chokudai.cpp) | 已通过 | 动态规划、子序列计数 |
 | ABC 212 | [C - Min Difference](https://atcoder.jp/contests/abc212/tasks/abc212_c) | [ABC212_C_Min Difference.cpp](./AtCoder/ABC212_C_Min%20Difference.cpp) | 已通过 | 排序、双指针 |
 | ABC 221 | [C - Select Mul](https://atcoder.jp/contests/abc221/tasks/abc221_c) | [ABC221_C_Select Mul.cpp](./AtCoder/ABC221_C_Select%20Mul.cpp) | 已通过 | 二进制枚举、排序、数位构造 |
 | ABC 229 | [C - Cheese](https://atcoder.jp/contests/abc229/tasks/abc229_c) | [ABC229_C_Cheese.cpp](./AtCoder/ABC229_C_Cheese.cpp) | 已通过 | 贪心、排序 |
+| ABC 229 | [D - Longest X](https://atcoder.jp/contests/abc229/tasks/abc229_d) | [ABC229_D_Longest X.cpp](./AtCoder/ABC229_D_Longest%20X.cpp) | 已通过 | 滑动窗口、双指针、前缀和 |
 | ABC 233 | [D - Count Interval](https://atcoder.jp/contests/abc233/tasks/abc233_d) | [ABC233_D_Count Interval.cpp](./AtCoder/ABC233_D_Count%20Interval.cpp) | 待验证 | 前缀和、频次映射、子数组计数 |
 | ABC 239 | [E - Subtree K-th Max](https://atcoder.jp/contests/abc239/tasks/abc239_e) | [ABC239_E_Subtree K-th Max.cpp](./AtCoder/ABC239_E_Subtree%20K-th%20Max.cpp) | 已通过 | 树上 DFS、Top-K 合并 |
 | ABC 240 | [C - Jumping Takahashi](https://atcoder.jp/contests/abc240/tasks/abc240_c) | [ABC240_C_Jumping Takahashi.cpp](./AtCoder/ABC240_C_Jumping%20Takahashi.cpp) | 已通过 | 动态规划、可达性 |
@@ -115,6 +117,7 @@
 | P1122 | [最大子树和](https://www.luogu.com.cn/problem/P1122) | [P1122_最大子树和.cpp](./LuoGu/P1122_最大子树和.cpp) | 已通过 | 树形动态规划、最大连通子树 |
 | P1197 | [星球大战](https://www.luogu.com.cn/problem/P1197) | [P1197_星球大战.cpp](./LuoGu/P1197_星球大战.cpp) | 已通过 | 离线逆序、并查集、动态连通性 |
 | P1223 | [排队接水](https://www.luogu.com.cn/problem/P1223) | [P1223_排队接水.cpp](./LuoGu/P1223_排队接水.cpp) | 已通过 | 贪心、排序、最短作业优先 |
+| P1226 | [【模板】快速幂](https://www.luogu.com.cn/problem/P1226) | [P1226_快速幂.cpp](./LuoGu/P1226_快速幂.cpp) | 已通过 | 快速幂、模运算 |
 | P1227 | [完美的对称](https://www.luogu.com.cn/problem/P1227) | [P1227_完美的对称.cpp](./LuoGu/P1227_完美的对称.cpp) | 已通过 | 几何中心、中心对称、频次映射 |
 | P1273 | [有线电视网](https://www.luogu.com.cn/problem/P1273) | [P1273_有线电视网.cpp](./LuoGu/P1273_有线电视网.cpp) | 已通过 | 树形动态规划、树上背包、收益最大化 |
 | P1330 | [封锁阳光大学](https://www.luogu.com.cn/problem/P1330) | [P1330_封锁阳光大学.cpp](./LuoGu/P1330_封锁阳光大学.cpp) | 未完成 | 二分图染色、连通块两侧计数（待实现） |
@@ -273,6 +276,7 @@
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./CodeForces/189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./CodeForces/217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./CodeForces/230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 230B | [T-primes](https://codeforces.com/problemset/problem/230/B) | [230B_T-primes.cpp](./CodeForces/230B_T-primes.cpp) | 已通过 | 埃氏筛、完全平方数、素数判定 |
 | 282E | [Sausage Maximization](https://codeforces.com/problemset/problem/282/E) | [282E_Sausage Maximization.cpp](./CodeForces/282E_Sausage%20Maximization.cpp) | 已通过 | 前缀异或、后缀异或、01 字典树 |
 | 444C | [DZY Loves Colors](https://codeforces.com/problemset/problem/444/C) | [444C_DZY Loves Colors.cpp](./CodeForces/444C_DZY%20Loves%20Colors.cpp) | 已通过 | 线段树、区间推平、区间加、历史贡献 |
 | 455A | [Boredom](https://codeforces.com/problemset/problem/455/A) | [455A_Boredom.cpp](./CodeForces/455A_Boredom.cpp) | 已通过 | 动态规划、值域计数 |
@@ -357,6 +361,7 @@
 | 2025 CCPC 女生专场 | [G - 最大公约数](https://qoj.ac/contest/2564/problem/14456) | [G_最大公约数.cpp](./ccpc_women_2025/G_最大公约数.cpp) | 已通过 | 数论、质数筛、构造 |
 | 2025 CCPC 女生专场 | [J - 后鼻嘤](https://qoj.ac/contest/2564/problem/14459) | [J_后鼻嘤.cpp](./ccpc_women_2025/J_后鼻嘤.cpp) | 已通过 | 字符串模拟 |
 | 2026 CCPC 女生专场 | [A - 又是环状线](https://qoj.ac/contest/4613/problem/23631/statement/zh_cn) | [A_又是环状线.cpp](./ccpc_women_2026/A_又是环状线.cpp) | 待验证 | 环形距离、相遇时间、分类讨论 |
+| 2026 CCPC 女生专场 | [B - 不平衡指数](https://qoj.ac/contest/4613/problem/23632/statement/zh_cn) | [B_不平衡指数.cpp](./ccpc_women_2026/B_不平衡指数.cpp) | 待验证 | 排序、前缀和、二分、双指针 |
 | 2026 CCPC 女生专场 | [E - 可带负权的背包问题](https://qoj.ac/contest/4613/problem/23635/statement/zh_cn) | [E_可带负权的背包问题.cpp](./ccpc_women_2026/E_可带负权的背包问题.cpp) | 待验证 | 贪心构造、超递增序列、符号背包 |
 | 2026 CCPC 女生专场 | [F - 区间测速](https://qoj.ac/contest/4613/problem/23636/statement/zh_cn) | [F_区间测速.cpp](./ccpc_women_2026/F_区间测速.cpp) | 待验证 | 区间重叠、分数化简、数学 |
 | 2026 CCPC 女生专场 | [L - CCPC 新赛制 2](https://qoj.ac/contest/4613/problem/23642/statement/zh_cn) | [L_CCPC 新赛制 2.cpp](./ccpc_women_2026/L_CCPC%20新赛制%202.cpp) | 待验证 | 模拟、映射、动态统计 |
@@ -378,7 +383,7 @@
 
 比赛与题面入口见 [Qoj/README.md](./Qoj/README.md)、[ccpc_women_2024/README.md](./ccpc_women_2024/README.md)、[ccpc_women_2025/README.md](./ccpc_women_2025/README.md) 和 [ccpc_women_2026/README.md](./ccpc_women_2026/README.md)。
 
-Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 49 道 Codeforces 题目里有 47 道存在 `Accepted` 提交，701C 暂无匹配提交，1368B 的本地实现尚未完成且账号只有 Runtime Error 记录。
+Codeforces 账号 `Moyichen0219` 的在线记录已核对；仓库中的 50 道 Codeforces 题目里有 48 道存在 `Accepted` 提交，701C 暂无匹配提交，1368B 的本地实现尚未完成且账号只有 Runtime Error 记录。
 
 ## 知识总结
 

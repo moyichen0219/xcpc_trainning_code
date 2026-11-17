@@ -1,6 +1,6 @@
 # Codeforces 代码索引
 
-评测状态最近核对日期：2026-11-08。当前归档 49 道题，其中 47 道已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录；701C 的本地实现完整但无匹配提交，1368B 的本地实现未完成且账号记录中也尚无通过提交。
+评测状态最近核对日期：2026-11-17。当前归档 50 道题，其中 48 道已在账号 [`Moyichen0219`](https://codeforces.com/profile/Moyichen0219) 的提交记录中确认存在 `Accepted` 记录；701C 的本地实现完整但无匹配提交，1368B 的本地实现未完成且账号记录中也尚无通过提交。
 
 | 题号 | 题目 | 源码 | 状态 | 算法标签 |
 | --- | --- | --- | --- | --- |
@@ -8,6 +8,7 @@
 | 189A | [Cut Ribbon](https://codeforces.com/problemset/problem/189/A) | [189A_Cut Ribbon.cpp](./189A_Cut%20Ribbon.cpp) | 已通过 | 动态规划、完全背包 |
 | 217A | [Ice Skating](https://codeforces.com/problemset/problem/217/A) | [217A_Ice Skating.cpp](./217A_Ice%20Skating.cpp) | 已通过 | 并查集、连通块 |
 | 230A | [Dragons](https://codeforces.com/problemset/problem/230/A) | [230A_Dragons.cpp](./230A_Dragons.cpp) | 已通过 | 排序、贪心 |
+| 230B | [T-primes](https://codeforces.com/problemset/problem/230/B) | [230B_T-primes.cpp](./230B_T-primes.cpp) | 已通过 | 埃氏筛、完全平方数、素数判定 |
 | 282E | [Sausage Maximization](https://codeforces.com/problemset/problem/282/E) | [282E_Sausage Maximization.cpp](./282E_Sausage%20Maximization.cpp) | 已通过 | 前缀异或、后缀异或、01 字典树 |
 | 444C | [DZY Loves Colors](https://codeforces.com/problemset/problem/444/C) | [444C_DZY Loves Colors.cpp](./444C_DZY%20Loves%20Colors.cpp) | 已通过 | 线段树、区间推平、区间加、历史贡献 |
 | 455A | [Boredom](https://codeforces.com/problemset/problem/455/A) | [455A_Boredom.cpp](./455A_Boredom.cpp) | 已通过 | 动态规划、值域计数 |
@@ -77,3 +78,5 @@
 > 2026-10-26 新归档 977A、977D、1294C、1368B、1515C。977A、977D、1294C、1515C 分别对应 AC 提交 [#395886796](https://codeforces.com/contest/977/submission/395886796)、[#396036284](https://codeforces.com/contest/977/submission/396036284)、[#395885100](https://codeforces.com/contest/1294/submission/395885100)、[#395644730](https://codeforces.com/contest/1515/submission/395644730)；1368B 的四次提交均为 Runtime Error，且本地 `solve()` 仍为空，故标为“未完成”。
 
 > 2026-11-08 新归档 701C；本地滑动窗口实现完整，但 Codeforces 官方 API 中没有账号 `Moyichen0219` 的匹配提交，故暂标“待验证”。
+
+> 2026-11-17 新归档 230B，对应 AC 提交 [#397864580](https://codeforces.com/contest/230/submission/397864580)；AC 前另有一次 TLE 和一次 WA。
